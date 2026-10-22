@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-22",
+  "d3Version": "7.9.0",
+  "projections": [
+    "NaturalEarth1",
+    "EqualEarth",
+    "Equirectangular"
+  ],
+  "files": [
+    {
+      "file": "dist/data/territories.geojson",
+      "features": 102,
+      "outerReversals": 0,
+      "holeReversals": 1,
+      "ringsClosed": 0,
+      "removedZeroAreaComponents": 24,
+      "removedZeroAreaHoles": 0,
+      "valid": true,
+      "bytes": 987760,
+      "sha256": "2e1ea21271bc7eb6ecfefef18d5ea8be1f2a79e073a509799e5198982f910be8",
+      "areaSteradians": 6.300310996252301
+    },
+    {
+      "file": "dist/data/territories-awmc.geojson",
+      "features": 1,
+      "outerReversals": 0,
+      "holeReversals": 0,
+      "ringsClosed": 0,
+      "removedZeroAreaComponents": 0,
+      "removedZeroAreaHoles": 0,
+      "valid": true,
+      "bytes": 236706,
+      "sha256": "81a220e984b779847c02794953082858591aa868842fe2a94123a94d74870045",
+      "areaSteradians": 0.1185807766154024
+    },
+    {
+      "file": "dist/data/territories-jiangshan.geojson",
+      "features": 3,
+      "outerReversals": 0,
+      "holeReversals": 0,
+      "ringsClosed": 0,
+      "removedZeroAreaComponents": 0,
+      "removedZeroAreaHoles": 0,
+      "valid": true,
+      "bytes": 37628,
+      "sha256": "bcf06d799655c7a3c53140b908d37eb544b2a34cd487f0965595b551f3916d4d",
+      "areaSteradians": 0.20407491506852843
+    },
+    {
+      "file": "dist/assets/countries.geojson",
+      "features": 177,
+      "outerReversals": 0,
+      "holeReversals": 0,
+      "ringsClosed": 0,
+      "removedZeroAreaComponents": 0,
+      "removedZeroAreaHoles": 0,
+      "valid": true,
+      "bytes": 267853,
+      "sha256": "c37f55f8114334844d0b19155ede55f3dca1d69bc4a7a775a83c5dd0c9792eaa",
+      "areaSteradians": 3.62789802180023
+    }
+  ],
+  "interpretation": "Structural/render checks only. These checks do not establish historical frontier accuracy.",
+  "collectionChecks": {
+    "territoryFeatures": 106,
+    "distinctPolityIds": 67,
+    "snapshots": 15,
+    "snapshotIdsAndYearsConsistent": true,
+    "nonzeroCivilYears": true,
+    "uniqueFeatureIds": true,
+    "referenceCountryFeatures": 177,
+    "referenceRiverFeatures": 13,
+    "riverPathsFinite": true
+  }
+}

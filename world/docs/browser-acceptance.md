@@ -1,3 +1,5 @@
+> Historical browser acceptance for the first edition. The expanded application is covered by [V2_VERIFICATION.md](V2_VERIFICATION.md).
+
 # Browser acceptance — first edition
 
 Checked with the managed Chromium preview of this source on 21 October 2026 (Vancouver date). This is browser QA, separate from structural validation and historical source review.

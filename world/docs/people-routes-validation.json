@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-10-22",
+  "people": 24,
+  "milestones": 75,
+  "routes": 8,
+  "journeys": 4,
+  "networks": 4,
+  "routeStops": 58,
+  "routeLegs": 51,
+  "courses": 8,
+  "peopleRegions": {
+    "africa": 6,
+    "south-asia": 2,
+    "east-asia": 3,
+    "west-central-asia": 2,
+    "latin-america": 3,
+    "oceania": 2,
+    "north-america": 2,
+    "europe": 2,
+    "southeast-asia": 2
+  },
+  "distinctSourceURLs": 67,
+  "checks": [
+    "People core fields, bilingual summaries and milestones",
+    "Summary lengths 100–150 English words",
+    "No year zero",
+    "Milestone years within person life/focus range",
+    "Route coordinates within valid ranges",
+    "Unique route stop IDs",
+    "All route legs reference existing stops",
+    "Network stop years all null",
+    "Journey stop years nondecreasing",
+    "All course record and route references resolve"
+  ],
+  "limitations": [
+    "Coordinates are representative site or regional anchors.",
+    "Lines are schematic and cannot be used as geographical tracks.",
+    "Source notes identify indexed legacy content and known date ambiguities."
+  ]
+}

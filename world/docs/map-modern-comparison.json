@@ -1,0 +1,312 @@
+{
+  "source": "https://icr.ethz.ch/data/cshapes/",
+  "sourceVersion": "CShapes 2.0, downloaded 2026-10-22",
+  "method": "Up to 25 evenly spaced points from a one-degree interior grid, longitude and latitude offset +0.37 degrees; comparison of selected source footprints against matching active reference territories. Broad-location check only: not an area-weighted or frontier-accuracy measure. Dependent territory names were matched separately where needed. No CShapes geometry is redistributed.",
+  "results": [
+    {
+      "id": "1900-argentina",
+      "referenceNames": [
+        "Argentina"
+      ],
+      "date": "1900-01-01",
+      "sourceInteriorGridPoints": 25,
+      "alsoInsideIndependentReference": 24,
+      "coarseContainmentShare": 0.96
+    },
+    {
+      "id": "1900-austriahungary",
+      "referenceNames": [
+        "Austria-Hungary"
+      ],
+      "date": "1900-01-01",
+      "sourceInteriorGridPoints": 25,
+      "alsoInsideIndependentReference": 23,
+      "coarseContainmentShare": 0.92
+    },
+    {
+      "id": "1900-british-india",
+      "referenceNames": [
+        "India"
+      ],
+      "date": "1900-01-01",
+      "sourceInteriorGridPoints": 25,
+      "alsoInsideIndependentReference": 25,
+      "coarseContainmentShare": 1
+    },
+    {
+      "id": "1900-ethiopia",
+      "referenceNames": [
+        "Ethiopia"
+      ],
+      "date": "1900-01-01",
+      "sourceInteriorGridPoints": 25,
+      "alsoInsideIndependentReference": 24,
+      "coarseContainmentShare": 0.96
+    },
+    {
+      "id": "1900-france-modern",
+      "referenceNames": [
+        "France"
+      ],
+      "date": "1900-01-01",
+      "sourceInteriorGridPoints": 25,
+      "alsoInsideIndependentReference": 24,
+      "coarseContainmentShare": 0.96
+    },
+    {
+      "id": "1900-germany",
+      "referenceNames": [
+        "Germany (Prussia)"
+      ],
+      "date": "1900-01-01",
+      "sourceInteriorGridPoints": 25,
+      "alsoInsideIndependentReference": 23,
+      "coarseContainmentShare": 0.92
+    },
+    {
+      "id": "1900-japan",
+      "referenceNames": [
+        "Taiwan",
+        "Japan"
+      ],
+      "date": "1900-01-01",
+      "sourceInteriorGridPoints": 25,
+      "alsoInsideIndependentReference": 22,
+      "coarseContainmentShare": 0.88
+    },
+    {
+      "id": "1900-mexico",
+      "referenceNames": [
+        "Mexico"
+      ],
+      "date": "1900-01-01",
+      "sourceInteriorGridPoints": 25,
+      "alsoInsideIndependentReference": 25,
+      "coarseContainmentShare": 1
+    },
+    {
+      "id": "1900-qing",
+      "referenceNames": [
+        "China"
+      ],
+      "date": "1900-01-01",
+      "sourceInteriorGridPoints": 25,
+      "alsoInsideIndependentReference": 25,
+      "coarseContainmentShare": 1
+    },
+    {
+      "id": "1900-russian",
+      "referenceNames": [
+        "Russia (Soviet Union)",
+        "Bokhara",
+        "Khiva"
+      ],
+      "date": "1900-01-01",
+      "sourceInteriorGridPoints": 25,
+      "alsoInsideIndependentReference": 25,
+      "coarseContainmentShare": 1
+    },
+    {
+      "id": "1900-uk",
+      "referenceNames": [
+        "United Kingdom"
+      ],
+      "date": "1900-01-01",
+      "sourceInteriorGridPoints": 25,
+      "alsoInsideIndependentReference": 21,
+      "coarseContainmentShare": 0.84
+    },
+    {
+      "id": "1900-usa",
+      "referenceNames": [
+        "United States of America",
+        "Alaska",
+        "Hawaii"
+      ],
+      "date": "1900-01-01",
+      "sourceInteriorGridPoints": 25,
+      "alsoInsideIndependentReference": 23,
+      "coarseContainmentShare": 0.92
+    },
+    {
+      "id": "1960-argentina",
+      "referenceNames": [
+        "Argentina"
+      ],
+      "date": "1960-01-01",
+      "sourceInteriorGridPoints": 25,
+      "alsoInsideIndependentReference": 24,
+      "coarseContainmentShare": 0.96
+    },
+    {
+      "id": "1960-australia",
+      "referenceNames": [
+        "Australia"
+      ],
+      "date": "1960-01-01",
+      "sourceInteriorGridPoints": 25,
+      "alsoInsideIndependentReference": 24,
+      "coarseContainmentShare": 0.96
+    },
+    {
+      "id": "1960-brazil",
+      "referenceNames": [
+        "Brazil"
+      ],
+      "date": "1960-01-01",
+      "sourceInteriorGridPoints": 25,
+      "alsoInsideIndependentReference": 25,
+      "coarseContainmentShare": 1
+    },
+    {
+      "id": "1960-eastgermany",
+      "referenceNames": [
+        "German Democratic Republic"
+      ],
+      "date": "1960-01-01",
+      "sourceInteriorGridPoints": 15,
+      "alsoInsideIndependentReference": 14,
+      "coarseContainmentShare": 0.933
+    },
+    {
+      "id": "1960-ethiopia",
+      "referenceNames": [
+        "Ethiopia"
+      ],
+      "date": "1960-01-01",
+      "sourceInteriorGridPoints": 25,
+      "alsoInsideIndependentReference": 24,
+      "coarseContainmentShare": 0.96
+    },
+    {
+      "id": "1960-france-modern",
+      "referenceNames": [
+        "France"
+      ],
+      "date": "1960-01-01",
+      "sourceInteriorGridPoints": 25,
+      "alsoInsideIndependentReference": 24,
+      "coarseContainmentShare": 0.96
+    },
+    {
+      "id": "1960-ghana-modern",
+      "referenceNames": [
+        "Ghana"
+      ],
+      "date": "1960-01-01",
+      "sourceInteriorGridPoints": 20,
+      "alsoInsideIndependentReference": 20,
+      "coarseContainmentShare": 1
+    },
+    {
+      "id": "1960-guinea",
+      "referenceNames": [
+        "Guinea"
+      ],
+      "date": "1960-01-01",
+      "sourceInteriorGridPoints": 21,
+      "alsoInsideIndependentReference": 20,
+      "coarseContainmentShare": 0.952
+    },
+    {
+      "id": "1960-india",
+      "referenceNames": [
+        "India"
+      ],
+      "date": "1960-01-01",
+      "sourceInteriorGridPoints": 25,
+      "alsoInsideIndependentReference": 24,
+      "coarseContainmentShare": 0.96
+    },
+    {
+      "id": "1960-japan",
+      "referenceNames": [
+        "Japan"
+      ],
+      "date": "1960-01-01",
+      "sourceInteriorGridPoints": 25,
+      "alsoInsideIndependentReference": 21,
+      "coarseContainmentShare": 0.84
+    },
+    {
+      "id": "1960-mexico",
+      "referenceNames": [
+        "Mexico"
+      ],
+      "date": "1960-01-01",
+      "sourceInteriorGridPoints": 25,
+      "alsoInsideIndependentReference": 25,
+      "coarseContainmentShare": 1
+    },
+    {
+      "id": "1960-newzealand",
+      "referenceNames": [
+        "New Zealand"
+      ],
+      "date": "1960-01-01",
+      "sourceInteriorGridPoints": 25,
+      "alsoInsideIndependentReference": 21,
+      "coarseContainmentShare": 0.84
+    },
+    {
+      "id": "1960-pakistan",
+      "referenceNames": [
+        "Pakistan"
+      ],
+      "date": "1960-01-01",
+      "sourceInteriorGridPoints": 25,
+      "alsoInsideIndependentReference": 23,
+      "coarseContainmentShare": 0.92
+    },
+    {
+      "id": "1960-turkey",
+      "referenceNames": [
+        "Turkey (Ottoman Empire)"
+      ],
+      "date": "1960-01-01",
+      "sourceInteriorGridPoints": 25,
+      "alsoInsideIndependentReference": 25,
+      "coarseContainmentShare": 1
+    },
+    {
+      "id": "1960-uk",
+      "referenceNames": [
+        "United Kingdom"
+      ],
+      "date": "1960-01-01",
+      "sourceInteriorGridPoints": 25,
+      "alsoInsideIndependentReference": 25,
+      "coarseContainmentShare": 1
+    },
+    {
+      "id": "1960-usa",
+      "referenceNames": [
+        "United States of America"
+      ],
+      "date": "1960-01-01",
+      "sourceInteriorGridPoints": 25,
+      "alsoInsideIndependentReference": 23,
+      "coarseContainmentShare": 0.92
+    },
+    {
+      "id": "1960-ussr",
+      "referenceNames": [
+        "Russia (Soviet Union)"
+      ],
+      "date": "1960-01-01",
+      "sourceInteriorGridPoints": 25,
+      "alsoInsideIndependentReference": 24,
+      "coarseContainmentShare": 0.96
+    },
+    {
+      "id": "1960-westgermany",
+      "referenceNames": [
+        "German Federal Republic"
+      ],
+      "date": "1960-01-01",
+      "sourceInteriorGridPoints": 25,
+      "alsoInsideIndependentReference": 24,
+      "coarseContainmentShare": 0.96
+    }
+  ]
+}

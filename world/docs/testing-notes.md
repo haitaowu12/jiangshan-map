@@ -1,3 +1,5 @@
+> Historical testing notes for the first edition. For the expanded application, see [V2_VERIFICATION.md](V2_VERIFICATION.md).
+
 # Verification notes
 
 ## Independent core probes

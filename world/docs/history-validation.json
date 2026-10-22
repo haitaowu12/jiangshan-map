@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-22",
+  "newRecords": 100,
+  "baseRecords": 62,
+  "newErrors": [],
+  "combinedErrors": [],
+  "regionCounts": {
+    "east-asia": 16,
+    "south-asia": 9,
+    "west-central-asia": 13,
+    "africa": 14,
+    "europe": 16,
+    "oceania": 8,
+    "north-america": 8,
+    "latin-america": 8,
+    "southeast-asia": 8
+  },
+  "kindCounts": {
+    "polity": 47,
+    "event": 42,
+    "culture": 5,
+    "idea": 6
+  },
+  "sourceUrls": 121,
+  "englishWordCount": {
+    "min": 85,
+    "max": 103
+  },
+  "badEnglishLengths": [],
+  "invalidImportance": [],
+  "missingEvidence": []
+}
