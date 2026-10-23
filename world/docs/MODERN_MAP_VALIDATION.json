@@ -1,0 +1,1115 @@
+{
+  "reviewedAt": "2026-10-22",
+  "sourceCommit": "da7a4b735ecef70aebdc9c73e409d8a2500d50f3",
+  "file": "territories-modern-history.geojson",
+  "outputSha256": "fe31c115a6469457c8b06c43654886f7afa411147b66335474cc1294a1f753b3",
+  "bytes": 1467856,
+  "featureCount": 142,
+  "snapshots": [
+    {
+      "year": 1994,
+      "featureCount": 47
+    },
+    {
+      "year": 2000,
+      "featureCount": 47
+    },
+    {
+      "year": 2010,
+      "featureCount": 48
+    }
+  ],
+  "validation": {
+    "removedZeroAreaComponents": 0,
+    "removedZeroAreaHoles": 0,
+    "outerReversals": 0,
+    "holeReversals": 6,
+    "projections": [
+      "EqualEarth",
+      "NaturalEarth1",
+      "Equirectangular"
+    ],
+    "checks": [
+      {
+        "id": "1994-russia-modern",
+        "sourceName": "Russia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-ukraine",
+        "sourceName": "Ukraine",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-belarus",
+        "sourceName": "Byelarus",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-estonia",
+        "sourceName": "Estonia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-latvia",
+        "sourceName": "Latvia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-lithuania",
+        "sourceName": "Lithuania",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-moldova",
+        "sourceName": "Moldova",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-georgia",
+        "sourceName": "Georgia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-armenia",
+        "sourceName": "Armenia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-azerbaijan",
+        "sourceName": "Azerbaijan",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-kazakhstan",
+        "sourceName": "Kazakhstan",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-uzbekistan",
+        "sourceName": "Uzbekistan",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-kyrgyzstan",
+        "sourceName": "Kyrgyzstan",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-tajikistan",
+        "sourceName": "Tajikistan",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-turkmenistan",
+        "sourceName": "Turkmenistan",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-germany",
+        "sourceName": "Germany",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-czech-republic",
+        "sourceName": "Czech Republic",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-slovakia",
+        "sourceName": "Slovakia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-france-modern",
+        "sourceName": "France",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-uk",
+        "sourceName": "United Kingdom",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-poland",
+        "sourceName": "Poland",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-eritrea",
+        "sourceName": "Eritrea",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-ethiopia",
+        "sourceName": "Ethiopia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-sudan",
+        "sourceName": "Sudan",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-south-africa",
+        "sourceName": "South Africa",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-namibia",
+        "sourceName": "Namibia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-nigeria",
+        "sourceName": "Nigeria",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-ghana-modern",
+        "sourceName": "Ghana",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-usa",
+        "sourceName": "United States",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-canada",
+        "sourceName": "Canada",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-mexico",
+        "sourceName": "Mexico",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-brazil",
+        "sourceName": "Brazil",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-argentina",
+        "sourceName": "Argentina",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-china-modern",
+        "sourceName": "China",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-japan",
+        "sourceName": "Japan",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-india",
+        "sourceName": "India",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-pakistan",
+        "sourceName": "Pakistan",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-bangladesh",
+        "sourceName": "Bangladesh",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-thailand",
+        "sourceName": "Thailand",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-vietnam",
+        "sourceName": "Vietnam",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-australia",
+        "sourceName": "Australia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-newzealand",
+        "sourceName": "New Zealand",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-papua-new-guinea",
+        "sourceName": "Papua New Guinea",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-slovenia",
+        "sourceName": "Slovenia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-croatia",
+        "sourceName": "Croatia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-bosnia-herzegovina",
+        "sourceName": "Bosnia and Herzegovina",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "1994-macedonia",
+        "sourceName": "Macedonia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-russia-modern",
+        "sourceName": "Russia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-ukraine",
+        "sourceName": "Ukraine",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-belarus",
+        "sourceName": "Byelarus",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-estonia",
+        "sourceName": "Estonia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-latvia",
+        "sourceName": "Latvia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-lithuania",
+        "sourceName": "Lithuania",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-moldova",
+        "sourceName": "Moldova",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-georgia",
+        "sourceName": "Georgia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-armenia",
+        "sourceName": "Armenia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-azerbaijan",
+        "sourceName": "Azerbaijan",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-kazakhstan",
+        "sourceName": "Kazakhstan",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-uzbekistan",
+        "sourceName": "Uzbekistan",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-kyrgyzstan",
+        "sourceName": "Kyrgyzstan",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-tajikistan",
+        "sourceName": "Tajikistan",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-turkmenistan",
+        "sourceName": "Turkmenistan",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-germany",
+        "sourceName": "Germany",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-czech-republic",
+        "sourceName": "Czech Republic",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-slovakia",
+        "sourceName": "Slovakia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-france-modern",
+        "sourceName": "France",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-uk",
+        "sourceName": "United Kingdom",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-poland",
+        "sourceName": "Poland",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-eritrea",
+        "sourceName": "Eritrea",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-ethiopia",
+        "sourceName": "Ethiopia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-sudan",
+        "sourceName": "Sudan",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-south-africa",
+        "sourceName": "South Africa",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-namibia",
+        "sourceName": "Namibia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-nigeria",
+        "sourceName": "Nigeria",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-ghana-modern",
+        "sourceName": "Ghana",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-usa",
+        "sourceName": "United States",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-canada",
+        "sourceName": "Canada",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-mexico",
+        "sourceName": "Mexico",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-brazil",
+        "sourceName": "Brazil",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-argentina",
+        "sourceName": "Argentina",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-china-modern",
+        "sourceName": "China",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-japan",
+        "sourceName": "Japan",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-india",
+        "sourceName": "India",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-pakistan",
+        "sourceName": "Pakistan",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-bangladesh",
+        "sourceName": "Bangladesh",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-thailand",
+        "sourceName": "Thailand",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-vietnam",
+        "sourceName": "Vietnam",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-australia",
+        "sourceName": "Australia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-newzealand",
+        "sourceName": "New Zealand",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-papua-new-guinea",
+        "sourceName": "Papua New Guinea",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-slovenia",
+        "sourceName": "Slovenia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-croatia",
+        "sourceName": "Croatia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-bosnia-herzegovina",
+        "sourceName": "Bosnia and Herzegovina",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2000-macedonia",
+        "sourceName": "Macedonia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-russia-modern",
+        "sourceName": "Russia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-ukraine",
+        "sourceName": "Ukraine",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-belarus",
+        "sourceName": "Byelarus",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-estonia",
+        "sourceName": "Estonia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-latvia",
+        "sourceName": "Latvia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-lithuania",
+        "sourceName": "Lithuania",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-moldova",
+        "sourceName": "Moldova",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-georgia",
+        "sourceName": "Georgia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-armenia",
+        "sourceName": "Armenia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-azerbaijan",
+        "sourceName": "Azerbaijan",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-kazakhstan",
+        "sourceName": "Kazakhstan",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-uzbekistan",
+        "sourceName": "Uzbekistan",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-kyrgyzstan",
+        "sourceName": "Kyrgyzstan",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-tajikistan",
+        "sourceName": "Tajikistan",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-turkmenistan",
+        "sourceName": "Turkmenistan",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-germany",
+        "sourceName": "Germany",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-czech-republic",
+        "sourceName": "Czech Republic",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-slovakia",
+        "sourceName": "Slovakia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-france-modern",
+        "sourceName": "France",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-uk",
+        "sourceName": "United Kingdom",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-poland",
+        "sourceName": "Poland",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-eritrea",
+        "sourceName": "Eritrea",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-ethiopia",
+        "sourceName": "Ethiopia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-sudan",
+        "sourceName": "Sudan",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-south-africa",
+        "sourceName": "South Africa",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-namibia",
+        "sourceName": "Namibia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-nigeria",
+        "sourceName": "Nigeria",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-ghana-modern",
+        "sourceName": "Ghana",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-usa",
+        "sourceName": "United States",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-canada",
+        "sourceName": "Canada",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-mexico",
+        "sourceName": "Mexico",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-brazil",
+        "sourceName": "Brazil",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-argentina",
+        "sourceName": "Argentina",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-china-modern",
+        "sourceName": "China",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-japan",
+        "sourceName": "Japan",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-india",
+        "sourceName": "India",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-pakistan",
+        "sourceName": "Pakistan",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-bangladesh",
+        "sourceName": "Bangladesh",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-thailand",
+        "sourceName": "Thailand",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-vietnam",
+        "sourceName": "Vietnam",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-australia",
+        "sourceName": "Australia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-newzealand",
+        "sourceName": "New Zealand",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-papua-new-guinea",
+        "sourceName": "Papua New Guinea",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-slovenia",
+        "sourceName": "Slovenia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-croatia",
+        "sourceName": "Croatia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-bosnia-herzegovina",
+        "sourceName": "Bosnia and Herzegovina",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-macedonia",
+        "sourceName": "Macedonia",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      },
+      {
+        "id": "2010-montenegro",
+        "sourceName": "Montenegro",
+        "sourceContainsInteriorPoint": true,
+        "independentPolityExists": true,
+        "independentContainsInteriorPoint": true
+      }
+    ]
+  },
+  "limits": "State existence and broad interior location checks do not certify every boundary, enclave, island, disputed claim, or wartime control line. No CShapes geometry redistributed.",
+  "exclusions": [
+    {
+      "year": 1994,
+      "name": "Serbia and Montenegro as separate sovereign authorities",
+      "reason": "The source labels both as separate authorities before the 2006 dissolution of their federation. They are not silently relabeled or merged."
+    },
+    {
+      "year": 1994,
+      "name": "Timor-Leste / East Timor",
+      "reason": "No named, separately reviewed polygon in the source snapshot; no modern polygon is backdated. Transition is covered in sourced historical entries."
+    },
+    {
+      "year": 1994,
+      "name": "Other unselected source entities",
+      "reason": "This pass reviews the named selected set; remaining upstream features are not assumed correct merely because they have a dated filename."
+    },
+    {
+      "year": 2000,
+      "name": "Serbia and Montenegro as separate sovereign authorities",
+      "reason": "The source labels both as separate authorities before the 2006 dissolution of their federation. They are not silently relabeled or merged."
+    },
+    {
+      "year": 2000,
+      "name": "Hong Kong",
+      "reason": "Source still gives the United Kingdom as authority after the 1997 handover."
+    },
+    {
+      "year": 2000,
+      "name": "Zaire",
+      "reason": "Source retains the former state name after its 1997 change to Democratic Republic of the Congo. Geometry not adopted without a fuller authority review."
+    },
+    {
+      "year": 2000,
+      "name": "Timor-Leste / East Timor",
+      "reason": "No named, separately reviewed polygon in the source snapshot; no modern polygon is backdated. Transition is covered in sourced historical entries."
+    },
+    {
+      "year": 2000,
+      "name": "Other unselected source entities",
+      "reason": "This pass reviews the named selected set; remaining upstream features are not assumed correct merely because they have a dated filename."
+    },
+    {
+      "year": 2010,
+      "name": "Serbia / Kosovo",
+      "reason": "Source has no separate reviewed Kosovo control/status model for 2010. Omitted pending a model that distinguishes sovereignty claims and administration."
+    },
+    {
+      "year": 2010,
+      "name": "Zaire",
+      "reason": "Source retains the former state name after its 1997 change to Democratic Republic of the Congo. Geometry not adopted without a fuller authority review."
+    },
+    {
+      "year": 2010,
+      "name": "Timor-Leste / East Timor",
+      "reason": "No named, separately reviewed polygon in the source snapshot; no modern polygon is backdated. Transition is covered in sourced historical entries."
+    },
+    {
+      "year": 2010,
+      "name": "Other unselected source entities",
+      "reason": "This pass reviews the named selected set; remaining upstream features are not assumed correct merely because they have a dated filename."
+    }
+  ],
+  "artifactNote": "The original validation applies to the dated source geometries. V4 adds bounded context metadata and shards the same selected geometries; original output hashes below are a historical build record.",
+  "currentArtifacts": [
+    {
+      "file": "territories-modern-history-01.geojson",
+      "featureCount": 36,
+      "outputSha256": "6a4f024d1b57df08190ed239eb8b74368b4f49410f893a5228d99ff8410c3089"
+    },
+    {
+      "file": "territories-modern-history-02.geojson",
+      "featureCount": 41,
+      "outputSha256": "abcde27ccf055d265c54f58218d2926a72086b7f40481848665f02090f7fcb0a"
+    },
+    {
+      "file": "territories-modern-history-03.geojson",
+      "featureCount": 45,
+      "outputSha256": "c0ac4f361f0373f57c819d51acb490891234b46edcc5fa52208854fc9f90c850"
+    },
+    {
+      "file": "territories-modern-history-04.geojson",
+      "featureCount": 20,
+      "outputSha256": "e2be9dfea14154303e970753ed27d014206d50271569beea8767fcd20ec00730"
+    }
+  ]
+}

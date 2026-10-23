@@ -1,0 +1,4957 @@
+{
+  "reviewedAt": "2026-10-23",
+  "sourceCommit": "da7a4b735ecef70aebdc9c73e409d8a2500d50f3",
+  "featureCount": 516,
+  "addedFeatureCount": 271,
+  "polityCount": 180,
+  "snapshotCount": 43,
+  "shards": 8,
+  "written": [
+    {
+      "file": "territories-legacy-01.geojson",
+      "bytes": 444275,
+      "featureCount": 58,
+      "sha256": "321fab26b0ff2cb571a410c949214732e2a28af24661acf61b2129eaacdb5126"
+    },
+    {
+      "file": "territories-legacy-02.geojson",
+      "bytes": 437100,
+      "featureCount": 24,
+      "sha256": "122530f086cb85dae4ab1a6de2279fb5a98bff695406c2771eb4527ed30436c7"
+    },
+    {
+      "file": "territories-legacy-03.geojson",
+      "bytes": 177444,
+      "featureCount": 17,
+      "sha256": "efbcd2e3732ef45f4cd27b05959acc1690199750551a757d43861374bdb048e4"
+    },
+    {
+      "file": "territories-awmc.geojson",
+      "bytes": 238205,
+      "featureCount": 1,
+      "sha256": "291218e22e24ec701882ea7a1f454ba2e22f3c99eecd3d02d9c8224140ab1d8d"
+    },
+    {
+      "file": "territories-jiangshan.geojson",
+      "bytes": 40536,
+      "featureCount": 3,
+      "sha256": "6327ff5a687d642999e74305eb31c07592d19042e8c42a287043ee0c7c8d1029"
+    },
+    {
+      "file": "territories-modern-history-01.geojson",
+      "bytes": 442102,
+      "featureCount": 36,
+      "sha256": "6a4f024d1b57df08190ed239eb8b74368b4f49410f893a5228d99ff8410c3089"
+    },
+    {
+      "file": "territories-modern-history-02.geojson",
+      "bytes": 446196,
+      "featureCount": 41,
+      "sha256": "abcde27ccf055d265c54f58218d2926a72086b7f40481848665f02090f7fcb0a"
+    },
+    {
+      "file": "territories-modern-history-03.geojson",
+      "bytes": 417313,
+      "featureCount": 45,
+      "sha256": "c0ac4f361f0373f57c819d51acb490891234b46edcc5fa52208854fc9f90c850"
+    },
+    {
+      "file": "territories-modern-history-04.geojson",
+      "bytes": 266277,
+      "featureCount": 20,
+      "sha256": "e2be9dfea14154303e970753ed27d014206d50271569beea8767fcd20ec00730"
+    },
+    {
+      "file": "territories-context-01.geojson",
+      "bytes": 446520,
+      "featureCount": 48,
+      "sha256": "1bd08ff656cb3040361206cf7984e2ddd7d0bfb119dc438c37e7cd88a70ed37a"
+    },
+    {
+      "file": "territories-context-02.geojson",
+      "bytes": 443735,
+      "featureCount": 29,
+      "sha256": "a6d359107b84454c80582c10f13fa25bbfa249b73ea671d5631e045f9bd2b35b"
+    },
+    {
+      "file": "territories-context-03.geojson",
+      "bytes": 390632,
+      "featureCount": 23,
+      "sha256": "889b4572598e19f9731257d268c4a7f8f60eef8c140fa1ede6fcfa9167a78e0d"
+    },
+    {
+      "file": "territories-context-04.geojson",
+      "bytes": 404256,
+      "featureCount": 19,
+      "sha256": "6fa6b0b68544249e454ca8af2cde0b5f53e63dbb6e6e8f51af0bafce0382a28f"
+    },
+    {
+      "file": "territories-context-05.geojson",
+      "bytes": 428714,
+      "featureCount": 29,
+      "sha256": "49a5dc2c6399b9c28faf16f8b8679347cc0c732eac7d5248a705d22ac9d3c68b"
+    },
+    {
+      "file": "territories-context-06.geojson",
+      "bytes": 404350,
+      "featureCount": 23,
+      "sha256": "c2f50c451e4e6980d7ac37d6a7061ed4d6b2e060d096ae045b4b3bbea4bd0029"
+    },
+    {
+      "file": "territories-context-07.geojson",
+      "bytes": 445021,
+      "featureCount": 36,
+      "sha256": "8a839e533c6054f5da2fd134eb3f4f13ac9792ca3e445a014b7ba8da46a54c15"
+    },
+    {
+      "file": "territories-context-08.geojson",
+      "bytes": 335946,
+      "featureCount": 64,
+      "sha256": "53aef27e99bf32a861c699526e778c054e6e26721e11f1d4300257d3c4b5ea03"
+    }
+  ],
+  "normalization": {
+    "removedZeroAreaComponents": 8,
+    "removedZeroAreaHoles": 1,
+    "outerReversals": 1,
+    "holeReversals": 1
+  },
+  "contexts": [
+    {
+      "id": "-500-achaemenid",
+      "polityId": "achaemenid",
+      "kind": "polity",
+      "sourceYear": -500,
+      "start": -550,
+      "end": -331,
+      "backwardReviewed": true
+    },
+    {
+      "id": "-500-carthage",
+      "polityId": "carthage",
+      "kind": "polity",
+      "sourceYear": -500,
+      "start": -550,
+      "end": -324,
+      "backwardReviewed": true
+    },
+    {
+      "id": "-500-kush",
+      "polityId": "kush",
+      "kind": "polity",
+      "sourceYear": -500,
+      "start": -671,
+      "end": -324,
+      "backwardReviewed": true
+    },
+    {
+      "id": "-323-alexander",
+      "polityId": "alexander",
+      "kind": "polity",
+      "sourceYear": -323,
+      "start": -325,
+      "end": -323,
+      "backwardReviewed": true
+    },
+    {
+      "id": "-323-carthage",
+      "polityId": "carthage",
+      "kind": "polity",
+      "sourceYear": -323,
+      "start": -323,
+      "end": -301,
+      "backwardReviewed": false
+    },
+    {
+      "id": "-323-kush",
+      "polityId": "kush",
+      "kind": "polity",
+      "sourceYear": -323,
+      "start": -323,
+      "end": -301,
+      "backwardReviewed": false
+    },
+    {
+      "id": "-1-roman",
+      "polityId": "roman",
+      "kind": "polity",
+      "sourceYear": -1,
+      "start": -27,
+      "end": 199,
+      "backwardReviewed": true
+    },
+    {
+      "id": "-1-parthian",
+      "polityId": "parthian",
+      "kind": "polity",
+      "sourceYear": -1,
+      "start": -1,
+      "end": 99,
+      "backwardReviewed": false
+    },
+    {
+      "id": "-1-han",
+      "polityId": "han",
+      "kind": "polity",
+      "sourceYear": -1,
+      "start": -1,
+      "end": 8,
+      "backwardReviewed": false
+    },
+    {
+      "id": "-1-kush",
+      "polityId": "kush",
+      "kind": "polity",
+      "sourceYear": -1,
+      "start": -1,
+      "end": 99,
+      "backwardReviewed": false
+    },
+    {
+      "id": "200-parthian",
+      "polityId": "parthian",
+      "kind": "polity",
+      "sourceYear": 200,
+      "start": 200,
+      "end": 223,
+      "backwardReviewed": false
+    },
+    {
+      "id": "200-han",
+      "polityId": "han",
+      "kind": "polity",
+      "sourceYear": 200,
+      "start": 200,
+      "end": 219,
+      "backwardReviewed": false
+    },
+    {
+      "id": "200-kush",
+      "polityId": "kush",
+      "kind": "polity",
+      "sourceYear": 200,
+      "start": 200,
+      "end": 349,
+      "backwardReviewed": false
+    },
+    {
+      "id": "600-sasanian",
+      "polityId": "sasanian",
+      "kind": "polity",
+      "sourceYear": 600,
+      "start": 600,
+      "end": 650,
+      "backwardReviewed": false
+    },
+    {
+      "id": "600-byzantine",
+      "polityId": "byzantine",
+      "kind": "polity",
+      "sourceYear": 600,
+      "start": 527,
+      "end": 628,
+      "backwardReviewed": true
+    },
+    {
+      "id": "600-frankish",
+      "polityId": "frankish",
+      "kind": "polity",
+      "sourceYear": 600,
+      "start": 600,
+      "end": 699,
+      "backwardReviewed": false
+    },
+    {
+      "id": "600-sui",
+      "polityId": "sui",
+      "kind": "polity",
+      "sourceYear": 600,
+      "start": 589,
+      "end": 617,
+      "backwardReviewed": true
+    },
+    {
+      "id": "800-abbasid",
+      "polityId": "abbasid",
+      "kind": "polity",
+      "sourceYear": 800,
+      "start": 750,
+      "end": 899,
+      "backwardReviewed": true
+    },
+    {
+      "id": "800-carolingian",
+      "polityId": "carolingian",
+      "kind": "polity",
+      "sourceYear": 800,
+      "start": 751,
+      "end": 842,
+      "backwardReviewed": true
+    },
+    {
+      "id": "800-tang",
+      "polityId": "tang",
+      "kind": "polity",
+      "sourceYear": 800,
+      "start": 618,
+      "end": 899,
+      "backwardReviewed": true
+    },
+    {
+      "id": "800-byzantine",
+      "polityId": "byzantine",
+      "kind": "polity",
+      "sourceYear": 800,
+      "start": 800,
+      "end": 899,
+      "backwardReviewed": false
+    },
+    {
+      "id": "800-ghana",
+      "polityId": "ghana",
+      "kind": "polity",
+      "sourceYear": 800,
+      "start": 750,
+      "end": 899,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1000-byzantine",
+      "polityId": "byzantine",
+      "kind": "polity",
+      "sourceYear": 1000,
+      "start": 1000,
+      "end": 1070,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1000-fatimid",
+      "polityId": "fatimid",
+      "kind": "polity",
+      "sourceYear": 1000,
+      "start": 909,
+      "end": 1047,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1000-song",
+      "polityId": "song",
+      "kind": "polity",
+      "sourceYear": 1000,
+      "start": 960,
+      "end": 1099,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1000-chola",
+      "polityId": "chola",
+      "kind": "polity",
+      "sourceYear": 1000,
+      "start": 985,
+      "end": 1070,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1000-ghaznavid",
+      "polityId": "ghaznavid",
+      "kind": "polity",
+      "sourceYear": 1000,
+      "start": 977,
+      "end": 1185,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1000-khmer",
+      "polityId": "khmer",
+      "kind": "polity",
+      "sourceYear": 1000,
+      "start": 1000,
+      "end": 1099,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1000-ghana",
+      "polityId": "ghana",
+      "kind": "polity",
+      "sourceYear": 1000,
+      "start": 1000,
+      "end": 1099,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1000-hre",
+      "polityId": "hre",
+      "kind": "polity",
+      "sourceYear": 1000,
+      "start": 962,
+      "end": 1099,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1000-france",
+      "polityId": "france",
+      "kind": "polity",
+      "sourceYear": 1000,
+      "start": 987,
+      "end": 1099,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1000-england",
+      "polityId": "england",
+      "kind": "polity",
+      "sourceYear": 1000,
+      "start": 927,
+      "end": 1099,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1200-almohad",
+      "polityId": "almohad",
+      "kind": "polity",
+      "sourceYear": 1200,
+      "start": 1147,
+      "end": 1268,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1200-khmer",
+      "polityId": "khmer",
+      "kind": "polity",
+      "sourceYear": 1200,
+      "start": 1200,
+      "end": 1299,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1200-hre",
+      "polityId": "hre",
+      "kind": "polity",
+      "sourceYear": 1200,
+      "start": 1200,
+      "end": 1299,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1200-france",
+      "polityId": "france",
+      "kind": "polity",
+      "sourceYear": 1200,
+      "start": 1200,
+      "end": 1299,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1200-angevin",
+      "polityId": "angevin",
+      "kind": "polity",
+      "sourceYear": 1200,
+      "start": 1154,
+      "end": 1203,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1300-byzantine",
+      "polityId": "byzantine",
+      "kind": "polity",
+      "sourceYear": 1300,
+      "start": 1261,
+      "end": 1452,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1300-khmer",
+      "polityId": "khmer",
+      "kind": "polity",
+      "sourceYear": 1300,
+      "start": 1300,
+      "end": 1399,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1300-mali",
+      "polityId": "mali",
+      "kind": "polity",
+      "sourceYear": 1300,
+      "start": 1235,
+      "end": 1399,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1300-mamluk",
+      "polityId": "mamluk",
+      "kind": "polity",
+      "sourceYear": 1300,
+      "start": 1250,
+      "end": 1399,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1300-ilkhanate",
+      "polityId": "ilkhanate",
+      "kind": "polity",
+      "sourceYear": 1300,
+      "start": 1256,
+      "end": 1335,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1300-yuan",
+      "polityId": "yuan",
+      "kind": "polity",
+      "sourceYear": 1300,
+      "start": 1271,
+      "end": 1367,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1300-hre",
+      "polityId": "hre",
+      "kind": "polity",
+      "sourceYear": 1300,
+      "start": 1300,
+      "end": 1399,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1300-france",
+      "polityId": "france",
+      "kind": "polity",
+      "sourceYear": 1300,
+      "start": 1300,
+      "end": 1399,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1300-england",
+      "polityId": "england",
+      "kind": "polity",
+      "sourceYear": 1300,
+      "start": 1300,
+      "end": 1399,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1400-ottoman",
+      "polityId": "ottoman",
+      "kind": "polity",
+      "sourceYear": 1400,
+      "start": 1389,
+      "end": 1499,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1400-mamluk",
+      "polityId": "mamluk",
+      "kind": "polity",
+      "sourceYear": 1400,
+      "start": 1400,
+      "end": 1499,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1400-timurid",
+      "polityId": "timurid",
+      "kind": "polity",
+      "sourceYear": 1400,
+      "start": 1370,
+      "end": 1404,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1400-mali",
+      "polityId": "mali",
+      "kind": "polity",
+      "sourceYear": 1400,
+      "start": 1400,
+      "end": 1599,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1400-khmer",
+      "polityId": "khmer",
+      "kind": "polity",
+      "sourceYear": 1400,
+      "start": 1400,
+      "end": 1430,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1400-hre",
+      "polityId": "hre",
+      "kind": "polity",
+      "sourceYear": 1400,
+      "start": 1400,
+      "end": 1599,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1400-france",
+      "polityId": "france",
+      "kind": "polity",
+      "sourceYear": 1400,
+      "start": 1400,
+      "end": 1649,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1400-england",
+      "polityId": "england",
+      "kind": "polity",
+      "sourceYear": 1400,
+      "start": 1400,
+      "end": 1602,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1500-ottoman",
+      "polityId": "ottoman",
+      "kind": "polity",
+      "sourceYear": 1500,
+      "start": 1500,
+      "end": 1599,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1500-mamluk",
+      "polityId": "mamluk",
+      "kind": "polity",
+      "sourceYear": 1500,
+      "start": 1500,
+      "end": 1516,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1500-songhai",
+      "polityId": "songhai",
+      "kind": "polity",
+      "sourceYear": 1500,
+      "start": 1464,
+      "end": 1590,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1500-kongo",
+      "polityId": "kongo",
+      "kind": "polity",
+      "sourceYear": 1500,
+      "start": 1450,
+      "end": 1599,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1500-ming",
+      "polityId": "ming",
+      "kind": "polity",
+      "sourceYear": 1500,
+      "start": 1368,
+      "end": 1599,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1500-aztec",
+      "polityId": "aztec",
+      "kind": "polity",
+      "sourceYear": 1500,
+      "start": 1428,
+      "end": 1520,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1500-inca",
+      "polityId": "inca",
+      "kind": "polity",
+      "sourceYear": 1500,
+      "start": 1438,
+      "end": 1532,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1600-ottoman",
+      "polityId": "ottoman",
+      "kind": "polity",
+      "sourceYear": 1600,
+      "start": 1600,
+      "end": 1649,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1600-safavid",
+      "polityId": "safavid",
+      "kind": "polity",
+      "sourceYear": 1600,
+      "start": 1501,
+      "end": 1649,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1600-mughal",
+      "polityId": "mughal",
+      "kind": "polity",
+      "sourceYear": 1600,
+      "start": 1556,
+      "end": 1649,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1600-hre",
+      "polityId": "hre",
+      "kind": "polity",
+      "sourceYear": 1600,
+      "start": 1600,
+      "end": 1805,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1600-kongo",
+      "polityId": "kongo",
+      "kind": "polity",
+      "sourceYear": 1600,
+      "start": 1600,
+      "end": 1649,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1800-ottoman",
+      "polityId": "ottoman",
+      "kind": "polity",
+      "sourceYear": 1800,
+      "start": 1800,
+      "end": 1814,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1800-qing",
+      "polityId": "qing",
+      "kind": "polity",
+      "sourceYear": 1800,
+      "start": 1800,
+      "end": 1814,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1800-newspain",
+      "polityId": "newspain",
+      "kind": "colonial-territory",
+      "sourceYear": 1800,
+      "start": 1800,
+      "end": 1820,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1800-newgranada",
+      "polityId": "newgranada",
+      "kind": "colonial-territory",
+      "sourceYear": 1800,
+      "start": 1739,
+      "end": 1818,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1900-russian",
+      "polityId": "russian",
+      "kind": "polity",
+      "sourceYear": 1900,
+      "start": 1900,
+      "end": 1913,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1900-qing",
+      "polityId": "qing",
+      "kind": "polity",
+      "sourceYear": 1900,
+      "start": 1900,
+      "end": 1911,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1900-british-india",
+      "polityId": "british-india",
+      "kind": "colonial-territory",
+      "sourceYear": 1900,
+      "start": 1900,
+      "end": 1913,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1900-usa",
+      "polityId": "usa",
+      "kind": "polity",
+      "sourceYear": 1900,
+      "start": 1898,
+      "end": 1913,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1900-germany",
+      "polityId": "germany",
+      "kind": "polity",
+      "sourceYear": 1900,
+      "start": 1871,
+      "end": 1913,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1900-austriahungary",
+      "polityId": "austriahungary",
+      "kind": "polity",
+      "sourceYear": 1900,
+      "start": 1900,
+      "end": 1913,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1900-france-modern",
+      "polityId": "france-modern",
+      "kind": "polity",
+      "sourceYear": 1900,
+      "start": 1900,
+      "end": 1913,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1900-uk",
+      "polityId": "uk",
+      "kind": "polity",
+      "sourceYear": 1900,
+      "start": 1900,
+      "end": 1913,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1900-japan",
+      "polityId": "japan",
+      "kind": "polity",
+      "sourceYear": 1900,
+      "start": 1900,
+      "end": 1913,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1900-argentina",
+      "polityId": "argentina",
+      "kind": "polity",
+      "sourceYear": 1900,
+      "start": 1900,
+      "end": 1913,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1900-mexico",
+      "polityId": "mexico",
+      "kind": "polity",
+      "sourceYear": 1900,
+      "start": 1900,
+      "end": 1913,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1960-ussr",
+      "polityId": "ussr",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1960,
+      "end": 1991,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1960-usa",
+      "polityId": "usa",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1960,
+      "end": 1993,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1960-france-modern",
+      "polityId": "france-modern",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1960,
+      "end": 1993,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1960-uk",
+      "polityId": "uk",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1960,
+      "end": 1993,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1960-westgermany",
+      "polityId": "westgermany",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1949,
+      "end": 1989,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-eastgermany",
+      "polityId": "eastgermany",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1949,
+      "end": 1989,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-india",
+      "polityId": "india",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1947,
+      "end": 1993,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-pakistan",
+      "polityId": "pakistan",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1947,
+      "end": 1970,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-brazil",
+      "polityId": "brazil",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1960,
+      "end": 1993,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1960-mexico",
+      "polityId": "mexico",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1960,
+      "end": 1993,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1960-argentina",
+      "polityId": "argentina",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1960,
+      "end": 1993,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1960-ghana-modern",
+      "polityId": "ghana-modern",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1957,
+      "end": 1993,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-guinea",
+      "polityId": "guinea",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1958,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-australia",
+      "polityId": "australia",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1960,
+      "end": 1993,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1960-newzealand",
+      "polityId": "newzealand",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1960,
+      "end": 1993,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1960-japan",
+      "polityId": "japan",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1952,
+      "end": 1993,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-turkey",
+      "polityId": "turkey",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1960,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1960-ethiopia",
+      "polityId": "ethiopia",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1952,
+      "end": 1992,
+      "backwardReviewed": true
+    },
+    {
+      "id": "200-roman",
+      "polityId": "roman",
+      "kind": "polity",
+      "sourceYear": 200,
+      "start": 200,
+      "end": 394,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1200-southern-song",
+      "polityId": "southern-song",
+      "kind": "polity",
+      "sourceYear": 1200,
+      "start": 1141,
+      "end": 1205,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1200-jin-jurchen",
+      "polityId": "jin-jurchen",
+      "kind": "polity",
+      "sourceYear": 1200,
+      "start": 1141,
+      "end": 1205,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1600-ming",
+      "polityId": "ming",
+      "kind": "polity",
+      "sourceYear": 1600,
+      "start": 1500,
+      "end": 1615,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1994-russia-modern",
+      "polityId": "russia-modern",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1992,
+      "end": 1999,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1994-ukraine",
+      "polityId": "ukraine",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1992,
+      "end": 1999,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1994-belarus",
+      "polityId": "belarus",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1992,
+      "end": 1999,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1994-estonia",
+      "polityId": "estonia",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1992,
+      "end": 1999,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1994-latvia",
+      "polityId": "latvia",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1992,
+      "end": 1999,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1994-lithuania",
+      "polityId": "lithuania",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1992,
+      "end": 1999,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1994-moldova",
+      "polityId": "moldova",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1992,
+      "end": 1999,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1994-georgia",
+      "polityId": "georgia",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1992,
+      "end": 1999,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1994-armenia",
+      "polityId": "armenia",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1992,
+      "end": 1999,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1994-azerbaijan",
+      "polityId": "azerbaijan",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1992,
+      "end": 1999,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1994-kazakhstan",
+      "polityId": "kazakhstan",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1992,
+      "end": 1999,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1994-uzbekistan",
+      "polityId": "uzbekistan",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1992,
+      "end": 1999,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1994-kyrgyzstan",
+      "polityId": "kyrgyzstan",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1992,
+      "end": 1999,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1994-tajikistan",
+      "polityId": "tajikistan",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1992,
+      "end": 1999,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1994-turkmenistan",
+      "polityId": "turkmenistan",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1992,
+      "end": 1999,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1994-germany",
+      "polityId": "germany",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1990,
+      "end": 1999,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1994-czech-republic",
+      "polityId": "czech-republic",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1993,
+      "end": 1999,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1994-slovakia",
+      "polityId": "slovakia",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1993,
+      "end": 1999,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1994-france-modern",
+      "polityId": "france-modern",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1994,
+      "end": 1999,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1994-uk",
+      "polityId": "uk",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1994,
+      "end": 1999,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1994-poland",
+      "polityId": "poland",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1994,
+      "end": 1999,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1994-eritrea",
+      "polityId": "eritrea",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1993,
+      "end": 1999,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1994-ethiopia",
+      "polityId": "ethiopia",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1993,
+      "end": 1999,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1994-sudan",
+      "polityId": "sudan",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1994,
+      "end": 1999,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1994-south-africa",
+      "polityId": "south-africa",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1994,
+      "end": 1999,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1994-namibia",
+      "polityId": "namibia",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1990,
+      "end": 1999,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1994-nigeria",
+      "polityId": "nigeria",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1994,
+      "end": 1999,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1994-ghana-modern",
+      "polityId": "ghana-modern",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1994,
+      "end": 1999,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1994-usa",
+      "polityId": "usa",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1994,
+      "end": 1999,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1994-canada",
+      "polityId": "canada",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1994,
+      "end": 1999,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1994-mexico",
+      "polityId": "mexico",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1994,
+      "end": 1999,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1994-brazil",
+      "polityId": "brazil",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1994,
+      "end": 1999,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1994-argentina",
+      "polityId": "argentina",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1994,
+      "end": 1999,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1994-china-modern",
+      "polityId": "china-modern",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1994,
+      "end": 1999,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1994-japan",
+      "polityId": "japan",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1994,
+      "end": 1999,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1994-india",
+      "polityId": "india",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1994,
+      "end": 1999,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1994-pakistan",
+      "polityId": "pakistan",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1971,
+      "end": 1999,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1994-bangladesh",
+      "polityId": "bangladesh",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1971,
+      "end": 1999,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1994-thailand",
+      "polityId": "thailand",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1994,
+      "end": 1999,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1994-vietnam",
+      "polityId": "vietnam",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1976,
+      "end": 1999,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1994-australia",
+      "polityId": "australia",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1994,
+      "end": 1999,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1994-newzealand",
+      "polityId": "newzealand",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1994,
+      "end": 1999,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1994-papua-new-guinea",
+      "polityId": "papua-new-guinea",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1975,
+      "end": 1999,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1994-slovenia",
+      "polityId": "slovenia",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1991,
+      "end": 1999,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1994-croatia",
+      "polityId": "croatia",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1991,
+      "end": 1999,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1994-bosnia-herzegovina",
+      "polityId": "bosnia-herzegovina",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1992,
+      "end": 1999,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1994-macedonia",
+      "polityId": "macedonia",
+      "kind": "polity",
+      "sourceYear": 1994,
+      "start": 1991,
+      "end": 1999,
+      "backwardReviewed": true
+    },
+    {
+      "id": "2000-russia-modern",
+      "polityId": "russia-modern",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-ukraine",
+      "polityId": "ukraine",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-belarus",
+      "polityId": "belarus",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-estonia",
+      "polityId": "estonia",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-latvia",
+      "polityId": "latvia",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-lithuania",
+      "polityId": "lithuania",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-moldova",
+      "polityId": "moldova",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-georgia",
+      "polityId": "georgia",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-armenia",
+      "polityId": "armenia",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-azerbaijan",
+      "polityId": "azerbaijan",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-kazakhstan",
+      "polityId": "kazakhstan",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-uzbekistan",
+      "polityId": "uzbekistan",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-kyrgyzstan",
+      "polityId": "kyrgyzstan",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-tajikistan",
+      "polityId": "tajikistan",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-turkmenistan",
+      "polityId": "turkmenistan",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-germany",
+      "polityId": "germany",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-czech-republic",
+      "polityId": "czech-republic",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-slovakia",
+      "polityId": "slovakia",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-france-modern",
+      "polityId": "france-modern",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-uk",
+      "polityId": "uk",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-poland",
+      "polityId": "poland",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-eritrea",
+      "polityId": "eritrea",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-ethiopia",
+      "polityId": "ethiopia",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-sudan",
+      "polityId": "sudan",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-south-africa",
+      "polityId": "south-africa",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-namibia",
+      "polityId": "namibia",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-nigeria",
+      "polityId": "nigeria",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-ghana-modern",
+      "polityId": "ghana-modern",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-usa",
+      "polityId": "usa",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-canada",
+      "polityId": "canada",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-mexico",
+      "polityId": "mexico",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-brazil",
+      "polityId": "brazil",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-argentina",
+      "polityId": "argentina",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-china-modern",
+      "polityId": "china-modern",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-japan",
+      "polityId": "japan",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-india",
+      "polityId": "india",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-pakistan",
+      "polityId": "pakistan",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-bangladesh",
+      "polityId": "bangladesh",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-thailand",
+      "polityId": "thailand",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-vietnam",
+      "polityId": "vietnam",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-australia",
+      "polityId": "australia",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-newzealand",
+      "polityId": "newzealand",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-papua-new-guinea",
+      "polityId": "papua-new-guinea",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-slovenia",
+      "polityId": "slovenia",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-croatia",
+      "polityId": "croatia",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-bosnia-herzegovina",
+      "polityId": "bosnia-herzegovina",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2000-macedonia",
+      "polityId": "macedonia",
+      "kind": "polity",
+      "sourceYear": 2000,
+      "start": 2000,
+      "end": 2009,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-russia-modern",
+      "polityId": "russia-modern",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2013,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-ukraine",
+      "polityId": "ukraine",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2013,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-belarus",
+      "polityId": "belarus",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-estonia",
+      "polityId": "estonia",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-latvia",
+      "polityId": "latvia",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-lithuania",
+      "polityId": "lithuania",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-moldova",
+      "polityId": "moldova",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-georgia",
+      "polityId": "georgia",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-armenia",
+      "polityId": "armenia",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-azerbaijan",
+      "polityId": "azerbaijan",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-kazakhstan",
+      "polityId": "kazakhstan",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-uzbekistan",
+      "polityId": "uzbekistan",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-kyrgyzstan",
+      "polityId": "kyrgyzstan",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-tajikistan",
+      "polityId": "tajikistan",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-turkmenistan",
+      "polityId": "turkmenistan",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-germany",
+      "polityId": "germany",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-czech-republic",
+      "polityId": "czech-republic",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-slovakia",
+      "polityId": "slovakia",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-france-modern",
+      "polityId": "france-modern",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-uk",
+      "polityId": "uk",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-poland",
+      "polityId": "poland",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-eritrea",
+      "polityId": "eritrea",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-ethiopia",
+      "polityId": "ethiopia",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-sudan",
+      "polityId": "sudan",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-south-africa",
+      "polityId": "south-africa",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-namibia",
+      "polityId": "namibia",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-nigeria",
+      "polityId": "nigeria",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-ghana-modern",
+      "polityId": "ghana-modern",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-usa",
+      "polityId": "usa",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-canada",
+      "polityId": "canada",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-mexico",
+      "polityId": "mexico",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-brazil",
+      "polityId": "brazil",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-argentina",
+      "polityId": "argentina",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-china-modern",
+      "polityId": "china-modern",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-japan",
+      "polityId": "japan",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-india",
+      "polityId": "india",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-pakistan",
+      "polityId": "pakistan",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-bangladesh",
+      "polityId": "bangladesh",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-thailand",
+      "polityId": "thailand",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-vietnam",
+      "polityId": "vietnam",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-australia",
+      "polityId": "australia",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-newzealand",
+      "polityId": "newzealand",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-papua-new-guinea",
+      "polityId": "papua-new-guinea",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-slovenia",
+      "polityId": "slovenia",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-croatia",
+      "polityId": "croatia",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-bosnia-herzegovina",
+      "polityId": "bosnia-herzegovina",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-macedonia",
+      "polityId": "macedonia",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2010,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "2010-montenegro",
+      "polityId": "montenegro",
+      "kind": "polity",
+      "sourceYear": 2010,
+      "start": 2006,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "100-han",
+      "polityId": "han",
+      "kind": "polity",
+      "sourceYear": 100,
+      "start": 25,
+      "end": 199,
+      "backwardReviewed": true
+    },
+    {
+      "id": "100-parthian",
+      "polityId": "parthian",
+      "kind": "polity",
+      "sourceYear": 100,
+      "start": 100,
+      "end": 199,
+      "backwardReviewed": false
+    },
+    {
+      "id": "100-kush",
+      "polityId": "kush",
+      "kind": "polity",
+      "sourceYear": 100,
+      "start": 100,
+      "end": 199,
+      "backwardReviewed": false
+    },
+    {
+      "id": "400-byzantine",
+      "polityId": "byzantine",
+      "kind": "polity",
+      "sourceYear": 400,
+      "start": 395,
+      "end": 499,
+      "backwardReviewed": true
+    },
+    {
+      "id": "400-western-roman",
+      "polityId": "western-roman",
+      "kind": "polity",
+      "sourceYear": 400,
+      "start": 395,
+      "end": 475,
+      "backwardReviewed": true
+    },
+    {
+      "id": "400-sasanian",
+      "polityId": "sasanian",
+      "kind": "polity",
+      "sourceYear": 400,
+      "start": 224,
+      "end": 499,
+      "backwardReviewed": true
+    },
+    {
+      "id": "500-byzantine",
+      "polityId": "byzantine",
+      "kind": "polity",
+      "sourceYear": 500,
+      "start": 500,
+      "end": 526,
+      "backwardReviewed": false
+    },
+    {
+      "id": "500-sasanian",
+      "polityId": "sasanian",
+      "kind": "polity",
+      "sourceYear": 500,
+      "start": 500,
+      "end": 599,
+      "backwardReviewed": false
+    },
+    {
+      "id": "500-frankish",
+      "polityId": "frankish",
+      "kind": "polity",
+      "sourceYear": 500,
+      "start": 481,
+      "end": 599,
+      "backwardReviewed": true
+    },
+    {
+      "id": "500-aksum",
+      "polityId": "aksum",
+      "kind": "polity",
+      "sourceYear": 500,
+      "start": 400,
+      "end": 699,
+      "backwardReviewed": true
+    },
+    {
+      "id": "700-byzantine",
+      "polityId": "byzantine",
+      "kind": "polity",
+      "sourceYear": 700,
+      "start": 629,
+      "end": 799,
+      "backwardReviewed": true
+    },
+    {
+      "id": "700-frankish",
+      "polityId": "frankish",
+      "kind": "polity",
+      "sourceYear": 700,
+      "start": 700,
+      "end": 750,
+      "backwardReviewed": false
+    },
+    {
+      "id": "900-byzantine",
+      "polityId": "byzantine",
+      "kind": "polity",
+      "sourceYear": 900,
+      "start": 900,
+      "end": 999,
+      "backwardReviewed": false
+    },
+    {
+      "id": "900-tang",
+      "polityId": "tang",
+      "kind": "polity",
+      "sourceYear": 900,
+      "start": 900,
+      "end": 906,
+      "backwardReviewed": false
+    },
+    {
+      "id": "900-abbasid",
+      "polityId": "abbasid",
+      "kind": "polity",
+      "sourceYear": 900,
+      "start": 900,
+      "end": 945,
+      "backwardReviewed": false
+    },
+    {
+      "id": "900-ghana",
+      "polityId": "ghana",
+      "kind": "polity",
+      "sourceYear": 900,
+      "start": 900,
+      "end": 999,
+      "backwardReviewed": false
+    },
+    {
+      "id": "900-khmer",
+      "polityId": "khmer",
+      "kind": "polity",
+      "sourceYear": 900,
+      "start": 850,
+      "end": 999,
+      "backwardReviewed": true
+    },
+    {
+      "id": "900-east-francia",
+      "polityId": "east-francia",
+      "kind": "polity",
+      "sourceYear": 900,
+      "start": 843,
+      "end": 961,
+      "backwardReviewed": true
+    },
+    {
+      "id": "900-west-francia",
+      "polityId": "west-francia",
+      "kind": "polity",
+      "sourceYear": 900,
+      "start": 843,
+      "end": 986,
+      "backwardReviewed": true
+    },
+    {
+      "id": "900-samanid",
+      "polityId": "samanid",
+      "kind": "polity",
+      "sourceYear": 900,
+      "start": 875,
+      "end": 998,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1100-song",
+      "polityId": "song",
+      "kind": "polity",
+      "sourceYear": 1100,
+      "start": 1100,
+      "end": 1126,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1100-liao",
+      "polityId": "liao",
+      "kind": "polity",
+      "sourceYear": 1100,
+      "start": 907,
+      "end": 1125,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1100-seljuk",
+      "polityId": "seljuk",
+      "kind": "polity",
+      "sourceYear": 1100,
+      "start": 1040,
+      "end": 1194,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1100-hre",
+      "polityId": "hre",
+      "kind": "polity",
+      "sourceYear": 1100,
+      "start": 1100,
+      "end": 1199,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1100-france",
+      "polityId": "france",
+      "kind": "polity",
+      "sourceYear": 1100,
+      "start": 1100,
+      "end": 1199,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1100-england",
+      "polityId": "england",
+      "kind": "polity",
+      "sourceYear": 1100,
+      "start": 1100,
+      "end": 1299,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1100-khmer",
+      "polityId": "khmer",
+      "kind": "polity",
+      "sourceYear": 1100,
+      "start": 1100,
+      "end": 1199,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1100-ghana",
+      "polityId": "ghana",
+      "kind": "polity",
+      "sourceYear": 1100,
+      "start": 1100,
+      "end": 1199,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1650-ottoman",
+      "polityId": "ottoman",
+      "kind": "polity",
+      "sourceYear": 1650,
+      "start": 1650,
+      "end": 1699,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1650-safavid",
+      "polityId": "safavid",
+      "kind": "polity",
+      "sourceYear": 1650,
+      "start": 1650,
+      "end": 1699,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1650-mughal",
+      "polityId": "mughal",
+      "kind": "polity",
+      "sourceYear": 1650,
+      "start": 1650,
+      "end": 1699,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1650-qing",
+      "polityId": "qing",
+      "kind": "polity",
+      "sourceYear": 1650,
+      "start": 1644,
+      "end": 1682,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1650-france",
+      "polityId": "france",
+      "kind": "polity",
+      "sourceYear": 1650,
+      "start": 1650,
+      "end": 1699,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1650-spain",
+      "polityId": "spain",
+      "kind": "polity",
+      "sourceYear": 1650,
+      "start": 1600,
+      "end": 1699,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1650-portugal",
+      "polityId": "portugal",
+      "kind": "polity",
+      "sourceYear": 1650,
+      "start": 1640,
+      "end": 1699,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1650-dutch-republic",
+      "polityId": "dutch-republic",
+      "kind": "polity",
+      "sourceYear": 1650,
+      "start": 1588,
+      "end": 1699,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1650-joseon",
+      "polityId": "joseon",
+      "kind": "polity",
+      "sourceYear": 1650,
+      "start": 1600,
+      "end": 1699,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1650-ayutthaya",
+      "polityId": "ayutthaya",
+      "kind": "polity",
+      "sourceYear": 1650,
+      "start": 1600,
+      "end": 1699,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1650-newspain",
+      "polityId": "newspain",
+      "kind": "polity",
+      "sourceYear": 1650,
+      "start": 1535,
+      "end": 1699,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1650-peru-viceroyalty-early",
+      "polityId": "peru-viceroyalty-early",
+      "kind": "polity",
+      "sourceYear": 1650,
+      "start": 1542,
+      "end": 1699,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1650-brazil-portuguese",
+      "polityId": "brazil-portuguese",
+      "kind": "polity",
+      "sourceYear": 1650,
+      "start": 1600,
+      "end": 1714,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1650-kongo",
+      "polityId": "kongo",
+      "kind": "polity",
+      "sourceYear": 1650,
+      "start": 1650,
+      "end": 1708,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1650-denmark-norway",
+      "polityId": "denmark-norway",
+      "kind": "polity",
+      "sourceYear": 1650,
+      "start": 1600,
+      "end": 1699,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1650-sweden-empire",
+      "polityId": "sweden-empire",
+      "kind": "polity",
+      "sourceYear": 1650,
+      "start": 1600,
+      "end": 1699,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1700-ottoman",
+      "polityId": "ottoman",
+      "kind": "polity",
+      "sourceYear": 1700,
+      "start": 1700,
+      "end": 1714,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1700-safavid",
+      "polityId": "safavid",
+      "kind": "polity",
+      "sourceYear": 1700,
+      "start": 1700,
+      "end": 1714,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1700-mughal",
+      "polityId": "mughal",
+      "kind": "polity",
+      "sourceYear": 1700,
+      "start": 1700,
+      "end": 1714,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1700-france",
+      "polityId": "france",
+      "kind": "polity",
+      "sourceYear": 1700,
+      "start": 1700,
+      "end": 1714,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1700-spain",
+      "polityId": "spain",
+      "kind": "polity",
+      "sourceYear": 1700,
+      "start": 1700,
+      "end": 1714,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1700-portugal",
+      "polityId": "portugal",
+      "kind": "polity",
+      "sourceYear": 1700,
+      "start": 1700,
+      "end": 1714,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1700-dutch-republic",
+      "polityId": "dutch-republic",
+      "kind": "polity",
+      "sourceYear": 1700,
+      "start": 1700,
+      "end": 1714,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1700-joseon",
+      "polityId": "joseon",
+      "kind": "polity",
+      "sourceYear": 1700,
+      "start": 1700,
+      "end": 1714,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1700-ayutthaya",
+      "polityId": "ayutthaya",
+      "kind": "polity",
+      "sourceYear": 1700,
+      "start": 1700,
+      "end": 1714,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1700-newspain",
+      "polityId": "newspain",
+      "kind": "polity",
+      "sourceYear": 1700,
+      "start": 1700,
+      "end": 1714,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1700-peru-viceroyalty-early",
+      "polityId": "peru-viceroyalty-early",
+      "kind": "polity",
+      "sourceYear": 1700,
+      "start": 1700,
+      "end": 1714,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1700-denmark-norway",
+      "polityId": "denmark-norway",
+      "kind": "polity",
+      "sourceYear": 1700,
+      "start": 1700,
+      "end": 1714,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1700-sweden-empire",
+      "polityId": "sweden-empire",
+      "kind": "polity",
+      "sourceYear": 1700,
+      "start": 1700,
+      "end": 1714,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1715-ottoman",
+      "polityId": "ottoman",
+      "kind": "polity",
+      "sourceYear": 1715,
+      "start": 1715,
+      "end": 1782,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1715-safavid",
+      "polityId": "safavid",
+      "kind": "polity",
+      "sourceYear": 1715,
+      "start": 1715,
+      "end": 1722,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1715-mughal",
+      "polityId": "mughal",
+      "kind": "polity",
+      "sourceYear": 1715,
+      "start": 1715,
+      "end": 1738,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1715-qing",
+      "polityId": "qing",
+      "kind": "polity",
+      "sourceYear": 1715,
+      "start": 1683,
+      "end": 1758,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1715-france",
+      "polityId": "france",
+      "kind": "polity",
+      "sourceYear": 1715,
+      "start": 1715,
+      "end": 1782,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1715-spain",
+      "polityId": "spain",
+      "kind": "polity",
+      "sourceYear": 1715,
+      "start": 1715,
+      "end": 1782,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1715-portugal",
+      "polityId": "portugal",
+      "kind": "polity",
+      "sourceYear": 1715,
+      "start": 1715,
+      "end": 1782,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1715-dutch-republic",
+      "polityId": "dutch-republic",
+      "kind": "polity",
+      "sourceYear": 1715,
+      "start": 1715,
+      "end": 1794,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1715-joseon",
+      "polityId": "joseon",
+      "kind": "polity",
+      "sourceYear": 1715,
+      "start": 1715,
+      "end": 1782,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1715-ayutthaya",
+      "polityId": "ayutthaya",
+      "kind": "polity",
+      "sourceYear": 1715,
+      "start": 1715,
+      "end": 1766,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1715-prussia",
+      "polityId": "prussia",
+      "kind": "polity",
+      "sourceYear": 1715,
+      "start": 1701,
+      "end": 1782,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1715-newspain",
+      "polityId": "newspain",
+      "kind": "polity",
+      "sourceYear": 1715,
+      "start": 1715,
+      "end": 1782,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1715-peru-viceroyalty-early",
+      "polityId": "peru-viceroyalty-early",
+      "kind": "polity",
+      "sourceYear": 1715,
+      "start": 1715,
+      "end": 1775,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1715-brazil-portuguese",
+      "polityId": "brazil-portuguese",
+      "kind": "polity",
+      "sourceYear": 1715,
+      "start": 1715,
+      "end": 1782,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1715-denmark-norway",
+      "polityId": "denmark-norway",
+      "kind": "polity",
+      "sourceYear": 1715,
+      "start": 1715,
+      "end": 1782,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1715-sweden-empire",
+      "polityId": "sweden-empire",
+      "kind": "polity",
+      "sourceYear": 1715,
+      "start": 1715,
+      "end": 1782,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1715-russian",
+      "polityId": "russian",
+      "kind": "polity",
+      "sourceYear": 1715,
+      "start": 1715,
+      "end": 1782,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1783-ottoman",
+      "polityId": "ottoman",
+      "kind": "polity",
+      "sourceYear": 1783,
+      "start": 1783,
+      "end": 1799,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1783-qing",
+      "polityId": "qing",
+      "kind": "polity",
+      "sourceYear": 1783,
+      "start": 1759,
+      "end": 1799,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1783-russian",
+      "polityId": "russian",
+      "kind": "polity",
+      "sourceYear": 1783,
+      "start": 1783,
+      "end": 1814,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1783-france",
+      "polityId": "france",
+      "kind": "polity",
+      "sourceYear": 1783,
+      "start": 1783,
+      "end": 1788,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1783-spain",
+      "polityId": "spain",
+      "kind": "polity",
+      "sourceYear": 1783,
+      "start": 1783,
+      "end": 1814,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1783-portugal",
+      "polityId": "portugal",
+      "kind": "polity",
+      "sourceYear": 1783,
+      "start": 1783,
+      "end": 1814,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1783-prussia",
+      "polityId": "prussia",
+      "kind": "polity",
+      "sourceYear": 1783,
+      "start": 1783,
+      "end": 1814,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1783-joseon",
+      "polityId": "joseon",
+      "kind": "polity",
+      "sourceYear": 1783,
+      "start": 1783,
+      "end": 1814,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1783-tokugawa",
+      "polityId": "tokugawa",
+      "kind": "polity",
+      "sourceYear": 1783,
+      "start": 1700,
+      "end": 1814,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1783-maratha",
+      "polityId": "maratha",
+      "kind": "polity",
+      "sourceYear": 1783,
+      "start": 1740,
+      "end": 1817,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1783-newspain",
+      "polityId": "newspain",
+      "kind": "polity",
+      "sourceYear": 1783,
+      "start": 1783,
+      "end": 1799,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1783-brazil-portuguese",
+      "polityId": "brazil-portuguese",
+      "kind": "polity",
+      "sourceYear": 1783,
+      "start": 1783,
+      "end": 1814,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1783-denmark-norway",
+      "polityId": "denmark-norway",
+      "kind": "polity",
+      "sourceYear": 1783,
+      "start": 1783,
+      "end": 1813,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1783-sweden-empire",
+      "polityId": "sweden-empire",
+      "kind": "polity",
+      "sourceYear": 1783,
+      "start": 1783,
+      "end": 1808,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1815-ottoman",
+      "polityId": "ottoman",
+      "kind": "polity",
+      "sourceYear": 1815,
+      "start": 1815,
+      "end": 1877,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1815-qing",
+      "polityId": "qing",
+      "kind": "polity",
+      "sourceYear": 1815,
+      "start": 1815,
+      "end": 1877,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1815-russian",
+      "polityId": "russian",
+      "kind": "polity",
+      "sourceYear": 1815,
+      "start": 1815,
+      "end": 1877,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1815-france-modern",
+      "polityId": "france-modern",
+      "kind": "polity",
+      "sourceYear": 1815,
+      "start": 1815,
+      "end": 1877,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1815-spain",
+      "polityId": "spain",
+      "kind": "polity",
+      "sourceYear": 1815,
+      "start": 1815,
+      "end": 1877,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1815-portugal",
+      "polityId": "portugal",
+      "kind": "polity",
+      "sourceYear": 1815,
+      "start": 1815,
+      "end": 1877,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1815-prussia",
+      "polityId": "prussia",
+      "kind": "polity",
+      "sourceYear": 1815,
+      "start": 1815,
+      "end": 1870,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1815-joseon",
+      "polityId": "joseon",
+      "kind": "polity",
+      "sourceYear": 1815,
+      "start": 1815,
+      "end": 1896,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1815-tokugawa",
+      "polityId": "tokugawa",
+      "kind": "polity",
+      "sourceYear": 1815,
+      "start": 1815,
+      "end": 1867,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1815-austrian-empire",
+      "polityId": "austrian-empire",
+      "kind": "polity",
+      "sourceYear": 1815,
+      "start": 1815,
+      "end": 1866,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1878-ottoman",
+      "polityId": "ottoman",
+      "kind": "polity",
+      "sourceYear": 1878,
+      "start": 1878,
+      "end": 1913,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1878-qing",
+      "polityId": "qing",
+      "kind": "polity",
+      "sourceYear": 1878,
+      "start": 1878,
+      "end": 1899,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1878-russian",
+      "polityId": "russian",
+      "kind": "polity",
+      "sourceYear": 1878,
+      "start": 1878,
+      "end": 1899,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1878-usa",
+      "polityId": "usa",
+      "kind": "polity",
+      "sourceYear": 1878,
+      "start": 1867,
+      "end": 1897,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1878-france-modern",
+      "polityId": "france-modern",
+      "kind": "polity",
+      "sourceYear": 1878,
+      "start": 1878,
+      "end": 1899,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1878-uk",
+      "polityId": "uk",
+      "kind": "polity",
+      "sourceYear": 1878,
+      "start": 1801,
+      "end": 1899,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1878-germany",
+      "polityId": "germany",
+      "kind": "polity",
+      "sourceYear": 1878,
+      "start": 1871,
+      "end": 1899,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1878-austriahungary",
+      "polityId": "austriahungary",
+      "kind": "polity",
+      "sourceYear": 1878,
+      "start": 1867,
+      "end": 1899,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1878-british-india",
+      "polityId": "british-india",
+      "kind": "polity",
+      "sourceYear": 1878,
+      "start": 1858,
+      "end": 1899,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1878-japan",
+      "polityId": "japan",
+      "kind": "polity",
+      "sourceYear": 1878,
+      "start": 1868,
+      "end": 1899,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1878-mexico",
+      "polityId": "mexico",
+      "kind": "polity",
+      "sourceYear": 1878,
+      "start": 1853,
+      "end": 1899,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1878-argentina",
+      "polityId": "argentina",
+      "kind": "polity",
+      "sourceYear": 1878,
+      "start": 1862,
+      "end": 1899,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1878-portugal",
+      "polityId": "portugal",
+      "kind": "polity",
+      "sourceYear": 1878,
+      "start": 1878,
+      "end": 1913,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1878-spain",
+      "polityId": "spain",
+      "kind": "polity",
+      "sourceYear": 1878,
+      "start": 1878,
+      "end": 1913,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1914-russian",
+      "polityId": "russian",
+      "kind": "polity",
+      "sourceYear": 1914,
+      "start": 1914,
+      "end": 1916,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1914-usa",
+      "polityId": "usa",
+      "kind": "polity",
+      "sourceYear": 1914,
+      "start": 1914,
+      "end": 1919,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1914-france-modern",
+      "polityId": "france-modern",
+      "kind": "polity",
+      "sourceYear": 1914,
+      "start": 1914,
+      "end": 1919,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1914-uk",
+      "polityId": "uk",
+      "kind": "polity",
+      "sourceYear": 1914,
+      "start": 1914,
+      "end": 1919,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1914-germany",
+      "polityId": "germany",
+      "kind": "polity",
+      "sourceYear": 1914,
+      "start": 1914,
+      "end": 1918,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1914-austriahungary",
+      "polityId": "austriahungary",
+      "kind": "polity",
+      "sourceYear": 1914,
+      "start": 1914,
+      "end": 1917,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1914-british-india",
+      "polityId": "british-india",
+      "kind": "polity",
+      "sourceYear": 1914,
+      "start": 1914,
+      "end": 1919,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1914-japan",
+      "polityId": "japan",
+      "kind": "polity",
+      "sourceYear": 1914,
+      "start": 1914,
+      "end": 1919,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1914-mexico",
+      "polityId": "mexico",
+      "kind": "polity",
+      "sourceYear": 1914,
+      "start": 1914,
+      "end": 1919,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1914-argentina",
+      "polityId": "argentina",
+      "kind": "polity",
+      "sourceYear": 1914,
+      "start": 1914,
+      "end": 1919,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1914-brazil",
+      "polityId": "brazil",
+      "kind": "polity",
+      "sourceYear": 1914,
+      "start": 1889,
+      "end": 1919,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1914-portugal",
+      "polityId": "portugal",
+      "kind": "polity",
+      "sourceYear": 1914,
+      "start": 1914,
+      "end": 1919,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1914-spain",
+      "polityId": "spain",
+      "kind": "polity",
+      "sourceYear": 1914,
+      "start": 1914,
+      "end": 1919,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1914-australia",
+      "polityId": "australia",
+      "kind": "polity",
+      "sourceYear": 1914,
+      "start": 1901,
+      "end": 1919,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1914-newzealand",
+      "polityId": "newzealand",
+      "kind": "polity",
+      "sourceYear": 1914,
+      "start": 1907,
+      "end": 1919,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1920-germany",
+      "polityId": "germany",
+      "kind": "polity",
+      "sourceYear": 1920,
+      "start": 1919,
+      "end": 1929,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1920-czechoslovakia",
+      "polityId": "czechoslovakia",
+      "kind": "polity",
+      "sourceYear": 1920,
+      "start": 1918,
+      "end": 1929,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1920-yugoslavia-kingdom",
+      "polityId": "yugoslavia-kingdom",
+      "kind": "polity",
+      "sourceYear": 1920,
+      "start": 1918,
+      "end": 1928,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1920-usa",
+      "polityId": "usa",
+      "kind": "polity",
+      "sourceYear": 1920,
+      "start": 1920,
+      "end": 1929,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1920-france-modern",
+      "polityId": "france-modern",
+      "kind": "polity",
+      "sourceYear": 1920,
+      "start": 1920,
+      "end": 1929,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1920-uk",
+      "polityId": "uk",
+      "kind": "polity",
+      "sourceYear": 1920,
+      "start": 1920,
+      "end": 1922,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1920-british-india",
+      "polityId": "british-india",
+      "kind": "polity",
+      "sourceYear": 1920,
+      "start": 1920,
+      "end": 1929,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1920-japan",
+      "polityId": "japan",
+      "kind": "polity",
+      "sourceYear": 1920,
+      "start": 1920,
+      "end": 1929,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1920-mexico",
+      "polityId": "mexico",
+      "kind": "polity",
+      "sourceYear": 1920,
+      "start": 1920,
+      "end": 1929,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1920-argentina",
+      "polityId": "argentina",
+      "kind": "polity",
+      "sourceYear": 1920,
+      "start": 1920,
+      "end": 1929,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1920-brazil",
+      "polityId": "brazil",
+      "kind": "polity",
+      "sourceYear": 1920,
+      "start": 1920,
+      "end": 1929,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1920-portugal",
+      "polityId": "portugal",
+      "kind": "polity",
+      "sourceYear": 1920,
+      "start": 1920,
+      "end": 1929,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1920-spain",
+      "polityId": "spain",
+      "kind": "polity",
+      "sourceYear": 1920,
+      "start": 1920,
+      "end": 1929,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1920-australia",
+      "polityId": "australia",
+      "kind": "polity",
+      "sourceYear": 1920,
+      "start": 1920,
+      "end": 1929,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1920-newzealand",
+      "polityId": "newzealand",
+      "kind": "polity",
+      "sourceYear": 1920,
+      "start": 1920,
+      "end": 1929,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1930-germany",
+      "polityId": "germany",
+      "kind": "polity",
+      "sourceYear": 1930,
+      "start": 1930,
+      "end": 1937,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1930-czechoslovakia",
+      "polityId": "czechoslovakia",
+      "kind": "polity",
+      "sourceYear": 1930,
+      "start": 1930,
+      "end": 1938,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1930-yugoslavia-kingdom",
+      "polityId": "yugoslavia-kingdom",
+      "kind": "polity",
+      "sourceYear": 1930,
+      "start": 1929,
+      "end": 1940,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1930-usa",
+      "polityId": "usa",
+      "kind": "polity",
+      "sourceYear": 1930,
+      "start": 1930,
+      "end": 1937,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1930-france-modern",
+      "polityId": "france-modern",
+      "kind": "polity",
+      "sourceYear": 1930,
+      "start": 1930,
+      "end": 1939,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1930-british-india",
+      "polityId": "british-india",
+      "kind": "polity",
+      "sourceYear": 1930,
+      "start": 1930,
+      "end": 1946,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1930-japan",
+      "polityId": "japan",
+      "kind": "polity",
+      "sourceYear": 1930,
+      "start": 1930,
+      "end": 1937,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1930-mexico",
+      "polityId": "mexico",
+      "kind": "polity",
+      "sourceYear": 1930,
+      "start": 1930,
+      "end": 1937,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1930-argentina",
+      "polityId": "argentina",
+      "kind": "polity",
+      "sourceYear": 1930,
+      "start": 1930,
+      "end": 1937,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1930-brazil",
+      "polityId": "brazil",
+      "kind": "polity",
+      "sourceYear": 1930,
+      "start": 1930,
+      "end": 1937,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1930-portugal",
+      "polityId": "portugal",
+      "kind": "polity",
+      "sourceYear": 1930,
+      "start": 1930,
+      "end": 1937,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1930-spain",
+      "polityId": "spain",
+      "kind": "polity",
+      "sourceYear": 1930,
+      "start": 1930,
+      "end": 1937,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1930-australia",
+      "polityId": "australia",
+      "kind": "polity",
+      "sourceYear": 1930,
+      "start": 1930,
+      "end": 1937,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1930-newzealand",
+      "polityId": "newzealand",
+      "kind": "polity",
+      "sourceYear": 1930,
+      "start": 1930,
+      "end": 1937,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1930-turkey",
+      "polityId": "turkey",
+      "kind": "polity",
+      "sourceYear": 1930,
+      "start": 1923,
+      "end": 1959,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1930-poland",
+      "polityId": "poland",
+      "kind": "polity",
+      "sourceYear": 1930,
+      "start": 1921,
+      "end": 1938,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1938-ussr",
+      "polityId": "ussr",
+      "kind": "polity",
+      "sourceYear": 1938,
+      "start": 1922,
+      "end": 1944,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1938-germany",
+      "polityId": "germany",
+      "kind": "polity",
+      "sourceYear": 1938,
+      "start": 1938,
+      "end": 1944,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1938-usa",
+      "polityId": "usa",
+      "kind": "polity",
+      "sourceYear": 1938,
+      "start": 1938,
+      "end": 1944,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1938-uk",
+      "polityId": "uk",
+      "kind": "polity",
+      "sourceYear": 1938,
+      "start": 1923,
+      "end": 1944,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1938-ireland",
+      "polityId": "ireland",
+      "kind": "polity",
+      "sourceYear": 1938,
+      "start": 1923,
+      "end": 1959,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1938-japan",
+      "polityId": "japan",
+      "kind": "polity",
+      "sourceYear": 1938,
+      "start": 1938,
+      "end": 1944,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1938-mexico",
+      "polityId": "mexico",
+      "kind": "polity",
+      "sourceYear": 1938,
+      "start": 1938,
+      "end": 1944,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1938-argentina",
+      "polityId": "argentina",
+      "kind": "polity",
+      "sourceYear": 1938,
+      "start": 1938,
+      "end": 1944,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1938-brazil",
+      "polityId": "brazil",
+      "kind": "polity",
+      "sourceYear": 1938,
+      "start": 1938,
+      "end": 1944,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1938-portugal",
+      "polityId": "portugal",
+      "kind": "polity",
+      "sourceYear": 1938,
+      "start": 1938,
+      "end": 1944,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1938-spain",
+      "polityId": "spain",
+      "kind": "polity",
+      "sourceYear": 1938,
+      "start": 1938,
+      "end": 1944,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1938-australia",
+      "polityId": "australia",
+      "kind": "polity",
+      "sourceYear": 1938,
+      "start": 1938,
+      "end": 1944,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1938-newzealand",
+      "polityId": "newzealand",
+      "kind": "polity",
+      "sourceYear": 1938,
+      "start": 1938,
+      "end": 1944,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1945-ussr",
+      "polityId": "ussr",
+      "kind": "polity",
+      "sourceYear": 1945,
+      "start": 1945,
+      "end": 1959,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1945-usa",
+      "polityId": "usa",
+      "kind": "polity",
+      "sourceYear": 1945,
+      "start": 1945,
+      "end": 1959,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1945-france-modern",
+      "polityId": "france-modern",
+      "kind": "polity",
+      "sourceYear": 1945,
+      "start": 1945,
+      "end": 1959,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1945-uk",
+      "polityId": "uk",
+      "kind": "polity",
+      "sourceYear": 1945,
+      "start": 1945,
+      "end": 1959,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1945-czechoslovakia",
+      "polityId": "czechoslovakia",
+      "kind": "polity",
+      "sourceYear": 1945,
+      "start": 1945,
+      "end": 1959,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1945-yugoslavia-sfr",
+      "polityId": "yugoslavia-sfr",
+      "kind": "polity",
+      "sourceYear": 1945,
+      "start": 1945,
+      "end": 1959,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1945-poland",
+      "polityId": "poland",
+      "kind": "polity",
+      "sourceYear": 1945,
+      "start": 1945,
+      "end": 1959,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1945-china-republic-mainland",
+      "polityId": "china-republic-mainland",
+      "kind": "polity",
+      "sourceYear": 1945,
+      "start": 1945,
+      "end": 1948,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1945-mexico",
+      "polityId": "mexico",
+      "kind": "polity",
+      "sourceYear": 1945,
+      "start": 1945,
+      "end": 1959,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1945-argentina",
+      "polityId": "argentina",
+      "kind": "polity",
+      "sourceYear": 1945,
+      "start": 1945,
+      "end": 1959,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1945-brazil",
+      "polityId": "brazil",
+      "kind": "polity",
+      "sourceYear": 1945,
+      "start": 1945,
+      "end": 1959,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1945-portugal",
+      "polityId": "portugal",
+      "kind": "polity",
+      "sourceYear": 1945,
+      "start": 1945,
+      "end": 1959,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1945-spain",
+      "polityId": "spain",
+      "kind": "polity",
+      "sourceYear": 1945,
+      "start": 1945,
+      "end": 1959,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1945-australia",
+      "polityId": "australia",
+      "kind": "polity",
+      "sourceYear": 1945,
+      "start": 1945,
+      "end": 1959,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1945-newzealand",
+      "polityId": "newzealand",
+      "kind": "polity",
+      "sourceYear": 1945,
+      "start": 1945,
+      "end": 1959,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1960-china-modern",
+      "polityId": "china-modern",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1949,
+      "end": 1993,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-taiwan-roc",
+      "polityId": "taiwan-roc",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1949,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-czechoslovakia",
+      "polityId": "czechoslovakia",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1960,
+      "end": 1992,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1960-yugoslavia-sfr",
+      "polityId": "yugoslavia-sfr",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1960,
+      "end": 1990,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1960-poland",
+      "polityId": "poland",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1960,
+      "end": 1993,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1960-canada",
+      "polityId": "canada",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1949,
+      "end": 1993,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-sudan",
+      "polityId": "sudan",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1956,
+      "end": 1993,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-south-africa",
+      "polityId": "south-africa",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1910,
+      "end": 1993,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-nigeria",
+      "polityId": "nigeria",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1960,
+      "end": 1993,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1960-thailand",
+      "polityId": "thailand",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1939,
+      "end": 1993,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-portugal",
+      "polityId": "portugal",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1960,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1960-spain",
+      "polityId": "spain",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1960,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1960-north-korea",
+      "polityId": "north-korea",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1948,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-south-korea",
+      "polityId": "south-korea",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1948,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-norway",
+      "polityId": "norway",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-sweden",
+      "polityId": "sweden",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-finland",
+      "polityId": "finland",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-denmark",
+      "polityId": "denmark",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-netherlands",
+      "polityId": "netherlands",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-belgium",
+      "polityId": "belgium",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-switzerland",
+      "polityId": "switzerland",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-austria",
+      "polityId": "austria",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1955,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-italy",
+      "polityId": "italy",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1947,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-greece",
+      "polityId": "greece",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1947,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-hungary",
+      "polityId": "hungary",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1947,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-romania",
+      "polityId": "romania",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1947,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-bulgaria",
+      "polityId": "bulgaria",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1947,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-iceland",
+      "polityId": "iceland",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1944,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-ireland",
+      "polityId": "ireland",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1960,
+      "end": 2010,
+      "backwardReviewed": false
+    },
+    {
+      "id": "1960-afghanistan",
+      "polityId": "afghanistan",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-iran",
+      "polityId": "iran",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-iraq",
+      "polityId": "iraq",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-saudi-arabia",
+      "polityId": "saudi-arabia",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-nepal",
+      "polityId": "nepal",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-mongolia",
+      "polityId": "mongolia",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-cambodia",
+      "polityId": "cambodia",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1953,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-laos",
+      "polityId": "laos",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1953,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-chile",
+      "polityId": "chile",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-peru",
+      "polityId": "peru",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-bolivia",
+      "polityId": "bolivia",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-colombia",
+      "polityId": "colombia",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-venezuela",
+      "polityId": "venezuela",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-ecuador",
+      "polityId": "ecuador",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-uruguay",
+      "polityId": "uruguay",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-paraguay",
+      "polityId": "paraguay",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-panama",
+      "polityId": "panama",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-costa-rica",
+      "polityId": "costa-rica",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-nicaragua",
+      "polityId": "nicaragua",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-el-salvador",
+      "polityId": "el-salvador",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-guatemala",
+      "polityId": "guatemala",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-honduras",
+      "polityId": "honduras",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-haiti",
+      "polityId": "haiti",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-dominican-republic",
+      "polityId": "dominican-republic",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-cuba",
+      "polityId": "cuba",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "1960-liberia",
+      "polityId": "liberia",
+      "kind": "polity",
+      "sourceYear": 1960,
+      "start": 1945,
+      "end": 2010,
+      "backwardReviewed": true
+    },
+    {
+      "id": "-2000-kerma",
+      "polityId": "kerma",
+      "kind": "polity",
+      "sourceYear": -2000,
+      "start": -2500,
+      "end": -1551,
+      "backwardReviewed": true
+    },
+    {
+      "id": "-2000-indus",
+      "polityId": "indus",
+      "kind": "culture",
+      "sourceYear": -2000,
+      "start": -2600,
+      "end": -1900,
+      "backwardReviewed": true
+    },
+    {
+      "id": "-2000-minoan",
+      "polityId": "minoan",
+      "kind": "culture",
+      "sourceYear": -2000,
+      "start": -2500,
+      "end": -1450,
+      "backwardReviewed": true
+    },
+    {
+      "id": "-1500-babylonia-kassite",
+      "polityId": "babylonia-kassite",
+      "kind": "polity",
+      "sourceYear": -1500,
+      "start": -1595,
+      "end": -1155,
+      "backwardReviewed": true
+    },
+    {
+      "id": "-1500-egypt-new-kingdom",
+      "polityId": "egypt-new-kingdom",
+      "kind": "polity",
+      "sourceYear": -1500,
+      "start": -1550,
+      "end": -1071,
+      "backwardReviewed": true
+    },
+    {
+      "id": "-1000-assyria",
+      "polityId": "assyria",
+      "kind": "polity",
+      "sourceYear": -1000,
+      "start": -1100,
+      "end": -701,
+      "backwardReviewed": true
+    },
+    {
+      "id": "-1000-babylonia",
+      "polityId": "babylonia",
+      "kind": "polity",
+      "sourceYear": -1000,
+      "start": -1154,
+      "end": -701,
+      "backwardReviewed": true
+    },
+    {
+      "id": "-1000-egypt-divided",
+      "polityId": "egypt-divided",
+      "kind": "polity",
+      "sourceYear": -1000,
+      "start": -1070,
+      "end": -748,
+      "backwardReviewed": true
+    },
+    {
+      "id": "-700-assyria",
+      "polityId": "assyria",
+      "kind": "polity",
+      "sourceYear": -700,
+      "start": -700,
+      "end": -609,
+      "backwardReviewed": false
+    },
+    {
+      "id": "-700-babylonia",
+      "polityId": "babylonia",
+      "kind": "polity",
+      "sourceYear": -700,
+      "start": -700,
+      "end": -540,
+      "backwardReviewed": false
+    },
+    {
+      "id": "-700-kushite-egypt",
+      "polityId": "kushite-egypt",
+      "kind": "polity",
+      "sourceYear": -700,
+      "start": -747,
+      "end": -672,
+      "backwardReviewed": true
+    },
+    {
+      "id": "-400-roman-republic",
+      "polityId": "roman-republic",
+      "kind": "polity",
+      "sourceYear": -400,
+      "start": -400,
+      "end": -301,
+      "backwardReviewed": false
+    },
+    {
+      "id": "-300-roman-republic",
+      "polityId": "roman-republic",
+      "kind": "polity",
+      "sourceYear": -300,
+      "start": -300,
+      "end": -201,
+      "backwardReviewed": false
+    },
+    {
+      "id": "-300-seleucid",
+      "polityId": "seleucid",
+      "kind": "polity",
+      "sourceYear": -300,
+      "start": -312,
+      "end": -201,
+      "backwardReviewed": true
+    },
+    {
+      "id": "-300-ptolemaic",
+      "polityId": "ptolemaic",
+      "kind": "polity",
+      "sourceYear": -300,
+      "start": -305,
+      "end": -201,
+      "backwardReviewed": true
+    },
+    {
+      "id": "-300-maurya",
+      "polityId": "maurya",
+      "kind": "polity",
+      "sourceYear": -300,
+      "start": -321,
+      "end": -201,
+      "backwardReviewed": true
+    },
+    {
+      "id": "-300-kush",
+      "polityId": "kush",
+      "kind": "polity",
+      "sourceYear": -300,
+      "start": -300,
+      "end": -201,
+      "backwardReviewed": false
+    },
+    {
+      "id": "-300-carthage",
+      "polityId": "carthage",
+      "kind": "polity",
+      "sourceYear": -300,
+      "start": -300,
+      "end": -147,
+      "backwardReviewed": false
+    },
+    {
+      "id": "-200-roman-republic",
+      "polityId": "roman-republic",
+      "kind": "polity",
+      "sourceYear": -200,
+      "start": -200,
+      "end": -101,
+      "backwardReviewed": false
+    },
+    {
+      "id": "-200-seleucid",
+      "polityId": "seleucid",
+      "kind": "polity",
+      "sourceYear": -200,
+      "start": -200,
+      "end": -64,
+      "backwardReviewed": false
+    },
+    {
+      "id": "-200-ptolemaic",
+      "polityId": "ptolemaic",
+      "kind": "polity",
+      "sourceYear": -200,
+      "start": -200,
+      "end": -101,
+      "backwardReviewed": false
+    },
+    {
+      "id": "-200-maurya",
+      "polityId": "maurya",
+      "kind": "polity",
+      "sourceYear": -200,
+      "start": -200,
+      "end": -185,
+      "backwardReviewed": false
+    },
+    {
+      "id": "-200-han",
+      "polityId": "han",
+      "kind": "polity",
+      "sourceYear": -200,
+      "start": -202,
+      "end": -101,
+      "backwardReviewed": true
+    },
+    {
+      "id": "-200-parthian",
+      "polityId": "parthian",
+      "kind": "polity",
+      "sourceYear": -200,
+      "start": -247,
+      "end": -101,
+      "backwardReviewed": true
+    },
+    {
+      "id": "-200-kush",
+      "polityId": "kush",
+      "kind": "polity",
+      "sourceYear": -200,
+      "start": -200,
+      "end": -101,
+      "backwardReviewed": false
+    },
+    {
+      "id": "-100-roman-republic",
+      "polityId": "roman-republic",
+      "kind": "polity",
+      "sourceYear": -100,
+      "start": -100,
+      "end": -28,
+      "backwardReviewed": false
+    },
+    {
+      "id": "-100-ptolemaic",
+      "polityId": "ptolemaic",
+      "kind": "polity",
+      "sourceYear": -100,
+      "start": -100,
+      "end": -30,
+      "backwardReviewed": false
+    },
+    {
+      "id": "-100-han",
+      "polityId": "han",
+      "kind": "polity",
+      "sourceYear": -100,
+      "start": -100,
+      "end": -2,
+      "backwardReviewed": false
+    },
+    {
+      "id": "-100-parthian",
+      "polityId": "parthian",
+      "kind": "polity",
+      "sourceYear": -100,
+      "start": -100,
+      "end": -2,
+      "backwardReviewed": false
+    },
+    {
+      "id": "-100-kush",
+      "polityId": "kush",
+      "kind": "polity",
+      "sourceYear": -100,
+      "start": -100,
+      "end": -2,
+      "backwardReviewed": false
+    }
+  ],
+  "sourceFiles": [
+    {
+      "year": 100,
+      "file": "world_100.geojson",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_100.geojson",
+      "sourceSha256": "d3dba3d4988e481d6438821b7fad847946f7d549c602ebc5a3b49c508358f6ef",
+      "bytes": 1182426
+    },
+    {
+      "year": 400,
+      "file": "world_400.geojson",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_400.geojson",
+      "sourceSha256": "3a3cf57e1d117e81b49b9344af49b73fec0674aa14e7d1d1f1d345d08f9ce1f7",
+      "bytes": 1123300
+    },
+    {
+      "year": 500,
+      "file": "world_500.geojson",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_500.geojson",
+      "sourceSha256": "06f7512efec9151b91b5967e8bee3e2dacf8c623e8719de8c64a996bec5ec2c1",
+      "bytes": 968264
+    },
+    {
+      "year": 700,
+      "file": "world_700.geojson",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_700.geojson",
+      "sourceSha256": "bb66ebee15e57f5d43b0ca524dd9a230651bb821e7e002882b1981a25fd42a38",
+      "bytes": 966976
+    },
+    {
+      "year": 900,
+      "file": "world_900.geojson",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_900.geojson",
+      "sourceSha256": "f483b93e799d6518830ed6da6c3772c49170872d0f07515981a53e71d8dbc74c",
+      "bytes": 1056118
+    },
+    {
+      "year": 1100,
+      "file": "world_1100.geojson",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1100.geojson",
+      "sourceSha256": "8b038ee5ec8f032d01a67293e7cf08b7bd3ed58e00defc06af9144e67e708a86",
+      "bytes": 1065110
+    },
+    {
+      "year": 1650,
+      "file": "world_1650.geojson",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1650.geojson",
+      "sourceSha256": "e691a3b5bab4ca7a0629daffaf8cd31731ee76ad390b19dffc1c267b139de4e2",
+      "bytes": 1650748
+    },
+    {
+      "year": 1700,
+      "file": "world_1700.geojson",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1700.geojson",
+      "sourceSha256": "eb73d6b00e98205fb2082de050c35e4d698224b17849628d82584610186b88a4",
+      "bytes": 1625990
+    },
+    {
+      "year": 1715,
+      "file": "world_1715.geojson",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1715.geojson",
+      "sourceSha256": "fdf5097dd21c30c9d7bfb1d5c2c2a11a5a39c397e6910116d7173580619f5b5a",
+      "bytes": 1695707
+    },
+    {
+      "year": 1783,
+      "file": "world_1783.geojson",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1783.geojson",
+      "sourceSha256": "7cfa92418a8628dffa41e386394b86fb6f93310e449d8261990f6903160c1060",
+      "bytes": 1668045
+    },
+    {
+      "year": 1815,
+      "file": "world_1815.geojson",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1815.geojson",
+      "sourceSha256": "fb654f734583f550904cfa45f361e395c1a488c4960050da2632cb2ac7d1cd1e",
+      "bytes": 2413409
+    },
+    {
+      "year": 1878,
+      "file": "world_1878.geojson",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1878.geojson",
+      "sourceSha256": "e792520cd24cfb77b117d41533a59b0a5b82fc53a291fff1549ddc73e7f9a8b2",
+      "bytes": 1713853
+    },
+    {
+      "year": 1914,
+      "file": "world_1914.geojson",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1914.geojson",
+      "sourceSha256": "a99425f9486e2243835fdc75ad7d82e6ddf3c72fcef87a63429f3313d830cf19",
+      "bytes": 1289554
+    },
+    {
+      "year": 1920,
+      "file": "world_1920.geojson",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1920.geojson",
+      "sourceSha256": "fce1c97dc6a6095594cbb7eb896ccd5ce8b2d72254e73a24148c0a4ea200849f",
+      "bytes": 1685651
+    },
+    {
+      "year": 1930,
+      "file": "world_1930.geojson",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1930.geojson",
+      "sourceSha256": "5666e451125ceb0193532338bfecf6f403e1a4d7ff62f54fd560cafb0b0b1b61",
+      "bytes": 1403416
+    },
+    {
+      "year": 1938,
+      "file": "world_1938.geojson",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1938.geojson",
+      "sourceSha256": "f2565926fed1b197227b7fe126934a43ed75b8fce007e38be72a7d21a415d813",
+      "bytes": 1637285
+    },
+    {
+      "year": 1945,
+      "file": "world_1945.geojson",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1945.geojson",
+      "sourceSha256": "3005839db7bcc5256d511b3abb01f1140c0cce245189bc5c28e7d557a47bc775",
+      "bytes": 1563965
+    },
+    {
+      "year": 1960,
+      "file": "world_1960.geojson",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_1960.geojson",
+      "sourceSha256": "6067386755f8fc120a4fca44f198952a18da89cd062aa8013d5a0d08cbad8988",
+      "bytes": 1502004
+    },
+    {
+      "year": -2000,
+      "file": "world_bc2000.geojson",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc2000.geojson",
+      "sourceSha256": "9d08a2390ca3d82f46eccfe97f44949922b69e4bb733f0fc2120e579de52a5d3",
+      "bytes": 858855
+    },
+    {
+      "year": -1500,
+      "file": "world_bc1500.geojson",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc1500.geojson",
+      "sourceSha256": "b17e8fab42e47b09fa8d52941d9fd55e03b0e3ba22dd0a71ad20f76e517ce485",
+      "bytes": 874767
+    },
+    {
+      "year": -1000,
+      "file": "world_bc1000.geojson",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc1000.geojson",
+      "sourceSha256": "ace64cae988ab72ab5536b76e052a9564eed81390404bccbc5e6a48ac646d7fc",
+      "bytes": 875454
+    },
+    {
+      "year": -700,
+      "file": "world_bc700.geojson",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc700.geojson",
+      "sourceSha256": "83515442984c57d4939c7fb236f16e8ab88411b76a26214cdf86b390ae36965c",
+      "bytes": 881812
+    },
+    {
+      "year": -400,
+      "file": "world_bc400.geojson",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc400.geojson",
+      "sourceSha256": "7c657b265b2896744efa2c56dd66f0f4a8e647f9dd3c3fbe2c4575515e4b260b",
+      "bytes": 899211
+    },
+    {
+      "year": -300,
+      "file": "world_bc300.geojson",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc300.geojson",
+      "sourceSha256": "d181645f7963e893fc5502a496c14927316939a2a38cba7722a38b75f80cf633",
+      "bytes": 909380
+    },
+    {
+      "year": -200,
+      "file": "world_bc200.geojson",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc200.geojson",
+      "sourceSha256": "e192a3330a7e51358b61a6bfffaf6ff3e9ebf4eb96b532a23632316e86066a80",
+      "bytes": 948654
+    },
+    {
+      "year": -100,
+      "file": "world_bc100.geojson",
+      "url": "https://github.com/aourednik/historical-basemaps/blob/da7a4b735ecef70aebdc9c73e409d8a2500d50f3/geojson/world_bc100.geojson",
+      "sourceSha256": "80ce07508ef86b4c4943193d7562578dc1150976bd0eb07581c620acf3044874",
+      "bytes": 958695
+    }
+  ],
+  "limits": "Intervals support named-state/cultural context, not the exactness of selected-year frontiers. Source outlines are not interpolated. Civil-war and contested-control transitions remain partial. No CShapes geometry redistributed.",
+  "temporalCoverage": {
+    "firstYear": -2600,
+    "lastYear": 2010,
+    "reviewedCivilYears": 4610,
+    "yearsWithoutAnyContext": [],
+    "interpretation": "Presence of at least one reviewed society/state reference; not complete global geography."
+  }
+}
