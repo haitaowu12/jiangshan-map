@@ -1,5 +1,7 @@
 # GPT Pro research handoff — World History Atlas
 
+> **V10 continuation:** This document preserves the V9 research handoff and its inventory. The active collection now follows [V10 delivery](V10_RELEASE.md), [V10 verification](V10_VERIFICATION.md) and `dist/data/content-expansion-v10.json`. New work used direct inspection of public sources; no external GPT Pro or Gemini deep-research report was imported. Use `npm run build:content` for the current manifest; do not rebuild or rewrite the frozen V9 files merely to update current counts.
+
 ## Start here
 
 The owner will conduct this research in GPT Pro. No GPT Pro research report has yet been produced or incorporated. The earlier Gemini requests did not return a report; do not treat their prompts as evidence. This handoff and the complete implementation are in the `world/` directory of the `world-history-atlas` branch in `haitaowu12/jiangshan-map`.
