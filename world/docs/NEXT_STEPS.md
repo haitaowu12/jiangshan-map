@@ -1,4 +1,8 @@
-# Next steps after V12, worldwide regions and the selective upstream update
+# Next steps after application 0.13.0
+
+[0.13.0 method and review](AMERICAS_HISTORY_013.md) supersedes earlier statements about US/Canada map coverage: dated Newberry/NRCan administrative references now coexist with global dated sources, while Modern geography is a distinct 2022 view. The current collection has 535 life milestones. GPT Pro and Gemini Argon High supplied bounded research/review leads; independently checked changes and unadopted leads are listed there. Continue earlier North American coverage, dated sources for other countries, community/tribal histories, bilingual location caveats and the existing Jiangshan review queue. Do not describe this bounded review as validation of the entire atlas.
+
+## Retained V12 / 0.12.0 continuation context
 
 Application 0.12.0 selectively incorporates the original Jiangshan upstream at `10fdcaee`: see [intake and UI review](JIANGSHAN_UI_UPDATE.md) and the candidate ledger. It retains the frozen V12/import baselines. Next China work should independently review the 35 new landmark and nine profile leads, especially the Di Renjie persons/cases translation mismatch and Zhang Liang anecdote attribution; new donor chronology and geometry remain unadopted.
 
