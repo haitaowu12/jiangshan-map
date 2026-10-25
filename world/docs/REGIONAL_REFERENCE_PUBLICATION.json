@@ -1,0 +1,47 @@
+{
+  "applicationVersion": "0.11.1",
+  "contentVersion": "0.11.0",
+  "publishedAt": "2026-10-25T19:12:32.583806+00:00",
+  "url": "https://world-history-atlas-tony.techiesea.chatgpt.site",
+  "canonicalBranch": "world-history-atlas",
+  "implementationCommit": "1c110d7517f04aa6311f4658f2079b17d529eda4",
+  "siteProjectId": "appgprj_6ad99670954c81919b26d00c89ff19f4",
+  "siteSourceCommit": "d9b73b5ae3cea9a7c19638223e8a4f9921c72a03",
+  "siteVersionId": "appgprj_6ad99670954c81919b26d00c89ff19f4~appgver_e936f610363c8191be1a7abf20369b89",
+  "siteVersionNumber": 12,
+  "deploymentId": "appgdep_6ade549565808191b0824b45290fed87",
+  "status": "succeeded",
+  "accessMode": "public",
+  "checks": {
+    "passed": 187,
+    "failed": 0,
+    "skipped": 0
+  },
+  "map": {
+    "sourceRelease": "Natural Earth 5.1.1",
+    "sourceYear": 2022,
+    "units": 4596,
+    "countryAreaGroups": 251,
+    "defaultEnabled": true,
+    "autoZoomThreshold": 1.8
+  },
+  "liveVerification": {
+    "canadaUnitsRendered": 13,
+    "chinaUnitsRendered": 32,
+    "canadianProvinceLabelsObserved": [
+      "British Columbia",
+      "Saskatchewan",
+      "Ontario",
+      "Quebec",
+      "New Brunswick",
+      "Yukon",
+      "Nunavut"
+    ],
+    "chinaProvinceButtonsObserved": [
+      "Beijing",
+      "Sichuan",
+      "Guangdong"
+    ],
+    "atlasConsoleErrors": 0
+  }
+}

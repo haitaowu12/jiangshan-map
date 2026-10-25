@@ -42,3 +42,10 @@ The full application suite passed **187 tests** on Node 22.18.0. Eleven new regi
 Local in-app-browser checks observed the always-visible Regions button, all 13 Canadian units and all 51 US units in the browser, Canadian province names on the map, US state names, and Chinese province buttons including Beijing, Sichuan and Guangdong. Country URL changes preserved the year/language and moved the view. A 390 × 844 iframe check exercised Chinese country browsing, the 13-unit Canadian directory, Ontario search and keyboard activation into its 14 linked histories. Normal-flow console error logs were empty. This is scoped browser QA, not a physical-device or full accessibility audit. The temporary harness was removed.
 
 Publication uses the existing public Site identity and audience, followed by actual live-page checks of the new controls and boundaries. Exact source/version/deployment identities belong in `REGIONAL_REFERENCE_PUBLICATION.json` after the native operation succeeds.
+
+
+## Publication and live checks
+
+Published successfully on 25 October 2026 to the existing public atlas. The Sites package passed all 187 tests. The live page itself rendered all 13 Canadian units, with named provinces and neighbouring US states, and all 32 China source units, including accessible Beijing/Sichuan/Guangdong buttons. The global Regions control and source-year status were present; atlas console logs contained no errors. External Natural Earth page-script errors from the earlier research tab are not atlas errors. Exact identities and counts are recorded in [publication receipt](REGIONAL_REFERENCE_PUBLICATION.json).
+
+Updated direct links use a version query to force a new document load even from an older open atlas tab: `/?v=0.11.1#year=1867&lang=en&mode=all&regions=CAN`, or `regions=USA`, `regions=CHN`, `regions=IND`, and other source country/area codes. This avoids an older running app stripping the new hash parameter before it has loaded the update.
