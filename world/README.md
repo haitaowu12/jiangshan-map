@@ -2,15 +2,23 @@
 
 A bilingual, source-backed atlas for exploring histories that existed at the same time across the world. Inspired by [Jiangshan Map / 江山时序](https://github.com/haitaowu12/jiangshan-map), this world-scale implementation combines a time slider, selected historical territories, places, people, routes and guided study.
 
-[Live atlas](https://world-history-atlas-tony.techiesea.chatgpt.site) · [V11 local release](docs/V11_RELEASE.md) · [V11 verification](docs/V11_VERIFICATION.md) · [V10 publication record](docs/V10_VERIFICATION.md) · [GPT Pro research handoff](docs/GPT_PRO_RESEARCH_HANDOFF.md) · [China import audit](docs/V5_CHINA_IMPORT.md)
+[Live atlas](https://world-history-atlas-tony.techiesea.chatgpt.site) · [V12 local release](docs/V12_RELEASE.md) · [V12 verification](docs/V12_VERIFICATION.md) · [V10 publication record](docs/V10_VERIFICATION.md) · [GPT Pro research handoff](docs/GPT_PRO_RESEARCH_HANDOFF.md) · [China import audit](docs/V5_CHINA_IMPORT.md)
 
 ## Source and research handoff
 
-The GitHub baseline is [`world/` on the `world-history-atlas` branch](https://github.com/haitaowu12/jiangshan-map/tree/world-history-atlas/world). This local checkout contains **V11 / 0.10.0**, developed on `mac/world-atlas-v11-depth` from V10 commit `921288bef93822f1be74c6a0d66e0bf62b778480`. V11 has not been pushed to GitHub or deployed; the linked live atlas remains the V10 publication. The original application outside `world/` is preserved.
+The GitHub baseline is [`world/` on the `world-history-atlas` branch](https://github.com/haitaowu12/jiangshan-map/tree/world-history-atlas/world). This local checkout contains **V12 / 0.11.0**, developed on `mac/us-canada-atlas-depth` from committed local V11 `b762e906cfaf7450c95e90e9eb2275485d69f3f6`. V11 and V12 have not been pushed or deployed by these local tasks; the linked live atlas is the V10 publication. The original application outside `world/` is preserved.
 
-Use [V11 verification](docs/V11_VERIFICATION.md) for checked source and local browser results, and [next steps](docs/NEXT_STEPS.md) for the current research queue. The older GPT Pro handoff and V9/V10 records remain historical checkpoints.
+Use [V12 verification](docs/V12_VERIFICATION.md), the linked research ledgers and [next steps](docs/NEXT_STEPS.md) for current continuation. Earlier release and verification records remain historical checkpoints.
 
-## Current local release: connected lives and institutions (V11 / 0.10.0)
+## Current local release: US/Canada lives and regional geography (V12 / 0.11.0)
+
+V12 adds **26 bilingual entries, 12 biographies, 56 life milestones and 36 distinct narrative-source URLs**. North America now contains **106 entries**. The shared atlas has **1,863 entries, 170 narrative biographies, 534 life milestones and 271 People identities**. Three regional paths gain entries and fifteen source-comparison questions; all previous reading paths, stops and questions survive.
+
+The optional modern geographic browser covers **50 states, DC and Canada's 13 provinces/territories**, with search, clickable outlines, bilingual labels and links to regional histories. Its **2022 Natural Earth source** is clearly separated from historical borders. Source-backed named-place associations retain coastal records omitted by generalized outlines, without moving their points. The layer loads on first use and requires no external service. [Method and limits](docs/V12_US_CANADA_GEOGRAPHY.md) explain the source pin, rights, transformations, 22 named-place associations and remaining coverage gaps.
+
+See [V12 release](docs/V12_RELEASE.md) for lives, contexts and research ledgers. Counts describe a selected collection, not complete or even regional representation.
+
+## Historical local V11: connected lives and institutions (0.10.0)
 
 V11 adds **28 bilingual entries: 14 developed biographies and 14 connected histories**, with **60 dated life milestones**. The selection deepens publishing, education, manuscript learning, civic participation and cultural transmission in all nine editorial regions outside the China collection. It connects people with the institutions and communities around them rather than treating their lives as isolated lists of achievements.
 
@@ -123,7 +131,7 @@ The `dist/` directory can also be served by a static web host. No build service 
 
 Use **Node.js 22 or newer**, as declared in [package.json](package.json). No `npm install` step is needed.
 
-After editing a V11 regional content file, regenerate the cumulative manifest and reading paths before running the checks. V9 and V10 inputs remain frozen. Run these commands from the same application directory:
+After editing a V12 regional content file, regenerate the cumulative manifest and reading paths before running the checks. V9, V10 and V11 inputs remain frozen. Run these commands from the same application directory:
 
 ```sh
 npm run build:content
@@ -134,12 +142,12 @@ npm run check
 
 | Command | Purpose |
 | --- | --- |
-| `npm run build:content` | Regenerate the V11 manifest and 32 regional reading paths while checking that V9 and V10 expansion files are unchanged |
+| `npm run build:content` | Regenerate the V12 manifest, 32 regional paths and geographic history index while checking the frozen V9–V11 expansion files |
 | `npm test` | Run core, discovery/integration, shared-reference, import/review, learning-data, temporal-map and geography regressions |
 | `npm run validate` | Check record structure, references, dates, route connections, snapshot membership, licenses and vendored-file checksums |
 | `npm run check` | Run the validator and test suite |
 
-The final V11 local check passed **160 automated tests**, using the compatible isolation flag on Node 22.18.0. The V10 checkpoint passed 154. The test flag also passes argument parsing on the bundled Node 24.19.0. These checks verify structure and application mechanics. Historical source fit, map interpretation, translation quality and browser behavior also require review. The [V11 release notes](docs/V11_RELEASE.md) link the current research ledgers and explain evidence limits; [V11 verification](docs/V11_VERIFICATION.md) records source and local browser checks. [V10 verification](docs/V10_VERIFICATION.md) retains the earlier publication record. Earlier research remains in the [original research record](docs/HISTORY_RESEARCH.md), [V4 expansion](docs/V4_HISTORY_RESEARCH.md), [V5 regional research and corrections](docs/V5_RESEARCH_AND_REVIEW.md), and [China import audit](docs/V5_CHINA_IMPORT.md). The validator reports the current collection and cited-page counts. The commands above are instructions, not a claim that an arbitrary later checkout or deployment has passed acceptance. See also the [map methodology](docs/MAP_METHODOLOGY.md).
+The current V12 local check passed **176 automated tests**, using the compatible isolation flag on Node 22.18.0. The V10 checkpoint passed 154. The test flag also passes argument parsing on the bundled Node 24.19.0. These checks verify structure and application mechanics. Historical source fit, map interpretation, translation quality and browser behavior also require review. The [V12 release notes](docs/V12_RELEASE.md) link the current research ledgers and explain evidence limits; [V12 verification](docs/V12_VERIFICATION.md) records source and local browser checks. [V10 verification](docs/V10_VERIFICATION.md) retains the earlier publication record. Earlier research remains in the [original research record](docs/HISTORY_RESEARCH.md), [V4 expansion](docs/V4_HISTORY_RESEARCH.md), [V5 regional research and corrections](docs/V5_RESEARCH_AND_REVIEW.md), and [China import audit](docs/V5_CHINA_IMPORT.md). The validator reports the current collection and cited-page counts. The commands above are instructions, not a claim that an arbitrary later checkout or deployment has passed acceptance. See also the [map methodology](docs/MAP_METHODOLOGY.md).
 
 ## Read the map and dates correctly
 
@@ -168,14 +176,16 @@ Uncolored land and an empty search result mean this collection has no depiction 
 | `dist/i18n.mjs`, `dist/journeys.mjs` | Interface translations and seven guided reading paths |
 | `dist/data/history.json` | Original historical essays and per-entry sources |
 | `dist/content-expansion.mjs` | Current manifest selection, biography/history partitioning, workstream coverage and expansion audits |
-| `dist/data/content-expansion-v11.json` | Current cumulative manifest, hashes and inventory; references preserved V9/V10 files and four V11 regional files |
-| `dist/data/expansion-*-v11.json` | Current regional biographies and connected histories |
+| `dist/data/content-expansion-v12.json` | Current cumulative manifest, hashes and inventory; references preserved V9–V11 files and four V12 inputs |
+| `dist/data/expansion-*-v12.json` | Current US/Canada biographies and connected histories; earlier edition files remain frozen |
 | `dist/data/evidence-followups-v11.json` | Source-only review additions and bilingual current scope; earlier scope preserved in exported review history |
-| `dist/data/expansion-courses-v11.json` | Current 32 regional reading paths, retaining prior stops and adding source-comparison questions |
+| `dist/data/expansion-courses-v12.json` | Current 32 regional reading paths, retaining prior stops/questions |
 | `dist/data/content-expansion-v10.json` | Frozen historical V10 manifest |
 | `dist/data/expansion-*-v10.json` | Historical V10 biographies and connected histories; generated reading paths are stored separately in `expansion-courses-v10.json` |
 | `dist/data/expansion-courses-v10.json` | Historical V10 regional reading paths, retaining their existing IDs and V9 entries |
 | `dist/data/content-expansion-v9.json`, `dist/data/expansion-*-v9.json` | Frozen V9 expansion baseline and historical manifest |
+| `dist/us-canada-explorer.mjs`, `us-canada-reference.mjs` | Optional modern reference browser, map and year-aware history links |
+| `dist/data/us-canada-reference*`, `us-canada-area-links-v12.json`, `us-canada-history-index-v12.json` | Pinned modern outlines, separate license, named-place evidence and generated index |
 | `dist/discovery.mjs` | Shared People/Places indexes, exact identity links, alias search and regional browsing |
 | `dist/history-reference.mjs` | Shared period, calendar, road/waterway and source-provenance views |
 | `dist/china-library.mjs`, `dist/china-review.mjs` | Source adaptation, location helpers and immutable review overlays; source filenames do not define separate navigation |
@@ -191,7 +201,7 @@ Uncolored land and an empty search result mean this collection has no depiction 
 | `dist/map-language.mjs` | Bilingual map-date and contemporary-reference interface text |
 | `dist/assets/` | Local D3 and Natural Earth references, with licenses and provenance |
 | `scripts/validate.mjs`, `tests/` | Structural checks and regression tests |
-| `scripts/build-content-expansion-v11.mjs` | Current content-manifest and regional-path generator |
+| `scripts/build-content-expansion-v12.mjs` | Current manifest, regional-path and geographic-index generator |
 | `scripts/serve.py` | Loopback preview server with a larger connection queue |
 | `docs/` | Data policy, current map methodology, editorial and verification records |
 
@@ -216,7 +226,7 @@ When no hash is present, query parameters can also open a place or person, for e
 
 ### Local browser API
 
-After initialization, `window.atlasAPI` exposes the manifest version, currently `0.10.0`:
+After initialization, `window.atlasAPI` exposes the manifest version, currently `0.11.0`:
 
 ```js
 atlasAPI.contentCoverage();
@@ -261,6 +271,7 @@ The package contains materials with **separate licenses**:
 | Imported Jiangshan events, directories, chronicles and inherited quotations/translations | [Preserved content notices](dist/data/china-upstream.LICENSE.md); excluded from the original CC BY narrative grant |
 | Three Jiangshan schematic outlines | [Preserved upstream notices](dist/data/territories-jiangshan.LICENSE.md): README GPL-3.0 and root MIT; unresolved per-outline derivation is documented |
 | Contemporary country and dispute geometry | [Public-domain source notice](dist/data/contemporary-world.LICENSE.md) |
+| Natural Earth US/Canada state/province reference | [Separate public-domain source notice](dist/data/us-canada-reference.LICENSE.md) |
 | Natural Earth land, countries and rivers | [Public domain terms](dist/assets/land.LICENSE.md) |
 | D3 | [ISC](dist/assets/d3.LICENSE) |
 
