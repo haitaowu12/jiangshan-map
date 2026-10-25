@@ -58,4 +58,4 @@ The source and translation checks are bounded editorial work. They do not establ
 
 ## Delivery
 
-The source, data, tests and ledgers are retained in the local repository. This task performs no GitHub push, merge or hosted deployment. The earlier V10 hosted publication and V11 local release records remain separate checkpoints. See [release](V12_RELEASE.md) and [next steps](NEXT_STEPS.md).
+The source, data, tests and ledgers are retained in the local repository. The original implementation task performed no push or deployment. On 25 October 2026, the user requested publication: commits through `88a9c12` were pushed to the canonical branch, all 176 checks passed again in the restored Sites checkout, and the native deployment result was `succeeded` at the existing URL. Public access was preserved. [Publication receipt](V12_PUBLICATION.json) records the exact source/version/deployment identities. This confirmation uses the native deployment result; a separate post-publication browser smoke test is not claimed. The earlier V10 hosted publication and V11 local release records remain separate checkpoints. See [release](V12_RELEASE.md) and [next steps](NEXT_STEPS.md).

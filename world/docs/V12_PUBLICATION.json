@@ -1,0 +1,21 @@
+{
+  "applicationEdition": "V12",
+  "applicationVersion": "0.11.0",
+  "publishedAt": "2026-10-25T18:33:40.477376+00:00",
+  "canonicalRepository": "https://github.com/haitaowu12/jiangshan-map",
+  "canonicalBranch": "world-history-atlas",
+  "applicationCommit": "88a9c12df1f2812c11d8b4bc242cfed8704c1d8c",
+  "siteProjectId": "appgprj_6ad99670954c81919b26d00c89ff19f4",
+  "siteSourceCommit": "f1af305dd891dca94866781000d8190dbaca32ba",
+  "siteVersionId": "appgprj_6ad99670954c81919b26d00c89ff19f4~appgver_d28b56481f308191b57e818516c560a0",
+  "siteVersionNumber": 11,
+  "deploymentId": "appgdep_6ade4b7c30c88191b5f36590578fc044",
+  "status": "succeeded",
+  "url": "https://world-history-atlas-tony.techiesea.chatgpt.site",
+  "accessMode": "public",
+  "checks": {
+    "passed": 176,
+    "failed": 0,
+    "skipped": 0
+  }
+}

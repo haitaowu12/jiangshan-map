@@ -1,6 +1,6 @@
 # V12 local release · 24 October 2026
 
-Application **0.11.0** continues the committed V11 baseline `b762e906cfaf7450c95e90e9eb2275485d69f3f6` on `mac/us-canada-atlas-depth`. This task changes the local checkout; no push or hosted publication is performed.
+Application **0.11.0** continues the committed V11 baseline `b762e906cfaf7450c95e90e9eb2275485d69f3f6` on `mac/us-canada-atlas-depth`. The 24 October implementation was initially local. On 25 October 2026, the user requested synchronization and publication: V11/V12 were pushed to the canonical branch, and V12 was deployed at the existing public atlas URL. See [publication receipt](V12_PUBLICATION.json).
 
 ## What readers gain
 
