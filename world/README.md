@@ -2,21 +2,31 @@
 
 A bilingual, source-backed atlas for exploring histories that existed at the same time across the world. Inspired by [Jiangshan Map / 江山时序](https://github.com/haitaowu12/jiangshan-map), this world-scale implementation combines a time slider, selected historical territories, places, people, routes and guided study.
 
-[Live atlas](https://world-history-atlas-tony.techiesea.chatgpt.site) · [V10 release](docs/V10_RELEASE.md) · [V10 verification and publication status](docs/V10_VERIFICATION.md) · [GPT Pro research handoff](docs/GPT_PRO_RESEARCH_HANDOFF.md) · [China import audit](docs/V5_CHINA_IMPORT.md)
+[Live atlas](https://world-history-atlas-tony.techiesea.chatgpt.site) · [V11 local release](docs/V11_RELEASE.md) · [V11 verification](docs/V11_VERIFICATION.md) · [V10 publication record](docs/V10_VERIFICATION.md) · [GPT Pro research handoff](docs/GPT_PRO_RESEARCH_HANDOFF.md) · [China import audit](docs/V5_CHINA_IMPORT.md)
 
 ## Source and research handoff
 
-The canonical source location is [`world/` on the `world-history-atlas` branch](https://github.com/haitaowu12/jiangshan-map/tree/world-history-atlas/world). This checkout contains V10, version **0.9.0**, including the application, data, licenses, tests and research registers. The original project outside `world/` is preserved. Consult [V10 verification](docs/V10_VERIFICATION.md) for the final checked revision and publication status, and use the [live atlas](https://world-history-atlas-tony.techiesea.chatgpt.site) for the hosted application.
+The GitHub baseline is [`world/` on the `world-history-atlas` branch](https://github.com/haitaowu12/jiangshan-map/tree/world-history-atlas/world). This local checkout contains **V11 / 0.10.0**, developed on `mac/world-atlas-v11-depth` from V10 commit `921288bef93822f1be74c6a0d66e0bf62b778480`. V11 has not been pushed to GitHub or deployed; the linked live atlas remains the V10 publication. The original application outside `world/` is preserved.
 
-The [GPT Pro handoff](docs/GPT_PRO_RESEARCH_HANDOFF.md) records the V9 starting point and its research priorities. The [V10 release notes](docs/V10_RELEASE.md) and four regional research registers document the follow-on work, including the distinction between inspected historical evidence, structural checks and map geometry.
+Use [V11 verification](docs/V11_VERIFICATION.md) for checked source and local browser results, and [next steps](docs/NEXT_STEPS.md) for the current research queue. The older GPT Pro handoff and V9/V10 records remain historical checkpoints.
 
-## Current release: lives and community histories (V10 / 0.9.0)
+## Current local release: connected lives and institutions (V11 / 0.10.0)
+
+V11 adds **28 bilingual entries: 14 developed biographies and 14 connected histories**, with **60 dated life milestones**. The selection deepens publishing, education, manuscript learning, civic participation and cultural transmission in all nine editorial regions outside the China collection. It connects people with the institutions and communities around them rather than treating their lives as isolated lists of achievements.
+
+The shared collection now contains **1,837 entries, 158 narrative biographies and 478 life milestones**. The People directory contains **259 identities**, including the preserved source profiles. **12 of the 32 regional reading paths** gain records, and **15 bilingual source-comparison questions** connect the new biography/context pairs. Existing reading-path IDs and stops survive; there are still 55 reading paths overall. These counts describe a selected addition and do not establish regional parity or historical completeness.
+
+The new records cite **42 distinct inspected source URLs**, with claim/date mappings and limitations in four [regional research ledgers](docs/V11_RELEASE.md). A separate source-only follow-up adds the inspected OCR text of the 1919 Samoa commission report to the current Samoa entry, preserving its original V10 narrative, dates and location and recording the earlier access limit. Colonial framing, mortality estimates and the OCR review boundary remain explicit.
+
+V9 and V10 regional inputs, manifests and reading paths remain unchanged. The current shared manifest is `content-expansion-v11.json`; original and reviewed source scopes remain available in the atlas data export. No new territorial shapes or route legs were added. [V11 release notes](docs/V11_RELEASE.md) list the new people and the remaining gaps.
+
+## Historical V10 release: lives and community histories (0.9.0)
 
 V10 adds **96 bilingual entries**, including **39 developed biographies with 159 dated life milestones**, across Africa, West and Central Asia, Europe, South Asia, East Asia outside China, Southeast Asia, the Americas and Oceania. The new records cite **168 distinct source URLs**. Lives are connected to histories of households, education, work, language, migration, political participation and cultural production. The [release notes](docs/V10_RELEASE.md) list the regional additions, all new biographies and remaining research gaps.
 
-The shared collection now contains **1,809 entries, 144 biographies and 418 life milestones**. The People directory contains **245 identities**, combining biographies and inherited profiles only where explicit identity links support the merge. **26 expanded regional paths within the retained 32** gain V10 entries; all 32 keep their earlier reading stops. Together with **16 study guides and 7 guided readings**, the atlas offers **55 reading paths**. Inventory counts describe the selected material. Regional depth remains uneven, and this release does not establish parity with the China collection or exhaustive world coverage.
+At V10, the shared collection contained **1,809 entries, 144 biographies and 418 life milestones**. The People directory contains **245 identities**, combining biographies and inherited profiles only where explicit identity links support the merge. **26 expanded regional paths within the retained 32** gain V10 entries; all 32 keep their earlier reading stops. Together with **16 study guides and 7 guided readings**, the atlas offers **55 reading paths**. Inventory counts describe the selected material. Regional depth remains uneven, and this release does not establish parity with the China collection or exhaustive world coverage.
 
-People pages now expose curated related-reading links alongside textual mentions. Unaccented search aliases help readers find names such as Āpirana Ngata, José Martí and Émilie du Châtelet while preserving their displayed spelling. New detail panels show bilingual evidence-scope notes; source records distinguish inspected text, catalogues, abstracts and limited indexed access. Updated application and module URLs load the V10 code. The current manifest is [`content-expansion-v10.json`](dist/data/content-expansion-v10.json); final acceptance and delivery evidence belongs in [V10 verification](docs/V10_VERIFICATION.md).
+People pages now expose curated related-reading links alongside textual mentions. Unaccented search aliases help readers find names such as Āpirana Ngata, José Martí and Émilie du Châtelet while preserving their displayed spelling. New detail panels show bilingual evidence-scope notes; source records distinguish inspected text, catalogues, abstracts and limited indexed access. Updated application and module URLs load the V10 code. The historical V10 manifest is [`content-expansion-v10.json`](dist/data/content-expansion-v10.json); final acceptance and delivery evidence belongs in [V10 verification](docs/V10_VERIFICATION.md).
 
 V10 adds no polity records, mapped routes or territorial geometry. Existing China imports, review overlays, maps, waterways and navigation remain available. The timeline continues to reserve its bars for political overviews; biographies and social histories remain accessible through shared search, map markers, People and reading paths.
 
@@ -87,7 +97,7 @@ At the V6 checkpoint the GitHub mirror still held V2. That source-status note is
 
 **Explore lives and connections.** Browse people and step through their dated milestones. Follow a documented journey or inspect a network's selected branches. Double-click a place on the map to find entries whose representative points lie within 400 km; proximity helps discovery without asserting continuous settlement or political succession.
 
-**Study and remember.** Follow **55 reading paths: 32 regional expansion paths, 16 study guides and 7 guided readings**. The regional paths include V9 and V10 entries; study guides retain their discussion questions and activities. Try the five-place location challenge, which gives distance feedback. Save entries and personal notes, then export or import a notebook. Sources & method also provides a combined atlas JSON export containing all entries, routes and reference inventories with their source metadata; this export is separate from the private notebook.
+**Study and remember.** Follow **55 reading paths: 32 regional expansion paths, 16 study guides and 7 guided readings**. The regional paths include V9, V10 and V11 entries; study guides retain their discussion questions and activities. Try the five-place location challenge, which gives distance feedback. Save entries and personal notes, then export or import a notebook. Sources & method also provides a combined atlas JSON export containing all entries, routes and reference inventories with their source metadata; this export is separate from the private notebook.
 
 **Share a view.** A URL can preserve the year, language, filters, entry, person or place directory page, comparison, selected route stop, reading step or contemporary country. Notes stay in the browser and are excluded from shared links.
 
@@ -100,10 +110,10 @@ The application is buildless. It needs no dependency installation, API keys, map
 Run from the application directory: the repository's `world/` folder, which contains `package.json`, or the corresponding folder in a release archive:
 
 ```sh
-python3 -m http.server 8080 --bind 127.0.0.1 --directory dist
+npm run serve
 ```
 
-Open **http://127.0.0.1:8080**. Serve the files over HTTP rather than opening `index.html` through a file URL, because the app loads JavaScript modules and JSON.
+Open **http://127.0.0.1:8080** in the Codex in-app browser. The local server binds only to loopback and uses a larger request queue for concurrent atlas data loads. Use `npm run serve -- --port 8081` if the default port is busy. Serve the files over HTTP rather than opening `index.html` through a file URL, because the app loads JavaScript modules and JSON.
 
 The core atlas can run from this local server without internet access. Opening an external source requires access to that source. The app does not install a service worker, so a hosted copy is not guaranteed to remain available after its server goes offline.
 
@@ -113,7 +123,7 @@ The `dist/` directory can also be served by a static web host. No build service 
 
 Use **Node.js 22 or newer**, as declared in [package.json](package.json). No `npm install` step is needed.
 
-After editing a V10 regional content file, regenerate the cumulative manifest and reading paths before running the checks. Run these commands from the same application directory:
+After editing a V11 regional content file, regenerate the cumulative manifest and reading paths before running the checks. V9 and V10 inputs remain frozen. Run these commands from the same application directory:
 
 ```sh
 npm run build:content
@@ -124,12 +134,12 @@ npm run check
 
 | Command | Purpose |
 | --- | --- |
-| `npm run build:content` | Regenerate the V10 manifest and 32 regional reading paths while checking that frozen V9 expansion files are unchanged |
+| `npm run build:content` | Regenerate the V11 manifest and 32 regional reading paths while checking that V9 and V10 expansion files are unchanged |
 | `npm test` | Run core, discovery/integration, shared-reference, import/review, learning-data, temporal-map and geography regressions |
 | `npm run validate` | Check record structure, references, dates, route connections, snapshot membership, licenses and vendored-file checksums |
 | `npm run check` | Run the validator and test suite |
 
-The final V10 local check passed **154 automated tests**. These checks verify structure and application mechanics. Historical source fit, map interpretation, translation quality and browser behavior also require review. The [V10 release notes](docs/V10_RELEASE.md) link the four regional research registers and explain evidence limits; [V10 verification](docs/V10_VERIFICATION.md) records final acceptance, browser checks and publication status. Earlier research remains in the [original research record](docs/HISTORY_RESEARCH.md), [V4 expansion](docs/V4_HISTORY_RESEARCH.md), [V5 regional research and corrections](docs/V5_RESEARCH_AND_REVIEW.md), and [China import audit](docs/V5_CHINA_IMPORT.md). The validator reports the current collection and cited-page counts. The commands above are instructions, not a claim that an arbitrary later checkout or deployment has passed acceptance. See also the [map methodology](docs/MAP_METHODOLOGY.md).
+The final V11 local check passed **160 automated tests**, using the compatible isolation flag on Node 22.18.0. The V10 checkpoint passed 154. The test flag also passes argument parsing on the bundled Node 24.19.0. These checks verify structure and application mechanics. Historical source fit, map interpretation, translation quality and browser behavior also require review. The [V11 release notes](docs/V11_RELEASE.md) link the current research ledgers and explain evidence limits; [V11 verification](docs/V11_VERIFICATION.md) records source and local browser checks. [V10 verification](docs/V10_VERIFICATION.md) retains the earlier publication record. Earlier research remains in the [original research record](docs/HISTORY_RESEARCH.md), [V4 expansion](docs/V4_HISTORY_RESEARCH.md), [V5 regional research and corrections](docs/V5_RESEARCH_AND_REVIEW.md), and [China import audit](docs/V5_CHINA_IMPORT.md). The validator reports the current collection and cited-page counts. The commands above are instructions, not a claim that an arbitrary later checkout or deployment has passed acceptance. See also the [map methodology](docs/MAP_METHODOLOGY.md).
 
 ## Read the map and dates correctly
 
@@ -158,9 +168,13 @@ Uncolored land and an empty search result mean this collection has no depiction 
 | `dist/i18n.mjs`, `dist/journeys.mjs` | Interface translations and seven guided reading paths |
 | `dist/data/history.json` | Original historical essays and per-entry sources |
 | `dist/content-expansion.mjs` | Current manifest selection, biography/history partitioning, workstream coverage and expansion audits |
-| `dist/data/content-expansion-v10.json` | Current cumulative content manifest, hashes, counts and references to preserved V9 files plus the four V10 regional files |
-| `dist/data/expansion-*-v10.json` | New regional biographies and connected histories; generated reading paths are stored separately in `expansion-courses-v10.json` |
-| `dist/data/expansion-courses-v10.json` | The 32 regional reading paths, retaining their existing IDs and V9 entries |
+| `dist/data/content-expansion-v11.json` | Current cumulative manifest, hashes and inventory; references preserved V9/V10 files and four V11 regional files |
+| `dist/data/expansion-*-v11.json` | Current regional biographies and connected histories |
+| `dist/data/evidence-followups-v11.json` | Source-only review additions and bilingual current scope; earlier scope preserved in exported review history |
+| `dist/data/expansion-courses-v11.json` | Current 32 regional reading paths, retaining prior stops and adding source-comparison questions |
+| `dist/data/content-expansion-v10.json` | Frozen historical V10 manifest |
+| `dist/data/expansion-*-v10.json` | Historical V10 biographies and connected histories; generated reading paths are stored separately in `expansion-courses-v10.json` |
+| `dist/data/expansion-courses-v10.json` | Historical V10 regional reading paths, retaining their existing IDs and V9 entries |
 | `dist/data/content-expansion-v9.json`, `dist/data/expansion-*-v9.json` | Frozen V9 expansion baseline and historical manifest |
 | `dist/discovery.mjs` | Shared People/Places indexes, exact identity links, alias search and regional browsing |
 | `dist/history-reference.mjs` | Shared period, calendar, road/waterway and source-provenance views |
@@ -177,7 +191,8 @@ Uncolored land and an empty search result mean this collection has no depiction 
 | `dist/map-language.mjs` | Bilingual map-date and contemporary-reference interface text |
 | `dist/assets/` | Local D3 and Natural Earth references, with licenses and provenance |
 | `scripts/validate.mjs`, `tests/` | Structural checks and regression tests |
-| `scripts/build-content-expansion-v10.mjs` | Current content-manifest and regional-path generator |
+| `scripts/build-content-expansion-v11.mjs` | Current content-manifest and regional-path generator |
+| `scripts/serve.py` | Loopback preview server with a larger connection queue |
 | `docs/` | Data policy, current map methodology, editorial and verification records |
 
 Entries use stable IDs, English/Chinese text, an inclusive focus interval, a representative location, region/theme metadata and a source list. People add milestones. Routes distinguish a journey from a network and list explicit connections. Study guides reference those records rather than duplicating their evidence. Geometry has its own snapshot dates, feature IDs, sources and licenses; a narrative citation does not validate a nearby polygon. See [DATA_POLICY.md](docs/DATA_POLICY.md).
@@ -201,7 +216,7 @@ When no hash is present, query parameters can also open a place or person, for e
 
 ### Local browser API
 
-After initialization, `window.atlasAPI` exposes version `0.9.0`:
+After initialization, `window.atlasAPI` exposes the manifest version, currently `0.10.0`:
 
 ```js
 atlasAPI.contentCoverage();
