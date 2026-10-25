@@ -1,0 +1,38 @@
+{
+  "applicationVersion": "0.12.0",
+  "contentBaseline": "V12 / 0.11.0",
+  "projectId": "appgprj_6ad99670954c81919b26d00c89ff19f4",
+  "audience": "public (preserved)",
+  "canonicalBranch": "world-history-atlas",
+  "implementationCommit": "e3a5783b4b809a8c28254b3d5daffc168db58b05",
+  "sourceCommit": "19ec14c8b7e13bb589853d4a98c25a0c32c8795f",
+  "versionId": "appgprj_6ad99670954c81919b26d00c89ff19f4~appgver_37620c8901408191a7586ac231dfaebb",
+  "versionNumber": 13,
+  "deploymentId": "appgdep_6ade5d1dad3c81919d74b3031c501912",
+  "status": "succeeded",
+  "url": "https://world-history-atlas-tony.techiesea.chatgpt.site",
+  "publishedAt": "2026-10-25T19:48:56.257475+00:00",
+  "archiveHash": "sha256:0815c629ccfc5f4fc15f03048888a0744fd875e5bbc860c9b27103526201a39a",
+  "tests": {
+    "passed": 191,
+    "failed": 0
+  },
+  "upstreamCommit": "10fdcaeeb3361525e2f34bd7ca767714341565f0",
+  "liveVerification": {
+    "browser": "Codex in-app browser",
+    "checks": [
+      "0.12.0 fresh-document load with compact filters, boundary-date readout, turning-point disclosure and regional preview",
+      "Canada-focus map renders modern province/state boundaries and prioritised labels",
+      "Worldwide regional browser shows US 51 / Canada 13 / China 32 source units",
+      "Bao Zheng 1061 correction and three evidence links render",
+      "lantianguan returns Lantian Pass on published Places directory"
+    ],
+    "consoleErrorsObserved": 0,
+    "screenshot": "11-live-after.png"
+  },
+  "limits": [
+    "Regional history remains selective; modern geometry is a 2022 source reference.",
+    "Responsive390x844 iframe was tested; physical phone, OS reduced-motion mode and screen-reader acceptance were not tested.",
+    "Publication receipt is a post-publication repository record, separate from the deployed source commit."
+  ]
+}
