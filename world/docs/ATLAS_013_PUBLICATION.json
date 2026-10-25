@@ -1,0 +1,41 @@
+{
+  "applicationVersion": "0.13.0",
+  "contentBaseline": "V12 / 0.11.0 plus sourced Carver and pin clarifications",
+  "projectId": "appgprj_6ad99670954c81919b26d00c89ff19f4",
+  "audience": "public (preserved)",
+  "canonicalBranch": "world-history-atlas",
+  "implementationCommit": "7bfd1ec16426eee2266583cf3f2e90169c15eabd",
+  "sourceCommit": "3618356d5bae6f7de0803a23d5c4024e31a163e0",
+  "versionId": "appgprj_6ad99670954c81919b26d00c89ff19f4~appgver_5c57fac959e08191ab5d6874e182c6c9",
+  "versionNumber": 14,
+  "deploymentId": "appgdep_6ade75fdb594819197dd162cbbf7b256",
+  "status": "succeeded",
+  "url": "https://world-history-atlas-tony.techiesea.chatgpt.site",
+  "publishedAt": "2026-10-25T21:35:13.606637+00:00",
+  "archiveHash": "sha256:4b9ed8a70bd2c2e47a8d818ff3e4d351b7842f028b4f4e4c3758a9568065ce15",
+  "tests": {
+    "passed": 197,
+    "failed": 0
+  },
+  "liveVerification": {
+    "browser": "Codex in-app browser",
+    "appScript": "./app.mjs?v=19",
+    "checks": [
+      "1867 source administrative key and 58 dated US/Canada units render",
+      "Consolidated Map view and visible close/source controls render",
+      "British Columbia fill is British North America coral #d69b95 at1867 and Canada ochre #ceab79 at1871",
+      "Carver new1896 Tuskegee milestone and Iowa State Museums source link render",
+      "Carver has six life pins and zero inferred route paths"
+    ],
+    "consoleErrorsObserved": 0,
+    "screenshot": "16-live-history.png"
+  },
+  "limits": [
+    "US dated source window1783–2000; Canada1867–2003 stages; not military fronts or Indigenous sovereignty.",
+    "Other countries' subdivisions remain2022 source reference geography.",
+    "Bounded source/model reviews and browser checks do not certify the complete chronology, translations or comprehensive accessibility.",
+    "Toronto/Borealis terms were approved but the download control did not complete; no dataset files were imported.",
+    "A local filesystem read stall interrupted the first source-packaging attempt; a retry used the committed Git archive. The underlying filesystem cause is unproven.",
+    "Receipt records post-publication evidence and is separate from the deployed source commit."
+  ]
+}
