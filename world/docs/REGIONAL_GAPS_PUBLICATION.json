@@ -1,0 +1,68 @@
+{
+  "release": "0.15.0 regional map addition",
+  "publishedAt": "2026-10-26T19:33:21.873277+00:00",
+  "implementationCommit": "3ed1bd33566e54892419eade854d6a2ce60eec5a",
+  "sourceBranch": "world-history-atlas",
+  "siteProjectId": "appgprj_6ad99670954c81919b26d00c89ff19f4",
+  "siteSourceCommit": "c51bd11207c2e3ae2e7fe4293fd575ac41e8b1b6",
+  "sourceTree": "719afcb4296282f986e9d4c4e3d486181cea2ec8",
+  "savedVersion": "appgprj_6ad99670954c81919b26d00c89ff19f4~appgver_e35279c08a9481919464770a148749c2",
+  "versionNumber": 20,
+  "deploymentId": "appgdep_6adfaaf60268819194f36a3a040fa797",
+  "status": "succeeded",
+  "url": "https://world-history-atlas-tony.techiesea.chatgpt.site",
+  "archive": {
+    "archive_format": "tar",
+    "sediment_file_id": "file_00000000b7c881f4a238621f79227ceb",
+    "content_hash": "sha256:b2996412b2c856a366bccb0a41c7e7087374cba5b88208d795d0f1e4716232e7",
+    "size_bytes": 51896320,
+    "file_count": 485
+  },
+  "changes": {
+    "references": 60,
+    "identities": 24,
+    "southAsia": 20,
+    "africa": 23,
+    "southeastAsia": 17,
+    "globalSourceInstances": 627,
+    "preservedPriorSourceInstances": 567,
+    "corrections": [
+      "Chola whole-island Sri Lanka eligibility1017–1069; independent Polonnaruwa1070–1199",
+      "Ghana ends1179, Wagadu/Soso regional transition1180–1234, Mali from1235",
+      "Bagan1200 source composite restores central plain mislabeled Pyu state"
+    ]
+  },
+  "validation": {
+    "structural": "passed",
+    "tests": 230,
+    "failures": 0,
+    "sourceBlobHashesMatched": 19,
+    "builderIdempotent": true,
+    "paletteViews": 64,
+    "nearbyPairs": 6361,
+    "colorConflicts": 0,
+    "sourceParity": "Pushed Site source tree exactly matches committed canonical implementation world tree.",
+    "live": [
+      "app.mjs?v=30 loaded with new regional references.",
+      "800 CE: Chinese South Asian references rendered; Rashtrakuta evidence links and notes verified.",
+      "1300 CE: early Solomonic Ethiopia and Great Zimbabwe cultural reference rendered.",
+      "1200 CE: Bagan/Champa views and Bagan source explanation reviewed.",
+      "1070 CE: separate Chola mainland and independent Polonnaruwa island paths.",
+      "Subsequent phone-width Bagan detail check: client width375px equals page width375px, six evidence/source links, long Chinese note readable in scrollable panel; viewport restored.",
+      "Original user tab refreshed without changing its current218 CE year; source200 Satavahana and Aksum references visible."
+    ],
+    "capturedLiveWarningsOrErrors": 0
+  },
+  "hosting": {
+    "githubActionsRunsBefore": 0,
+    "githubActionsRunsAfter": 0,
+    "githubPagesEnabled": false,
+    "githubActionsSetting": "Enabled, unchanged. Both existing workflows target main push/PR only; pushed atlas branch only, no PR."
+  },
+  "limits": [
+    "Dated regional source eligibility, not annual surveyed boundaries.",
+    "Remaining geographic and chronology research gaps are documented in REGIONAL_GAPS_REVIEW.md.",
+    "No complete specialist validation or comprehensive accessibility acceptance claimed."
+  ],
+  "receiptScope": "This receipt follows publication; the deployed implementation tree and source commit are identified above."
+}
