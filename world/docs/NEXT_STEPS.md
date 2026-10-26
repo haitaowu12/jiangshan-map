@@ -1,5 +1,7 @@
 # Next steps after application 0.14.0
 
+26 October map correction: [regional continuity](REGIONAL_MAP_CONTINUITY.md) addresses selected South American/African gaps and the 1886 source switch. Reapply `build-regional-continuity.mjs` after rebuilding V4 geometry. Retain the excluded Venezuela outline and the outstanding regional/earlier-period gaps; do not treat the new geographic witness checks as complete worldwide historical validation.
+
 [0.14 review](ATLAS_014_REVIEW.md) adds four connected North American lives and regional contexts, four short studies, the Florida 1821 correction and consistent chapter map anchors. Current totals: 1,871 entries, 174 biographies, 552 milestones, 59 readings. Trial the four 15-minute studies with regional/community and bilingual readers; self-checks do not establish acceptance. Continue the regional and worldwide gaps below, and the bounded [China dispositions](JIANGSHAN_REVIEW_014.json).
 
 For new content, edit `expansion-regional-sequences-v13.json` and `regional-studies-v13.json`; run `npm run build:content` then `npm run check`. V12 and earlier checkpoints remain frozen. `regional-area-links-v13.json` holds explicit named-place additions; the generator produces an additive worldwide link index without changing the 2022 geometry.

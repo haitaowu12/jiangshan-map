@@ -1,0 +1,56 @@
+{
+  "project_id": "appgprj_6ad99670954c81919b26d00c89ff19f4",
+  "version_number": 17,
+  "version_id": "appgprj_6ad99670954c81919b26d00c89ff19f4~appgver_689db9340d1c81919f7b66c5ee72fec5",
+  "source_commit": "e18ccf6152422306f384c96e9d1beb3ec881be8e",
+  "deployment_id": "appgdep_6adf6ca10bfc8191a293359e50ae2c99",
+  "status": "succeeded",
+  "url": "https://world-history-atlas-tony.techiesea.chatgpt.site",
+  "published_at": "2026-10-26T15:07:28.499734+00:00",
+  "access_mode": "public",
+  "verification": {
+    "checks": "npm run check",
+    "tests_passed": 209,
+    "geometry_instances": 539,
+    "added_instances": 23,
+    "shard_bytes": 101169,
+    "local_browser_years": [
+      1814,
+      1815,
+      1821,
+      1822,
+      1867,
+      1878,
+      1885,
+      1886,
+      1888,
+      1891,
+      1899
+    ],
+    "languages": [
+      "en",
+      "zh"
+    ],
+    "limits": "Selected regional references; no complete global coverage or independently reconstructed annual frontiers.",
+    "live_browser": {
+      "year1867": {
+        "app_revision": "app.mjs?v=26",
+        "mapped_features": 88,
+        "verified_fills": [
+          "brazil-empire",
+          "asante",
+          "sokoto",
+          "buganda",
+          "bunyoro",
+          "merina"
+        ]
+      },
+      "year1886": {
+        "supplement_count": 4,
+        "source_year": 1878,
+        "legend_discloses_dated_references": true
+      }
+    },
+    "evidence_directory": "/Users/tony/.codex/visualizations/2026/10/25/01a17505-a6b5-7621-89d1-7415dc0424bd/atlas-continuity"
+  }
+}
