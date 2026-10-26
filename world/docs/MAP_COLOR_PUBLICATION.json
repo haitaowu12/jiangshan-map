@@ -1,0 +1,64 @@
+{
+  "release": "0.15.0 display patch",
+  "publishedAt": "2026-10-26T18:30:49.891489+00:00",
+  "implementationCommit": "4c2fc1b4031dfc09669551e552c4502ace53e661",
+  "sourceBranch": "world-history-atlas",
+  "siteProjectId": "appgprj_6ad99670954c81919b26d00c89ff19f4",
+  "siteSourceCommit": "d576b49ea65a5f455c04001c2750ded50c8c2945",
+  "sourceTree": "c97731957282ed3a650500ea62a829d787461798",
+  "savedVersion": "appgprj_6ad99670954c81919b26d00c89ff19f4~appgver_ed267a9f99a08191b9d91f88b362e086",
+  "versionNumber": 19,
+  "deploymentId": "appgdep_6adf9c5253c88191a172bd431ca950f9",
+  "status": "succeeded",
+  "url": "https://world-history-atlas-tony.techiesea.chatgpt.site",
+  "archive": {
+    "archive_format": "tar",
+    "sediment_file_id": "file_00000000802881fdb8daeb53591df47f",
+    "content_hash": "sha256:c857cfa4b90de1e409c048e869e47c5da1b146d7fdfbadad3282616537a12055",
+    "size_bytes": 51578880,
+    "file_count": 483
+  },
+  "validation": {
+    "structural": "passed",
+    "tests": 221,
+    "failures": 0,
+    "finalFocusedTests": 12,
+    "checkpointViews": 64,
+    "nearbyPairs": 6285,
+    "priorSameColorPairs": 1089,
+    "remainingSameColorPairs": 0,
+    "method": "250 km sampled boundary proximity; explicit shared display identities grouped before comparison. Repeated pairs can appear in multiple years. Not exhaustive adjacency or border validation.",
+    "local": [
+      "399 BCE Chinese phase rendered with neighboring mineral colors.",
+      "Modern Europe reviewed visually.",
+      "Taiwan/mainland China shared fill confirmed; Albania/Serbia, Armenia/Azerbaijan and France/Germany differ.",
+      "1900 evidence list:216 swatches match mapped solid fills; parent-group swatches use the same composed palette.",
+      "All216 mapped units retain colors after zoom."
+    ],
+    "live": [
+      "app.mjs?v=29 loaded with1874 entries.",
+      "Published Europe view shows distinct neighboring fills.",
+      "Published Taiwan/mainland China have matching fill; named independent neighbors differ.",
+      "No captured console errors in exercised flow."
+    ],
+    "sourceParity": "Pushed Site tree exactly matches canonical implementation world tree."
+  },
+  "performance": {
+    "maxColdPaletteMs": 160.973,
+    "maxCachedPaletteMs": 0.178,
+    "separateModernColdMs": 207.67,
+    "scope": "Local Mac palette timings; not end-to-end page-load or mobile performance."
+  },
+  "hosting": {
+    "githubActionsRunsBefore": 0,
+    "githubActionsRunsAfter": 0,
+    "githubPagesEnabled": false
+  },
+  "limits": [
+    "Gray modern administrative reference remains neutral; competing historical claims retain hatch styling.",
+    "Dated US/Canada divisions retain intentional parent/national color grouping with internal boundaries.",
+    "This display change leaves source records, geometry, dates, dispute qualifiers and original source colors unchanged.",
+    "Universal color-vision accessibility and every possible spatial relationship have not been certified."
+  ],
+  "receiptScope": "This receipt is committed after publication; the exact deployed implementation tree is identified above."
+}
