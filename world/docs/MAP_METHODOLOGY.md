@@ -170,3 +170,6 @@ The scripts require Node and the repository's pinned D3 bundle. They preserve so
 
 
 The 0.15 [early regional correction](EARLY_REGIONAL_MAP_REVIEW.md) adds 28 finite dated references and documents rejected misdated donor geometry. Earlier Chinese traditions do not acquire frontiers from narrative dates.
+
+
+Political fills use the [neighbor-aware display palette](MAP_COLOR_NEIGHBORS.md). Nearby independent display groups receive different shades; explicit shared identities and neutral reference styling retain their stated meanings. Color is not a sovereignty or boundary assertion.
