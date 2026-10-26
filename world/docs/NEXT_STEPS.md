@@ -1,5 +1,7 @@
 # Next steps after application 0.14.0
 
+Current 0.15 review: [Early China and worldwide dated context](EARLY_REGIONAL_MAP_REVIEW.md). Zhou now precedes the 403 BCE detailed-source seam. Yu/Shun remains undated received tradition; Xia is explicitly unconfirmed, Erlitou archaeological, and Shang royal-center evidence is linked. Next map research should resolve South Asian source defects and remaining mainland Southeast Asian, African and Indigenous geography gaps using attributable outlines.
+
 26 October map correction: [regional continuity](REGIONAL_MAP_CONTINUITY.md) addresses selected South American/African gaps and the 1886 source switch. Reapply `build-regional-continuity.mjs` after rebuilding V4 geometry. Retain the excluded Venezuela outline and the outstanding regional/earlier-period gaps; do not treat the new geographic witness checks as complete worldwide historical validation.
 
 [0.14 review](ATLAS_014_REVIEW.md) adds four connected North American lives and regional contexts, four short studies, the Florida 1821 correction and consistent chapter map anchors. Current totals: 1,871 entries, 174 biographies, 552 milestones, 59 readings. Trial the four 15-minute studies with regional/community and bilingual readers; self-checks do not establish acceptance. Continue the regional and worldwide gaps below, and the bounded [China dispositions](JIANGSHAN_REVIEW_014.json).
