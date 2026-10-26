@@ -1,5 +1,7 @@
 # Next steps after application 0.14.0
 
+26 October regional map continuation: [South Asia, Africa and Southeast Asia review](REGIONAL_GAPS_REVIEW.md) adds60 dated source instances and corrects Chola/Sri Lanka and Ghana/Soso transitions. All567 previous source instances remain frozen; historical global total627. Continue the explicitly listed Gupta/Vakataka, Pala/Sena, Bornu, Adal-war, late Champa, Laos/Dai Viet, island Southeast Asia and Ayutthaya1569–1599 gaps. Reapply `build-regional-gap-context.mjs` after earlier additive builders.
+
 Current 0.15 review: [Early China and worldwide dated context](EARLY_REGIONAL_MAP_REVIEW.md). Zhou now precedes the 403 BCE detailed-source seam. Yu/Shun remains undated received tradition; Xia is explicitly unconfirmed, Erlitou archaeological, and Shang royal-center evidence is linked. Next map research should resolve South Asian source defects and remaining mainland Southeast Asian, African and Indigenous geography gaps using attributable outlines.
 
 26 October map correction: [regional continuity](REGIONAL_MAP_CONTINUITY.md) addresses selected South American/African gaps and the 1886 source switch. Reapply `build-regional-continuity.mjs` after rebuilding V4 geometry. Retain the excluded Venezuela outline and the outstanding regional/earlier-period gaps; do not treat the new geographic witness checks as complete worldwide historical validation.

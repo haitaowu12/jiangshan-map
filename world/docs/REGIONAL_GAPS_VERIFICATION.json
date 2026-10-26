@@ -1,0 +1,43 @@
+{
+  "reviewedAt": "2026-10-26",
+  "release": "0.15.0 regional map addition",
+  "globalSourceInstancesBefore": 567,
+  "globalSourceInstancesAfter": 627,
+  "added": 60,
+  "identities": 24,
+  "regions": {
+    "south-asia": 20,
+    "africa": 23,
+    "southeast-asia": 17
+  },
+  "validation": {
+    "structural": "passed",
+    "tests": 230,
+    "failures": 0,
+    "sourceInputs": 19,
+    "sourceBlobHashMatch": "All 19 raw snapshot SHA-256 values match the pinned Git blobs.",
+    "builderIdempotence": "passed",
+    "priorSourceLayers": "567 instances and all prior descriptors/bytes frozen",
+    "paletteViews": 64,
+    "paletteConflicts": 0
+  },
+  "browser": {
+    "local": [
+      "800 CE: South Asian and Southeast Asian references render; Rashtrakuta detail exposes Harvard/Met and geometry sources.",
+      "1000 CE: no future Polonnaruwa or future Bagan phase; Chola whole-island component absent.",
+      "1069/1070 CE: Chola path changes from two components to mainland only; independent Polonnaruwa island appears.",
+      "1200 CE: Bagan composite includes central plain, Champa labeled occupation/recovery, Wagadu labeled regional transition.",
+      "1500 CE: southern Champa, Ayutthaya and Vijayanagara render.",
+      "1300 CE: early Solomonic Ethiopia and Great Zimbabwe cultural region render.",
+      "1867 CE: Ethiopia detail separates viewing year1867 from outline1878 and links Met/NAM; English and Chinese reviewed.",
+      "Repeated identical scope note removed from detail; Bagan explanation appears once."
+    ],
+    "capturedConsoleWarningsOrErrors": 0
+  },
+  "limits": [
+    "Dated source eligibility, not annual border reconstruction or full historical validation.",
+    "Preserves unresolved regional gaps listed in REGIONAL_GAPS_REVIEW.md.",
+    "No specialist or comprehensive bilingual acceptance claimed.",
+    "Local desktop browser checks; narrow-screen trial not part of this map-source review."
+  ]
+}

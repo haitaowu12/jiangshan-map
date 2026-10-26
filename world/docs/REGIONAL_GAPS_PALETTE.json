@@ -1,0 +1,583 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-26",
+  "method": "64 selected-year compositions; 250 km sampled boundary proximity for display grouping, not border validation. Explicit shared identities are grouped before testing. Modern gray administrative reference outlines are excluded.",
+  "rows": [
+    {
+      "year": -2600,
+      "features": 1,
+      "nearbyPairs": 0,
+      "priorConflicts": 0,
+      "conflicts": 0,
+      "coldMs": 1.3170000000000073,
+      "warmMs": 0.0061670000000049185
+    },
+    {
+      "year": -2500,
+      "features": 3,
+      "nearbyPairs": 0,
+      "priorConflicts": 0,
+      "conflicts": 0,
+      "coldMs": 7.03654199999994,
+      "warmMs": 0.005083000000013271
+    },
+    {
+      "year": -2000,
+      "features": 3,
+      "nearbyPairs": 0,
+      "priorConflicts": 0,
+      "conflicts": 0,
+      "coldMs": 0.08241599999996652,
+      "warmMs": 0.002374999999915417
+    },
+    {
+      "year": -1600,
+      "features": 2,
+      "nearbyPairs": 0,
+      "priorConflicts": 0,
+      "conflicts": 0,
+      "coldMs": 0.21716700000001765,
+      "warmMs": 0.0017080000000078144
+    },
+    {
+      "year": -1500,
+      "features": 3,
+      "nearbyPairs": 0,
+      "priorConflicts": 0,
+      "conflicts": 0,
+      "coldMs": 0.5420420000000377,
+      "warmMs": 0.003917000000001281
+    },
+    {
+      "year": -1200,
+      "features": 3,
+      "nearbyPairs": 0,
+      "priorConflicts": 0,
+      "conflicts": 0,
+      "coldMs": 1.033042000000023,
+      "warmMs": 0.007666999999969448
+    },
+    {
+      "year": -1046,
+      "features": 5,
+      "nearbyPairs": 1,
+      "priorConflicts": 0,
+      "conflicts": 0,
+      "coldMs": 1.934500000000071,
+      "warmMs": 0.008166000000073836
+    },
+    {
+      "year": -1000,
+      "features": 5,
+      "nearbyPairs": 1,
+      "priorConflicts": 0,
+      "conflicts": 0,
+      "coldMs": 0.004042000000026746,
+      "warmMs": 0.00433300000008785
+    },
+    {
+      "year": -800,
+      "features": 5,
+      "nearbyPairs": 1,
+      "priorConflicts": 0,
+      "conflicts": 0,
+      "coldMs": 0.003457999999909589,
+      "warmMs": 0.008874999999989086
+    },
+    {
+      "year": -771,
+      "features": 5,
+      "nearbyPairs": 1,
+      "priorConflicts": 0,
+      "conflicts": 0,
+      "coldMs": 0.004500000000007276,
+      "warmMs": 0.0038749999999936335
+    },
+    {
+      "year": -770,
+      "features": 5,
+      "nearbyPairs": 1,
+      "priorConflicts": 0,
+      "conflicts": 0,
+      "coldMs": 1.0210420000000795,
+      "warmMs": 0.003458000000023276
+    },
+    {
+      "year": -700,
+      "features": 6,
+      "nearbyPairs": 1,
+      "priorConflicts": 0,
+      "conflicts": 0,
+      "coldMs": 2.4264160000000174,
+      "warmMs": 0.010041000000001077
+    },
+    {
+      "year": -600,
+      "features": 5,
+      "nearbyPairs": 0,
+      "priorConflicts": 0,
+      "conflicts": 0,
+      "coldMs": 1.8880410000000438,
+      "warmMs": 0.006374999999934516
+    },
+    {
+      "year": -500,
+      "features": 8,
+      "nearbyPairs": 5,
+      "priorConflicts": 0,
+      "conflicts": 0,
+      "coldMs": 5.335957999999891,
+      "warmMs": 0.007499999999936335
+    },
+    {
+      "year": -476,
+      "features": 8,
+      "nearbyPairs": 5,
+      "priorConflicts": 0,
+      "conflicts": 0,
+      "coldMs": 0.0049999999999954525,
+      "warmMs": 0.005499999999983629
+    },
+    {
+      "year": -475,
+      "features": 8,
+      "nearbyPairs": 5,
+      "priorConflicts": 0,
+      "conflicts": 0,
+      "coldMs": 0.004583000000025095,
+      "warmMs": 0.010833000000047832
+    },
+    {
+      "year": -404,
+      "features": 8,
+      "nearbyPairs": 5,
+      "priorConflicts": 0,
+      "conflicts": 0,
+      "coldMs": 0.005458999999973457,
+      "warmMs": 0.005625000000009095
+    },
+    {
+      "year": -403,
+      "features": 20,
+      "nearbyPairs": 50,
+      "priorConflicts": 6,
+      "conflicts": 0,
+      "coldMs": 10.963124999999991,
+      "warmMs": 0.027042000000051303
+    },
+    {
+      "year": -400,
+      "features": 21,
+      "nearbyPairs": 52,
+      "priorConflicts": 6,
+      "conflicts": 0,
+      "coldMs": 7.797042000000033,
+      "warmMs": 0.0251660000000129
+    },
+    {
+      "year": -399,
+      "features": 20,
+      "nearbyPairs": 51,
+      "priorConflicts": 6,
+      "conflicts": 0,
+      "coldMs": 7.366999999999962,
+      "warmMs": 0.022667000000069493
+    },
+    {
+      "year": -350,
+      "features": 20,
+      "nearbyPairs": 51,
+      "priorConflicts": 6,
+      "conflicts": 0,
+      "coldMs": 0.01645799999994324,
+      "warmMs": 0.01850000000001728
+    },
+    {
+      "year": -323,
+      "features": 19,
+      "nearbyPairs": 48,
+      "priorConflicts": 6,
+      "conflicts": 0,
+      "coldMs": 8.55233300000009,
+      "warmMs": 0.02174999999999727
+    },
+    {
+      "year": -300,
+      "features": 19,
+      "nearbyPairs": 40,
+      "priorConflicts": 4,
+      "conflicts": 0,
+      "coldMs": 7.599874999999997,
+      "warmMs": 0.02354200000002038
+    },
+    {
+      "year": -221,
+      "features": 10,
+      "nearbyPairs": 5,
+      "priorConflicts": 0,
+      "conflicts": 0,
+      "coldMs": 2.8264580000000024,
+      "warmMs": 0.008417000000008557
+    },
+    {
+      "year": -200,
+      "features": 10,
+      "nearbyPairs": 5,
+      "priorConflicts": 0,
+      "conflicts": 0,
+      "coldMs": 5.9491669999999885,
+      "warmMs": 0.010709000000019842
+    },
+    {
+      "year": -100,
+      "features": 8,
+      "nearbyPairs": 5,
+      "priorConflicts": 0,
+      "conflicts": 0,
+      "coldMs": 4.140791999999919,
+      "warmMs": 0.011875000000031832
+    },
+    {
+      "year": -1,
+      "features": 6,
+      "nearbyPairs": 2,
+      "priorConflicts": 0,
+      "conflicts": 0,
+      "coldMs": 4.49675000000002,
+      "warmMs": 0.008249999999975444
+    },
+    {
+      "year": 1,
+      "features": 6,
+      "nearbyPairs": 2,
+      "priorConflicts": 0,
+      "conflicts": 0,
+      "coldMs": 0.004000000000019099,
+      "warmMs": 0.0050420000000030996
+    },
+    {
+      "year": 100,
+      "features": 9,
+      "nearbyPairs": 4,
+      "priorConflicts": 0,
+      "conflicts": 0,
+      "coldMs": 5.263124999999945,
+      "warmMs": 0.013541999999915788
+    },
+    {
+      "year": 200,
+      "features": 11,
+      "nearbyPairs": 9,
+      "priorConflicts": 1,
+      "conflicts": 0,
+      "coldMs": 14.417084000000045,
+      "warmMs": 0.01970799999992323
+    },
+    {
+      "year": 300,
+      "features": 6,
+      "nearbyPairs": 3,
+      "priorConflicts": 1,
+      "conflicts": 0,
+      "coldMs": 9.043667000000028,
+      "warmMs": 0.012166000000092936
+    },
+    {
+      "year": 400,
+      "features": 12,
+      "nearbyPairs": 11,
+      "priorConflicts": 0,
+      "conflicts": 0,
+      "coldMs": 6.683250000000044,
+      "warmMs": 0.01850000000001728
+    },
+    {
+      "year": 500,
+      "features": 9,
+      "nearbyPairs": 5,
+      "priorConflicts": 1,
+      "conflicts": 0,
+      "coldMs": 4.3056660000000875,
+      "warmMs": 0.012500000000045475
+    },
+    {
+      "year": 600,
+      "features": 12,
+      "nearbyPairs": 5,
+      "priorConflicts": 1,
+      "conflicts": 0,
+      "coldMs": 7.425541000000067,
+      "warmMs": 0.014000000000010004
+    },
+    {
+      "year": 700,
+      "features": 12,
+      "nearbyPairs": 7,
+      "priorConflicts": 3,
+      "conflicts": 0,
+      "coldMs": 7.254207999999835,
+      "warmMs": 0.014499999999998181
+    },
+    {
+      "year": 800,
+      "features": 18,
+      "nearbyPairs": 13,
+      "priorConflicts": 8,
+      "conflicts": 0,
+      "coldMs": 9.807208000000173,
+      "warmMs": 0.020042000000103144
+    },
+    {
+      "year": 900,
+      "features": 26,
+      "nearbyPairs": 32,
+      "priorConflicts": 7,
+      "conflicts": 0,
+      "coldMs": 11.198374999999942,
+      "warmMs": 0.0284999999998945
+    },
+    {
+      "year": 1000,
+      "features": 19,
+      "nearbyPairs": 13,
+      "priorConflicts": 1,
+      "conflicts": 0,
+      "coldMs": 13.747583000000077,
+      "warmMs": 0.022625000000061846
+    },
+    {
+      "year": 1100,
+      "features": 19,
+      "nearbyPairs": 16,
+      "priorConflicts": 1,
+      "conflicts": 0,
+      "coldMs": 5.488416000000143,
+      "warmMs": 0.026333000000022366
+    },
+    {
+      "year": 1200,
+      "features": 18,
+      "nearbyPairs": 17,
+      "priorConflicts": 3,
+      "conflicts": 0,
+      "coldMs": 7.754707999999937,
+      "warmMs": 0.029790999999931955
+    },
+    {
+      "year": 1300,
+      "features": 16,
+      "nearbyPairs": 14,
+      "priorConflicts": 2,
+      "conflicts": 0,
+      "coldMs": 7.271332999999913,
+      "warmMs": 0.02004199999987577
+    },
+    {
+      "year": 1400,
+      "features": 15,
+      "nearbyPairs": 8,
+      "priorConflicts": 0,
+      "conflicts": 0,
+      "coldMs": 7.874041999999918,
+      "warmMs": 0.016707999999880485
+    },
+    {
+      "year": 1500,
+      "features": 17,
+      "nearbyPairs": 9,
+      "priorConflicts": 1,
+      "conflicts": 0,
+      "coldMs": 6.9002499999999145,
+      "warmMs": 0.053249999999934516
+    },
+    {
+      "year": 1600,
+      "features": 19,
+      "nearbyPairs": 20,
+      "priorConflicts": 4,
+      "conflicts": 0,
+      "coldMs": 15.247333000000026,
+      "warmMs": 0.022124999999959982
+    },
+    {
+      "year": 1700,
+      "features": 21,
+      "nearbyPairs": 19,
+      "priorConflicts": 4,
+      "conflicts": 0,
+      "coldMs": 16.82941699999992,
+      "warmMs": 0.021208999999998923
+    },
+    {
+      "year": 1750,
+      "features": 23,
+      "nearbyPairs": 25,
+      "priorConflicts": 4,
+      "conflicts": 0,
+      "coldMs": 19.797791999999845,
+      "warmMs": 0.025792000000137705
+    },
+    {
+      "year": 1800,
+      "features": 43,
+      "nearbyPairs": 28,
+      "priorConflicts": 7,
+      "conflicts": 0,
+      "coldMs": 28.236041999999998,
+      "warmMs": 0.03962499999988722
+    },
+    {
+      "year": 1815,
+      "features": 53,
+      "nearbyPairs": 35,
+      "priorConflicts": 8,
+      "conflicts": 0,
+      "coldMs": 29.630125000000135,
+      "warmMs": 0.06333300000005693
+    },
+    {
+      "year": 1850,
+      "features": 67,
+      "nearbyPairs": 34,
+      "priorConflicts": 5,
+      "conflicts": 0,
+      "coldMs": 39.35799999999995,
+      "warmMs": 0.06633400000009715
+    },
+    {
+      "year": 1867,
+      "features": 91,
+      "nearbyPairs": 49,
+      "priorConflicts": 6,
+      "conflicts": 0,
+      "coldMs": 92.50649999999996,
+      "warmMs": 0.0896660000000793
+    },
+    {
+      "year": 1878,
+      "features": 94,
+      "nearbyPairs": 53,
+      "priorConflicts": 4,
+      "conflicts": 0,
+      "coldMs": 47.851457999999866,
+      "warmMs": 0.11829099999999926
+    },
+    {
+      "year": 1885,
+      "features": 97,
+      "nearbyPairs": 51,
+      "priorConflicts": 4,
+      "conflicts": 0,
+      "coldMs": 47.31275000000005,
+      "warmMs": 0.09675000000015643
+    },
+    {
+      "year": 1886,
+      "features": 193,
+      "nearbyPairs": 278,
+      "priorConflicts": 44,
+      "conflicts": 0,
+      "coldMs": 88.64208400000007,
+      "warmMs": 0.15695800000003146
+    },
+    {
+      "year": 1900,
+      "features": 216,
+      "nearbyPairs": 364,
+      "priorConflicts": 58,
+      "conflicts": 0,
+      "coldMs": 95.7270840000001,
+      "warmMs": 0.19074999999975262
+    },
+    {
+      "year": 1914,
+      "features": 211,
+      "nearbyPairs": 353,
+      "priorConflicts": 58,
+      "conflicts": 0,
+      "coldMs": 101.14183400000002,
+      "warmMs": 0.22041699999999764
+    },
+    {
+      "year": 1939,
+      "features": 232,
+      "nearbyPairs": 444,
+      "priorConflicts": 83,
+      "conflicts": 0,
+      "coldMs": 104.32270900000003,
+      "warmMs": 0.17075000000022555
+    },
+    {
+      "year": 1945,
+      "features": 229,
+      "nearbyPairs": 436,
+      "priorConflicts": 78,
+      "conflicts": 0,
+      "coldMs": 98.15220799999997,
+      "warmMs": 0.146541999999954
+    },
+    {
+      "year": 1960,
+      "features": 227,
+      "nearbyPairs": 421,
+      "priorConflicts": 72,
+      "conflicts": 0,
+      "coldMs": 104.30095800000026,
+      "warmMs": 0.1864170000003469
+    },
+    {
+      "year": 1990,
+      "features": 220,
+      "nearbyPairs": 394,
+      "priorConflicts": 72,
+      "conflicts": 0,
+      "coldMs": 94.61812499999996,
+      "warmMs": 0.1847080000002279
+    },
+    {
+      "year": 2000,
+      "features": 239,
+      "nearbyPairs": 496,
+      "priorConflicts": 91,
+      "conflicts": 0,
+      "coldMs": 109.40975000000026,
+      "warmMs": 0.16545799999994415
+    },
+    {
+      "year": 2010,
+      "features": 180,
+      "nearbyPairs": 514,
+      "priorConflicts": 92,
+      "conflicts": 0,
+      "coldMs": 96.78745900000013,
+      "warmMs": 0.1454169999997248
+    },
+    {
+      "year": 2019,
+      "features": 181,
+      "nearbyPairs": 520,
+      "priorConflicts": 94,
+      "conflicts": 0,
+      "coldMs": 95.2796659999999,
+      "warmMs": 0.13695800000004965
+    },
+    {
+      "year": 2020,
+      "features": 242,
+      "nearbyPairs": 662,
+      "priorConflicts": 132,
+      "conflicts": 0,
+      "coldMs": 508.65858300000036,
+      "warmMs": 0.15974999999980355
+    },
+    {
+      "year": 2026,
+      "features": 242,
+      "nearbyPairs": 662,
+      "priorConflicts": 132,
+      "conflicts": 0,
+      "coldMs": 0.11170899999979156,
+      "warmMs": 0.15025000000059663
+    }
+  ]
+}
