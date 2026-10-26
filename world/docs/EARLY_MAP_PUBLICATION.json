@@ -1,0 +1,64 @@
+{
+  "release": "0.15.0",
+  "publishedAt": "2026-10-26T17:20:29.450021+00:00",
+  "implementationCommit": "421b6814822ce6b3b179fdda1fa715fe6e2d9ba5",
+  "sourceBranch": "world-history-atlas",
+  "siteProjectId": "appgprj_6ad99670954c81919b26d00c89ff19f4",
+  "siteSourceCommit": "a775b6e334caf1826fa1c4fceb28917c1487a99c",
+  "sourceTree": "49eb3f1921cb87c4e66812b8764142e75f538a0f",
+  "savedVersion": "appgprj_6ad99670954c81919b26d00c89ff19f4~appgver_8db6298df580819190893180379c51b5",
+  "versionNumber": 18,
+  "deploymentId": "appgdep_6adf8bd085f48191a19dff7952185050",
+  "status": "succeeded",
+  "url": "https://world-history-atlas-tony.techiesea.chatgpt.site",
+  "archive": {
+    "archive_format": "tar",
+    "sediment_file_id": "file_000000004cc081f4938f26154953ae78",
+    "content_hash": "sha256:0c8d1b55087d265012698442ff01fceaf6fe66ba0789868266bd996e4f1bbdef",
+    "size_bytes": 51578880,
+    "file_count": 483
+  },
+  "counts": {
+    "entries": 1874,
+    "narrativeBiographies": 174,
+    "milestones": 552,
+    "readingPaths": 60,
+    "peopleIdentities": 275,
+    "historicalSourceInstances": 567,
+    "newDatedSourceInstances": 28
+  },
+  "validation": {
+    "structural": "passed",
+    "tests": 215,
+    "failures": 0,
+    "compositionAudit": "64 checkpoint and transition years; geographic witnesses are not historical border validation.",
+    "local": [
+      "Zhou source available in every year1046–404 BCE; aggregate stops before403 BCE detailed stages.",
+      "Chinese search for虞 exposes the undated guide.",
+      "Guide opens Shang at1500 BCE with linked institutional sources.",
+      "Five-stop early-China study opens Xia at1800 BCE.",
+      "English and Chinese mobile guide have no horizontal document overflow.",
+      "1200 CE Goryeo, Kamakura, Chola and Srivijaya source labels;700 CE Wari and Tiwanaku labels."
+    ],
+    "live": [
+      "Original tab reloaded app.mjs?v=28 and1874 entries.",
+      "404 BCE view includes dated Eastern Zhou and eight selected source instances.",
+      "Yu/Shun guide explicitly distinguishes虞from禹 and has no invented absolute reign dates.",
+      "No captured console errors in exercised live flow."
+    ],
+    "frozen": "All539 existing historical source instances and previous content files remain frozen. Canonical implementation world tree exactly matches pushed Site source tree."
+  },
+  "hosting": {
+    "githubActionsRunsBefore": 0,
+    "githubActionsRunsAfter": 0,
+    "githubPagesEnabled": false
+  },
+  "limits": [
+    "No verified whole-realm Yu/Shun, Xia or Shang polygons supplied; supported archaeological points and evidence-linked reading are available.",
+    "Regional windows are finite editorial source eligibility, not reconstructed annual frontiers or uniform sovereignty.",
+    "South Asian donor defects and other regional gaps are documented in EARLY_REGIONAL_MAP_REVIEW.md; worldwide completeness is not claimed.",
+    "No new GPT Pro or Gemini consultation used."
+  ],
+  "recovery": "Preserved the Documents staging checkout after read-only Git status stalled. A fresh Developer checkout, initialized as an unborn Git repository before source-helper open, completed. Root cause of the original filesystem/Git stall was not established.",
+  "receiptScope": "Publication receipt added after deployment; the published implementation tree is identified above."
+}
