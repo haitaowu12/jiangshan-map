@@ -1,0 +1,61 @@
+{
+  "release": "0.14.0",
+  "publishedAt": "2026-10-26T14:30:53.816120+00:00",
+  "implementationCommit": "eedfa07364c4023ea1d13f7267194dbfb570f466",
+  "contentCommit": "a676d61768e5f21de1e5fee3bb6bf44f234944f4",
+  "sourceBranch": "world-history-atlas",
+  "siteProjectId": "appgprj_6ad99670954c81919b26d00c89ff19f4",
+  "siteSourceCommit": "6210510d8202cf7ba1940d00a04dd7a80c0efac2",
+  "sourceTree": "b137570e57422ca06394e9b216c1eb3a51bbd660",
+  "savedVersion": "appgprj_6ad99670954c81919b26d00c89ff19f4~appgver_7a65273b97608191a105ddc366b48b7a",
+  "versionNumber": 16,
+  "deploymentId": "appgdep_6adf64155f648191bff4decafff707a6",
+  "status": "succeeded",
+  "url": "https://world-history-atlas-tony.techiesea.chatgpt.site",
+  "archive": {
+    "archive_format": "tar",
+    "sediment_file_id": "file_0000000032d481f6a8a68d3033f990a9",
+    "content_hash": "sha256:9998cf2840a66e2b53208e597133635bdf6a4f395d2f73ca297ad5c293566da5",
+    "size_bytes": 50995200,
+    "file_count": 473
+  },
+  "counts": {
+    "entries": 1871,
+    "narrativeBiographies": 174,
+    "milestones": 552,
+    "readingPaths": 59,
+    "peopleIdentities": 275
+  },
+  "validation": {
+    "structural": "passed",
+    "tests": 202,
+    "failures": 0,
+    "usUnitGeometryComparison": "203 source-unit geometries unchanged by stable ID; Florida effectiveStartKey alone corrected.",
+    "live": [
+      "1871-entry collection loaded.",
+      "Florida absent1819 and present1821.",
+      "Sea Islands direct Taylor chapter selects1863; six pins, zero inferred route lines.",
+      "Evidence control focuses entry-sources and exposes four expected institutional/primary-text links.",
+      "Final v21 reader keeps study title through biography/context Next and Previous.",
+      "No captured console errors in the exercised flow."
+    ],
+    "local": [
+      "Indian Act direct chapter opens1876 rather than1931.",
+      "Atlantic direct chapter, Next and reload keep1836.",
+      "BC modern regional browser links Mungo Martin and Thunderbird Park.",
+      "Chinese People search finds Susie King Taylor.",
+      "390x844 Chinese reader: no horizontal document overflow; source control focuses entry-sources."
+    ]
+  },
+  "hosting": {
+    "githubActionsRunsBefore": 0,
+    "githubActionsRunsAfter": 0,
+    "githubPagesEnabled": false
+  },
+  "limits": [
+    "Bounded source comparison and self-exercised flows, not complete corpus verification, community/specialist acceptance or broad accessibility acceptance.",
+    "2022 worldwide regional geometry remains a modern reference.",
+    "Pro/Gemini contributions were treated as bounded research/review leads; adopted claims were independently inspected."
+  ],
+  "recovery": "Old staging checkouts stalled during Git staging and were preserved. Fresh checkout plus the three-file follow-up patch completed. Filesystem root cause not established."
+}
