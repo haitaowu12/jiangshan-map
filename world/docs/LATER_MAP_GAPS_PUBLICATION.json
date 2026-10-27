@@ -1,0 +1,58 @@
+{
+  "release": "0.15.0 Gupta, Borno and Ayutthaya later map-gap continuation",
+  "publishedAt": "2026-10-27T04:06:34.444118+00:00",
+  "implementationCommit": "6df0f19ad63b1c70a234716cfa3fde63a058ab0b",
+  "sourceBranch": "world-history-atlas",
+  "siteProjectId": "appgprj_6ad99670954c81919b26d00c89ff19f4",
+  "siteSourceCommit": "f3002a594b033c9608ad14549eb8726404b23e96",
+  "sourceTree": "e5607ea53279e3a6afdfd0835292e1bddb8f2069",
+  "savedVersion": "appgprj_6ad99670954c81919b26d00c89ff19f4~appgver_7249a648f9e08191a98aec18b38238d5",
+  "versionNumber": 22,
+  "deploymentId": "appgdep_6ae0234116888191b759311ec5586c7b",
+  "status": "succeeded",
+  "url": "https://world-history-atlas-tony.techiesea.chatgpt.site",
+  "archive": {
+    "archive_format": "tar",
+    "sediment_file_id": "file_00000000124c81f5b05110997fa1440b",
+    "content_hash": "sha256:084bf6447497169c7ff297a04ad23c48d1ae8aa2497ebd0ed18aee08f416cdb5",
+    "size_bytes": 52101120,
+    "file_count": 494
+  },
+  "changes": {
+    "previousHistoricalInstances": 643,
+    "newHistoricalInstances": 7,
+    "currentHistoricalInstances": 650,
+    "guptaSource375Contexts": 2,
+    "bornoRegionalContexts": 4,
+    "toungooPeguCourtContext": 1
+  },
+  "validation": {
+    "structural": "passed",
+    "tests": 241,
+    "failures": 0,
+    "builderIdempotent": true,
+    "geometry": "All seven generated polygons valid by Shapely; source hashes and selected geographic witnesses checked. This does not validate historical frontiers.",
+    "transitionPalette": "31 views, 3860 sampled nearby or explicitly separated pairs, zero identical-color conflicts; worst measured cold computation 101 ms and warm 0.4 ms on this local machine.",
+    "sourceParity": "Pushed Site source tree exactly matches the canonical implementation commit's world tree.",
+    "live": [
+      "350 CE and 490 CE: Chinese Gupta entries show the source-375 partial core, with source year retained.",
+      "1569 CE: Chinese Ayutthaya source-1400 and Pegu source-1500 court references render with distinct colors; the earlier Ayutthaya outline is dashed.",
+      "1900 CE: the source-1898 Borno reference renders translucently over annual units; its English detail notes European imagined geography, the source-date discrepancy and colonial overlap.",
+      "Chinese Borno detail was checked locally at 390 by 844 viewport with no document horizontal overflow; no captured browser console errors in representative live views."
+    ]
+  },
+  "hosting": {
+    "githubActionsRunsBeforeImplementationPush": 0,
+    "githubActionsRunsAfterImplementationPush": 0,
+    "githubActionsRunsBeforeReceiptPush": 0,
+    "githubPagesEnabled": false,
+    "githubActionsSetting": "Enabled, unchanged. Existing workflows target main push/PR only; pushed atlas branch only, no PR."
+  },
+  "limits": [
+    "The Gupta reference is a partial, blurred source-375 schematic; periods before 350 and after 500 remain unfilled by this change.",
+    "Borno's reconstructed European-view core is approximate, not a surveyed frontier or Rabih's military boundary. Annual colonial claims and local rule may overlap.",
+    "The source-1400 Ayutthaya and source-1500 Pegu references do not establish exact 1569–1599 occupation boundaries.",
+    "No complete specialist acceptance, source-to-vertex verification or comprehensive accessibility certification is claimed."
+  ],
+  "receiptScope": "This receipt follows publication; the deployed implementation tree and source commit are identified above."
+}
