@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-27",
+  "method": "30 selected-year compositions around the Gupta and Toungoo follow-up; 250 km sampled boundary proximity and reviewed explicit separation pairs for display grouping, not border validation. Explicit shared identities are grouped before testing. Modern gray administrative reference outlines are excluded.",
+  "rows": [
+    {
+      "year": 320,
+      "features": 11,
+      "nearbyPairs": 11,
+      "priorConflicts": 1,
+      "conflicts": 0,
+      "coldMs": 60.038041000000135,
+      "warmMs": 0.7068750000000819
+    },
+    {
+      "year": 330,
+      "features": 10,
+      "nearbyPairs": 8,
+      "priorConflicts": 1,
+      "conflicts": 0,
+      "coldMs": 17.533332999999857,
+      "warmMs": 0.022707999999965978
+    },
+    {
+      "year": 349,
+      "features": 9,
+      "nearbyPairs": 6,
+      "priorConflicts": 1,
+      "conflicts": 0,
+      "coldMs": 11.30424999999991,
+      "warmMs": 0.02508299999999508
+    },
+    {
+      "year": 350,
+      "features": 9,
+      "nearbyPairs": 4,
+      "priorConflicts": 1,
+      "conflicts": 0,
+      "coldMs": 10.019500000000107,
+      "warmMs": 0.02204200000005585
+    },
+    {
+      "year": 500,
+      "features": 10,
+      "nearbyPairs": 5,
+      "priorConflicts": 1,
+      "conflicts": 0,
+      "coldMs": 6.749209000000064,
+      "warmMs": 0.022665999999844644
+    },
+    {
+      "year": 501,
+      "features": 9,
+      "nearbyPairs": 5,
+      "priorConflicts": 1,
+      "conflicts": 0,
+      "coldMs": 3.951999999999998,
+      "warmMs": 0.015124999999898137
+    },
+    {
+      "year": 510,
+      "features": 9,
+      "nearbyPairs": 5,
+      "priorConflicts": 1,
+      "conflicts": 0,
+      "coldMs": 5.2117500000001655,
+      "warmMs": 0.015124999999898137
+    },
+    {
+      "year": 525,
+      "features": 9,
+      "nearbyPairs": 5,
+      "priorConflicts": 1,
+      "conflicts": 0,
+      "coldMs": 0.008208999999851585,
+      "warmMs": 0.011583999999857042
+    },
+    {
+      "year": 542,
+      "features": 10,
+      "nearbyPairs": 8,
+      "priorConflicts": 1,
+      "conflicts": 0,
+      "coldMs": 7.468209000000115,
+      "warmMs": 0.016000000000076398
+    },
+    {
+      "year": 543,
+      "features": 10,
+      "nearbyPairs": 8,
+      "priorConflicts": 1,
+      "conflicts": 0,
+      "coldMs": 0.00904099999979735,
+      "warmMs": 0.016249999999899956
+    },
+    {
+      "year": 545,
+      "features": 10,
+      "nearbyPairs": 8,
+      "priorConflicts": 1,
+      "conflicts": 0,
+      "coldMs": 0.00874999999996362,
+      "warmMs": 0.019416999999975815
+    },
+    {
+      "year": 549,
+      "features": 10,
+      "nearbyPairs": 8,
+      "priorConflicts": 1,
+      "conflicts": 0,
+      "coldMs": 0.08874999999989086,
+      "warmMs": 0.03941599999984646
+    },
+    {
+      "year": 550,
+      "features": 13,
+      "nearbyPairs": 9,
+      "priorConflicts": 3,
+      "conflicts": 0,
+      "coldMs": 7.025624999999991,
+      "warmMs": 0.021416000000044733
+    },
+    {
+      "year": 554,
+      "features": 14,
+      "nearbyPairs": 12,
+      "priorConflicts": 4,
+      "conflicts": 0,
+      "coldMs": 6.284791999999925,
+      "warmMs": 0.019957999999860476
+    },
+    {
+      "year": 569,
+      "features": 14,
+      "nearbyPairs": 12,
+      "priorConflicts": 4,
+      "conflicts": 0,
+      "coldMs": 6.51954099999989,
+      "warmMs": 0.06512500000008004
+    },
+    {
+      "year": 589,
+      "features": 11,
+      "nearbyPairs": 6,
+      "priorConflicts": 3,
+      "conflicts": 0,
+      "coldMs": 8.345542000000023,
+      "warmMs": 0.018667000000050393
+    },
+    {
+      "year": 590,
+      "features": 12,
+      "nearbyPairs": 9,
+      "priorConflicts": 6,
+      "conflicts": 0,
+      "coldMs": 7.380959000000075,
+      "warmMs": 0.05075000000010732
+    },
+    {
+      "year": 599,
+      "features": 12,
+      "nearbyPairs": 9,
+      "priorConflicts": 6,
+      "conflicts": 0,
+      "coldMs": 0.07662499999992178,
+      "warmMs": 0.019416000000092026
+    },
+    {
+      "year": 600,
+      "features": 12,
+      "nearbyPairs": 5,
+      "priorConflicts": 1,
+      "conflicts": 0,
+      "coldMs": 6.807457999999997,
+      "warmMs": 0.016041999999970358
+    },
+    {
+      "year": 1564,
+      "features": 17,
+      "nearbyPairs": 9,
+      "priorConflicts": 2,
+      "conflicts": 0,
+      "coldMs": 12.014666999999918,
+      "warmMs": 0.021250000000009095
+    },
+    {
+      "year": 1568,
+      "features": 16,
+      "nearbyPairs": 9,
+      "priorConflicts": 2,
+      "conflicts": 0,
+      "coldMs": 10.001417000000174,
+      "warmMs": 0.022375000000010914
+    },
+    {
+      "year": 1569,
+      "features": 18,
+      "nearbyPairs": 13,
+      "priorConflicts": 2,
+      "conflicts": 0,
+      "coldMs": 11.303417000000081,
+      "warmMs": 0.026250000000118234
+    },
+    {
+      "year": 1575,
+      "features": 18,
+      "nearbyPairs": 13,
+      "priorConflicts": 2,
+      "conflicts": 0,
+      "coldMs": 0.014084000000138985,
+      "warmMs": 0.0236250000000382
+    },
+    {
+      "year": 1580,
+      "features": 18,
+      "nearbyPairs": 13,
+      "priorConflicts": 2,
+      "conflicts": 0,
+      "coldMs": 0.013458000000127868,
+      "warmMs": 0.026292000000012195
+    },
+    {
+      "year": 1581,
+      "features": 17,
+      "nearbyPairs": 9,
+      "priorConflicts": 2,
+      "conflicts": 0,
+      "coldMs": 11.50525000000016,
+      "warmMs": 0.030249999999796273
+    },
+    {
+      "year": 1583,
+      "features": 17,
+      "nearbyPairs": 9,
+      "priorConflicts": 2,
+      "conflicts": 0,
+      "coldMs": 0.013042000000041298,
+      "warmMs": 0.02045799999996234
+    },
+    {
+      "year": 1584,
+      "features": 17,
+      "nearbyPairs": 9,
+      "priorConflicts": 2,
+      "conflicts": 0,
+      "coldMs": 10.2962500000001,
+      "warmMs": 0.06879200000003038
+    },
+    {
+      "year": 1593,
+      "features": 17,
+      "nearbyPairs": 11,
+      "priorConflicts": 2,
+      "conflicts": 0,
+      "coldMs": 10.185457999999926,
+      "warmMs": 0.033125000000154614
+    },
+    {
+      "year": 1598,
+      "features": 17,
+      "nearbyPairs": 11,
+      "priorConflicts": 2,
+      "conflicts": 0,
+      "coldMs": 0.013500000000021828,
+      "warmMs": 0.022584000000051674
+    },
+    {
+      "year": 1599,
+      "features": 16,
+      "nearbyPairs": 10,
+      "priorConflicts": 1,
+      "conflicts": 0,
+      "coldMs": 10.295542000000069,
+      "warmMs": 0.022207999999864114
+    }
+  ]
+}

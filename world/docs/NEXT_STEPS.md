@@ -1,5 +1,7 @@
 # Next steps after application 0.14.0
 
+Latest dated Gupta and Ayutthaya source review: [27 October 2026](GUPTA_AYUTTHAYA_REVIEW_2026_10_27.md). The remaining early Gupta, 501–549 imperial, and direct occupation boundaries need stronger dated geometry.
+
 26 October later-map continuation: [Gupta, Borno and Ayutthaya follow-up](LATER_MAP_GAPS_REVIEW.md) adds seven source instances and preserves the previous 643. Gupta now has partial, source-375 context for 350–374 and 480–500; Borno has approximate, separately overlaid source references through 1901; and a source-1500 Pegu court reference accompanies the Ayutthaya phases. Next research still needs Gupta before 350 and after 500, independently dated geography across its changing reach, and evidence for Ayutthaya/Toungoo occupation boundaries. The Borno references show the author's reconstructed European views, not surveyed borders or Rabih's exact frontier.
 
 26 October continuation: [Gupta, Borno and Ayutthaya review](THREE_REGIONS_REVIEW.md) adds16 source instances, including four explicitly schematic South Asian cores and phased Borno/Ayutthaya references. The source images and their separate CC BY-SA licenses are retained. Continue the geographic and chronological limitations listed there, including Gupta before375/after479, finer 1569–1599 occupation geography, and later Borno after1885.
