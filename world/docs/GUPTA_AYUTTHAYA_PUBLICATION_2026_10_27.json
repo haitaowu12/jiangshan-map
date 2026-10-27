@@ -1,20 +1,20 @@
 {
   "release": "0.15.0 Gupta and Ayutthaya follow-up",
-  "publishedAt": "2026-10-27T15:45:10.215147+00:00",
+  "publishedAt": "2026-10-27T15:51:06.838579+00:00",
   "implementationCommit": "ef93424b90c152fad0aa2c51dcfe6b79371f1fac",
   "sourceBranch": "world-history-atlas",
   "siteProjectId": "appgprj_6ad99670954c81919b26d00c89ff19f4",
-  "siteSourceCommit": "29efa9724a747a63e373f44f6677196026279b13",
-  "sourceTree": "799260d7a24f53424e16b1f9e066119372c6c8f0",
-  "savedVersion": "appgprj_6ad99670954c81919b26d00c89ff19f4~appgver_665f0c9bade08191895159c6f5110260",
-  "versionNumber": 23,
-  "deploymentId": "appgdep_6ae0c6f682708191b21e101ad9f4cbc4",
+  "siteSourceCommit": "076ed2774a31813ae43767b43c9799a8357faf61",
+  "sourceTree": "4a411b9b7115128751c07192d0878a370b820a2b",
+  "savedVersion": "appgprj_6ad99670954c81919b26d00c89ff19f4~appgver_c9cb74d4849c8191abd6c00681ae4097",
+  "versionNumber": 24,
+  "deploymentId": "appgdep_6ae0c860cb18819196927bf2810037f1",
   "status": "succeeded",
   "url": "https://world-history-atlas-tony.techiesea.chatgpt.site",
   "archive": {
     "archive_format": "tar",
-    "sediment_file_id": "file_00000000c60081f59466d7dbae0d6ef5",
-    "content_hash": "sha256:8461298695339e9bbb42a952ee53dba52982eb0b0b684e93618a1421f810272b",
+    "sediment_file_id": "file_0000000010d081f5af0eb930b399f524",
+    "content_hash": "sha256:e32b184ca00e43dbcbc8804e1a8fee234970c6f7ddf9c05b0ce6cfb9d378daf0",
     "size_bytes": 52193280,
     "file_count": 500
   },
@@ -31,20 +31,22 @@
     "tests": 245,
     "failures": 0,
     "transitionPalette": "30 selected-year views, 259 sampled neighboring or explicitly separated pairs, zero identical-color conflicts; local maximum cold computation 60 ms and warm 0.71 ms.",
-    "sourceParity": "Site source tree exactly matched the implementation commit's world tree before publication.",
+    "sourceParity": "Site source tree exactly matched cache-key commit 648f4fd's world tree before publication.",
     "live": [
       "330 CE: Chinese early Gupta context entry appears; no early frontier inferred.",
       "543 CE: Chinese Damodarpur entry appears with the combined 542–545 source-date range.",
       "550 CE: Later Gupta, Maukhari and Chalukya source-550 core references appear separately.",
       "1580 CE: Chinese source-1580 Toungoo comparison line and source-1400 Ayutthaya reference appear; computed line style is unfilled and dashed, with stroke-only pointer interaction. Detail explains the crop and different political relationships.",
-      "Representative local 390-by-844 viewport check had no document horizontal overflow; no captured browser console errors in the representative live view."
+      "Representative local 390-by-844 viewport check had no document horizontal overflow; no captured browser console errors in the representative live view.",
+      "After reloading the existing browser session, the live document references app.mjs?v=35 and theme.css?v=23 and the sphere remains an unfilled dashed line."
     ]
   },
   "hosting": {
     "githubActionsRunsBeforeImplementationPush": 0,
     "githubActionsRunsAfterImplementationPush": 0,
     "githubPagesEnabled": false,
-    "githubActionsSetting": "Enabled, unchanged. Pushed atlas branch only, no PR."
+    "githubActionsSetting": "Enabled, unchanged. Pushed atlas branch only, no PR.",
+    "githubActionsRunsAfterCachePush": 0
   },
   "limits": [
     "No reliable early Gupta territorial polygon before 350 or continuous imperial Gupta outline for 501–549 was established.",
@@ -52,5 +54,12 @@
     "The unfilled 1580 Toungoo reference combines different dependencies and is not an outline of direct occupation; its cropped southern edge remains open.",
     "No comprehensive specialist historical acceptance or accessibility certification is claimed."
   ],
-  "receiptScope": "This receipt follows publication; the deployed implementation tree and source commit are identified above."
+  "receiptScope": "This receipt follows publication; the deployed implementation tree and source commit are identified above.",
+  "previousPublication": {
+    "versionNumber": 23,
+    "siteSourceCommit": "29efa9724a747a63e373f44f6677196026279b13",
+    "savedVersion": "appgprj_6ad99670954c81919b26d00c89ff19f4~appgver_665f0c9bade08191895159c6f5110260",
+    "deploymentId": "appgdep_6ae0c6f682708191b21e101ad9f4cbc4"
+  },
+  "cacheKeyCommit": "648f4fdc1c59e45d162a7b70acc4d5193f3be5bb"
 }
