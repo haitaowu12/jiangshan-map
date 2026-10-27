@@ -1,0 +1,56 @@
+{
+  "release": "0.15.0 Gupta and Ayutthaya follow-up",
+  "publishedAt": "2026-10-27T15:45:10.215147+00:00",
+  "implementationCommit": "ef93424b90c152fad0aa2c51dcfe6b79371f1fac",
+  "sourceBranch": "world-history-atlas",
+  "siteProjectId": "appgprj_6ad99670954c81919b26d00c89ff19f4",
+  "siteSourceCommit": "29efa9724a747a63e373f44f6677196026279b13",
+  "sourceTree": "799260d7a24f53424e16b1f9e066119372c6c8f0",
+  "savedVersion": "appgprj_6ad99670954c81919b26d00c89ff19f4~appgver_665f0c9bade08191895159c6f5110260",
+  "versionNumber": 23,
+  "deploymentId": "appgdep_6ae0c6f682708191b21e101ad9f4cbc4",
+  "status": "succeeded",
+  "url": "https://world-history-atlas-tony.techiesea.chatgpt.site",
+  "archive": {
+    "archive_format": "tar",
+    "sediment_file_id": "file_00000000c60081f59466d7dbae0d6ef5",
+    "content_hash": "sha256:8461298695339e9bbb42a952ee53dba52982eb0b0b684e93618a1421f810272b",
+    "size_bytes": 52193280,
+    "file_count": 500
+  },
+  "changes": {
+    "previousHistoricalInstances": 650,
+    "newHistoricalInstances": 8,
+    "currentHistoricalInstances": 658,
+    "sixthCenturyCoreInstances": 7,
+    "toungooSphereReferences": 1,
+    "newHistoricalEntries": 5
+  },
+  "validation": {
+    "structural": "passed",
+    "tests": 245,
+    "failures": 0,
+    "transitionPalette": "30 selected-year views, 259 sampled neighboring or explicitly separated pairs, zero identical-color conflicts; local maximum cold computation 60 ms and warm 0.71 ms.",
+    "sourceParity": "Site source tree exactly matched the implementation commit's world tree before publication.",
+    "live": [
+      "330 CE: Chinese early Gupta context entry appears; no early frontier inferred.",
+      "543 CE: Chinese Damodarpur entry appears with the combined 542–545 source-date range.",
+      "550 CE: Later Gupta, Maukhari and Chalukya source-550 core references appear separately.",
+      "1580 CE: Chinese source-1580 Toungoo comparison line and source-1400 Ayutthaya reference appear; computed line style is unfilled and dashed, with stroke-only pointer interaction. Detail explains the crop and different political relationships.",
+      "Representative local 390-by-844 viewport check had no document horizontal overflow; no captured browser console errors in the representative live view."
+    ]
+  },
+  "hosting": {
+    "githubActionsRunsBeforeImplementationPush": 0,
+    "githubActionsRunsAfterImplementationPush": 0,
+    "githubPagesEnabled": false,
+    "githubActionsSetting": "Enabled, unchanged. Pushed atlas branch only, no PR."
+  },
+  "limits": [
+    "No reliable early Gupta territorial polygon before 350 or continuous imperial Gupta outline for 501–549 was established.",
+    "The sixth-century source areas are diffuse historical interpretations, not annual surveys; Later Gupta is not automatically the imperial Gupta line.",
+    "The unfilled 1580 Toungoo reference combines different dependencies and is not an outline of direct occupation; its cropped southern edge remains open.",
+    "No comprehensive specialist historical acceptance or accessibility certification is claimed."
+  ],
+  "receiptScope": "This receipt follows publication; the deployed implementation tree and source commit are identified above."
+}
