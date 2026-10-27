@@ -1,0 +1,63 @@
+{
+  "release": "0.15.0 Gupta, Borno and Ayutthaya map continuation",
+  "publishedAt": "2026-10-27T03:24:13.485085+00:00",
+  "implementationCommit": "403e9d1270a7b4469d0f6b172c8eee073122c297",
+  "sourceBranch": "world-history-atlas",
+  "siteProjectId": "appgprj_6ad99670954c81919b26d00c89ff19f4",
+  "siteSourceCommit": "a897b3e3fdbcbab89712eda198ba41bb7649f43b",
+  "sourceTree": "2d68c25be334a9b23e0ecf6771f477775a3a4a2f",
+  "savedVersion": "appgprj_6ad99670954c81919b26d00c89ff19f4~appgver_8a440a44366c8191a623558b2841280e",
+  "versionNumber": 21,
+  "deploymentId": "appgdep_6ae01955a6ec8191ae5a4fe4e6f60aed",
+  "status": "succeeded",
+  "url": "https://world-history-atlas-tony.techiesea.chatgpt.site",
+  "archive": {
+    "archive_format": "tar",
+    "sediment_file_id": "file_00000000e3d881fdad8f9c64dc8a8d56",
+    "content_hash": "sha256:788f64c9e357fe3dfbd22ada2b6ff353a4e0a44b50976d4b41bbcf099d22f66d",
+    "size_bytes": 52008960,
+    "file_count": 490
+  },
+  "changes": {
+    "previousHistoricalInstances": 627,
+    "newHistoricalInstances": 16,
+    "currentHistoricalInstances": 643,
+    "guptaVakatakaSchematic": 4,
+    "laterKanem": 1,
+    "bornu": 8,
+    "ayutthaya": 3
+  },
+  "validation": {
+    "structural": "passed",
+    "tests": 236,
+    "failures": 0,
+    "sourceBlobHashesMatched": 8,
+    "sourceSVGHashesMatched": 2,
+    "buildersIdempotent": true,
+    "transitionPalette": "32 views, 484 nearby or explicit separation pairs, zero conflicts",
+    "broaderPalette": "64 views, 6368 pairs, zero conflicts",
+    "sourceParity": "Pushed Site source tree exactly matches the committed canonical implementation world tree.",
+    "live": [
+      "400 CE: Gupta and Vakataka source-375 schematic cores rendered with distinct colors and diffuse edges; source year and alignment caveat appeared in the Chinese detail panel.",
+      "1582 CE: Ayutthaya transition used source-1400 outline and showed 1568/1569 and 1581/1584 source differences.",
+      "1813 CE: Borno crisis and relocation phase appeared; 1814 CE: Kukawa court replaced it with the source-1815 outline and capital-date caveat.",
+      "An existing QA tab initially displayed stale styling; a fresh tab and subsequent reload showed the published diffuse styling."
+    ],
+    "capturedLiveWarningsOrErrors": 0,
+    "localDetails": "See THREE_REGIONS_VERIFICATION.json for transition and narrow-screen checks."
+  },
+  "hosting": {
+    "githubActionsRunsBeforeImplementationPush": 0,
+    "githubActionsRunsAfterImplementationPush": 0,
+    "githubActionsRunsBeforeReceiptPush": 0,
+    "githubPagesEnabled": false,
+    "githubActionsSetting": "Enabled, unchanged. Existing workflows target main push/PR only; pushed atlas branch only, no PR."
+  },
+  "limits": [
+    "Gupta and Vakataka are approximately aligned source schematics with diffuse edges, not precise borders; the source Vidisha marker differs from its modern location by about 181 km. Earlier and later periods remain incomplete.",
+    "The 1400 Ayutthaya outline is reused for 1569–1599 core orientation and does not reconstruct a military frontier.",
+    "Later Borno outlines are regional context, not annual surveyed boundaries or uniform control.",
+    "No complete specialist acceptance, source-to-vertex verification or comprehensive accessibility certification is claimed."
+  ],
+  "receiptScope": "This receipt follows publication; the deployed implementation tree and source commit are identified above."
+}
