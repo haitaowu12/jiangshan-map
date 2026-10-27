@@ -30,3 +30,6 @@ No historical geometry, narrative, source color, date or source ID changes. Colo
 The current soft theme, names, boundary strokes and hatch meanings remain available alongside color. This bounded review does not claim universal color-vision accessibility or exact detection of every possible neighboring source geometry.
 
 Publication identifiers and live verification are recorded separately in `MAP_COLOR_PUBLICATION.json` after deployment.
+
+
+26 October continuation: the Gupta and Vakataka source drawings use diffuse cores whose sampled outlines are farther apart than the 250 km threshold. Their reviewed `displayDistinctFrom` metadata creates an explicit color-separation edge when both are present; it does not assert an actual common frontier. The palette cache includes that metadata, and a regression checks that changing it cannot reuse a stale color assignment.

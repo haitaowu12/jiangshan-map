@@ -1,0 +1,230 @@
+{
+  "checkedAt": "2026-10-26",
+  "method": "Actual map composition at 32 selected source and transition years; 250 km sampled boundary proximity and reviewed explicit separation pairs detect nearby display groups, not historical-border truth.",
+  "rows": [
+    {
+      "year": 374,
+      "features": 8,
+      "nearbyPairs": 4,
+      "conflicts": 0,
+      "coldMs": 42.53287500000005
+    },
+    {
+      "year": 375,
+      "features": 10,
+      "nearbyPairs": 5,
+      "conflicts": 0,
+      "coldMs": 18.813540999999987
+    },
+    {
+      "year": 400,
+      "features": 14,
+      "nearbyPairs": 12,
+      "conflicts": 0,
+      "coldMs": 7.829750000000104
+    },
+    {
+      "year": 449,
+      "features": 10,
+      "nearbyPairs": 5,
+      "conflicts": 0,
+      "coldMs": 6.4686249999999745
+    },
+    {
+      "year": 450,
+      "features": 10,
+      "nearbyPairs": 5,
+      "conflicts": 0,
+      "coldMs": 6.877291999999898
+    },
+    {
+      "year": 479,
+      "features": 9,
+      "nearbyPairs": 4,
+      "conflicts": 0,
+      "coldMs": 4.325416999999902
+    },
+    {
+      "year": 480,
+      "features": 7,
+      "nearbyPairs": 3,
+      "conflicts": 0,
+      "coldMs": 3.331916999999976
+    },
+    {
+      "year": 1299,
+      "features": 18,
+      "nearbyPairs": 15,
+      "conflicts": 0,
+      "coldMs": 12.82062499999995
+    },
+    {
+      "year": 1300,
+      "features": 18,
+      "nearbyPairs": 15,
+      "conflicts": 0,
+      "coldMs": 9.475584000000026
+    },
+    {
+      "year": 1379,
+      "features": 18,
+      "nearbyPairs": 10,
+      "conflicts": 0,
+      "coldMs": 10.41116599999998
+    },
+    {
+      "year": 1380,
+      "features": 17,
+      "nearbyPairs": 9,
+      "conflicts": 0,
+      "coldMs": 8.372667000000092
+    },
+    {
+      "year": 1459,
+      "features": 16,
+      "nearbyPairs": 5,
+      "conflicts": 0,
+      "coldMs": 5.856499999999983
+    },
+    {
+      "year": 1460,
+      "features": 16,
+      "nearbyPairs": 5,
+      "conflicts": 0,
+      "coldMs": 5.330083000000059
+    },
+    {
+      "year": 1500,
+      "features": 18,
+      "nearbyPairs": 9,
+      "conflicts": 0,
+      "coldMs": 6.852792000000022
+    },
+    {
+      "year": 1568,
+      "features": 16,
+      "nearbyPairs": 9,
+      "conflicts": 0,
+      "coldMs": 8.450874999999996
+    },
+    {
+      "year": 1569,
+      "features": 16,
+      "nearbyPairs": 8,
+      "conflicts": 0,
+      "coldMs": 7.2257079999999405
+    },
+    {
+      "year": 1580,
+      "features": 16,
+      "nearbyPairs": 8,
+      "conflicts": 0,
+      "coldMs": 0.019833000000062384
+    },
+    {
+      "year": 1581,
+      "features": 16,
+      "nearbyPairs": 8,
+      "conflicts": 0,
+      "coldMs": 7.542041999999924
+    },
+    {
+      "year": 1583,
+      "features": 16,
+      "nearbyPairs": 8,
+      "conflicts": 0,
+      "coldMs": 0.09762499999999363
+    },
+    {
+      "year": 1584,
+      "features": 16,
+      "nearbyPairs": 8,
+      "conflicts": 0,
+      "coldMs": 7.685415999999918
+    },
+    {
+      "year": 1599,
+      "features": 16,
+      "nearbyPairs": 10,
+      "conflicts": 0,
+      "coldMs": 7.943624999999997
+    },
+    {
+      "year": 1600,
+      "features": 20,
+      "nearbyPairs": 20,
+      "conflicts": 0,
+      "coldMs": 15.472082999999998
+    },
+    {
+      "year": 1699,
+      "features": 21,
+      "nearbyPairs": 18,
+      "conflicts": 0,
+      "coldMs": 15.057833999999957
+    },
+    {
+      "year": 1700,
+      "features": 22,
+      "nearbyPairs": 19,
+      "conflicts": 0,
+      "coldMs": 15.72629100000006
+    },
+    {
+      "year": 1807,
+      "features": 49,
+      "nearbyPairs": 28,
+      "conflicts": 0,
+      "coldMs": 40.817374999999856
+    },
+    {
+      "year": 1808,
+      "features": 49,
+      "nearbyPairs": 28,
+      "conflicts": 0,
+      "coldMs": 28.804624999999987
+    },
+    {
+      "year": 1809,
+      "features": 49,
+      "nearbyPairs": 25,
+      "conflicts": 0,
+      "coldMs": 25.407791999999972
+    },
+    {
+      "year": 1814,
+      "features": 48,
+      "nearbyPairs": 23,
+      "conflicts": 0,
+      "coldMs": 23.277667000000065
+    },
+    {
+      "year": 1815,
+      "features": 54,
+      "nearbyPairs": 36,
+      "conflicts": 0,
+      "coldMs": 27.24587499999984
+    },
+    {
+      "year": 1845,
+      "features": 63,
+      "nearbyPairs": 36,
+      "conflicts": 0,
+      "coldMs": 26.640083000000004
+    },
+    {
+      "year": 1846,
+      "features": 63,
+      "nearbyPairs": 34,
+      "conflicts": 0,
+      "coldMs": 25.094707999999855
+    },
+    {
+      "year": 1885,
+      "features": 98,
+      "nearbyPairs": 52,
+      "conflicts": 0,
+      "coldMs": 54.18895799999996
+    }
+  ]
+}

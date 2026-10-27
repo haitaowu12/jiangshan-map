@@ -1,0 +1,42 @@
+{
+  "reviewedAt": "2026-10-26",
+  "release": "0.15.0 three-region map continuation",
+  "previousHistoricalInstances": 627,
+  "newHistoricalInstances": 16,
+  "currentHistoricalInstances": 643,
+  "newByType": {
+    "guptaVakatakaSchematic": 4,
+    "laterKanem": 1,
+    "bornu": 8,
+    "ayutthaya": 3
+  },
+  "verification": {
+    "structural": "passed",
+    "tests": 236,
+    "failed": 0,
+    "previousLayers": "All 627 prior instances and layer bytes frozen",
+    "newSourceSVGHashes": "Both originals verified",
+    "sourceBlobHashes": "Eight historical-basemaps input files verified against the pinned Git commit",
+    "builders": "Both additive builders reproduce identical outputs and manifest",
+    "geometry": "All sixteen new features are nonempty and valid in Shapely; D3 spherical-area checks pass",
+    "palette": "32 transition views, 484 nearby/explicit display pairs, zero color conflicts; 64 broader views, 6368 pairs, zero conflicts",
+    "performance": "Local cold palette maximum 213 ms across the broader 64-view audit; not an end-to-end page-load or mobile benchmark. Three additional shipped geometry shards total about 99 KB."
+  },
+  "browser": {
+    "desktop": [
+      "400 CE Gupta/Vakataka cores appear with soft edges, distinct fills, source years and explicit accuracy notes.",
+      "1300 and 1379: Kanem and Borno displayed simultaneously; 1380 transitions to the western court.",
+      "1808–1813 show capital crisis and relocation; 1814 shows Kukawa court.",
+      "1568,1569,1580,1581,1583,1584,1599,1600 exercise Ayutthaya status handoffs.",
+      "English and Chinese source details expose the 1568/1569 and 1581/1584 differences."
+    ],
+    "narrow": "390-by-844 viewport: 375-pixel content width, no horizontal overflow; the Chinese Ayutthaya detail panel retained source links and scrollable text.",
+    "capturedWarningsOrErrors": 0
+  },
+  "limits": [
+    "The Gupta/Vakataka illustrations are approximately georegistered schematic cores, with a roughly 181 km Vidisha marker discrepancy; they are not precise borders.",
+    "The Ayutthaya 1400 outline is reused for 1569–1599 core orientation and does not reconstruct the military frontier.",
+    "Later Borno outlines describe selected regional context and do not resolve every change of political control.",
+    "No complete specialist acceptance, source-to-vertex verification or comprehensive accessibility certification is claimed."
+  ]
+}
