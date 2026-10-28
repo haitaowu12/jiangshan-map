@@ -1,5 +1,7 @@
 # Next steps after application 0.14.0
 
+27 October Indus, religious and Indigenous continuation: [review and evidence limits](INDUS_RELIGIONS_INDIGENOUS_REVIEW_2026_10_27.md) adds five bilingual entries and three comparative readings. Continue early Jewish, Christian, Buddhist and Sikh histories, Indus pre-urban evidence, and Indigenous community-led regional coverage; do not infer boundaries from narrative points.
+
 27 October cross-regional continuation: [Cold War, Atlantic and migration review](CROSS_REGIONAL_REVIEW_2026_10_27.md) adds twelve sourced bilingual histories and three connected reading paths. Continue Cuban/Vietnamese perspectives, competing migration models and community review without inferring routes or borders from points.
 
 Latest dated Gupta and Ayutthaya source review: [27 October 2026](GUPTA_AYUTTHAYA_REVIEW_2026_10_27.md). The remaining early Gupta, 501–549 imperial, and direct occupation boundaries need stronger dated geometry.
