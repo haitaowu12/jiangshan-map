@@ -1,5 +1,7 @@
 # Next steps after application 0.14.0
 
+28 October source-description language update: [Chinese overlay and review limits](SOURCE_NOTES_ZH_REVIEW_2026_10_28.md). Continue bilingual, regional, and community review of machine-assisted descriptions. Add reviewed Chinese notes whenever new English evidence notes are introduced; keep the original and run the source-note coverage checks.
+
 27 October early faiths continuation: [Jewish, Christian, Buddhist and Sikh source review](EARLY_FAITHS_REVIEW_2026_10_27.md) adds 13 bilingual histories and four readings. Continue community and specialist review, additional regional traditions and deeper life histories without assigning unsupported dates or borders.
 
 27 October Indus, religious and Indigenous continuation: [review and evidence limits](INDUS_RELIGIONS_INDIGENOUS_REVIEW_2026_10_27.md) adds five bilingual entries and three comparative readings. Continue early Jewish, Christian, Buddhist and Sikh histories, Indus pre-urban evidence, and Indigenous community-led regional coverage; do not infer boundaries from narrative points.
