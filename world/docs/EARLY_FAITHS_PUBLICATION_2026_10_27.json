@@ -1,0 +1,31 @@
+{
+  "status": "deployed",
+  "publishedAt": "2026-10-28T05:41:13.762493+00:00",
+  "implementationCommit": "432c3a036516f6f2af11d4aa116e192f861df080",
+  "implementationTree": "6ff818a11e5f353975ce8784a5afac2d1a88314f",
+  "site": {
+    "projectId": "appgprj_6ad99670954c81919b26d00c89ff19f4",
+    "savedVersionId": "appgprj_6ad99670954c81919b26d00c89ff19f4~appgver_495f8d08c0b4819190d05f8b9540164d",
+    "savedVersionNumber": 27,
+    "sourceCommit": "093c249c1b993ba1edd046d27fecb57dc81c53ac",
+    "sourceTree": "6ff818a11e5f353975ce8784a5afac2d1a88314f",
+    "archivePath": "/Users/tony/Developer/.atlas-sites-staging/early-faiths-2026-10-27.tar",
+    "localArchiveSha256": "28fa69db89ebb436d85c14ee40218d9b70d1aaf5ecf6763a16c5e5c18c654219",
+    "savedArchiveContentHash": "sha256:98a5d5a34af37f0869afe2810188984ad0eadf44d226b335253254a8b717dc18",
+    "deploymentId": "appgdep_6ae18af2274081919b26776b4f17fa96",
+    "deploymentStatus": "succeeded",
+    "publishedUrl": "https://world-history-atlas-tony.techiesea.chatgpt.site"
+  },
+  "validation": {
+    "automatedChecks": "262 passed; 1,909 records, 175 biographies, 555 milestones, 63 study guides, 658 unchanged map instances",
+    "deterministicRebuild": true,
+    "localBrowser": "Dedicated Chrome reviewer checked English and Chinese entries for each tradition and advanced all four readings, including 70 CE, 313, 325, 249 BCE, 1699 and 1799 anchors. At 390 × 844 the Sikh reading worked and horizontal navigation exposed Challenge. No console warnings/errors observed.",
+    "githubActionsRunsBeforeAndAfterImplementationPush": 0,
+    "liveBrowser": "Dedicated Chrome reviewer confirmed app.mjs?v=39 and 1,909 entries, English and Chinese representative entries for all four traditions, their qualifications and visible source link targets. The Jewish reading advanced from 300 BCE to 70 CE and the Christian reading from 313 to 325 with matching map years; no console warnings or errors were captured. Screenshot was inspected but not saved. These are sampled checks, not comprehensive accessibility or specialist acceptance."
+  },
+  "limitations": [
+    "Religious chronologies, traditional accounts and source scope remain attributed; source descriptions are English in Chinese mode.",
+    "No expert or community acceptance or inferred historical borders is claimed."
+  ],
+  "nextStep": "Continue community and specialist review, regional religious histories and life stories only where adequately dated sources support them."
+}
