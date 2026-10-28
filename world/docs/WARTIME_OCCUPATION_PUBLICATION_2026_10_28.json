@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "publishedAt": "2026-10-28T15:28:05Z",
+  "scope": "Canada and US loading fallback, in-shape map labels, and selected bilingual wartime occupation and liberation context",
+  "source": {
+    "repository": "https://github.com/haitaowu12/jiangshan-map",
+    "branch": "world-history-atlas",
+    "implementationCommit": "5b6cc38fa5128d843575b528a0683b85024b2961",
+    "worldTree": "7dcd03f98606d9b594e59ab98cb7bf213ef0a8fe"
+  },
+  "site": {
+    "projectId": "appgprj_6ad99670954c81919b26d00c89ff19f4",
+    "sourceCommit": "0d12d6a83264a38de9531ceb2fcc90406ca797ad",
+    "sourceTree": "7dcd03f98606d9b594e59ab98cb7bf213ef0a8fe",
+    "versionNumber": 29,
+    "versionId": "appgprj_6ad99670954c81919b26d00c89ff19f4~appgver_44105a7fb05c8191ac5d084b89d1a027",
+    "deploymentId": "appgdep_6ae21479b948819188b07cf2fd9e95c7",
+    "status": "succeeded",
+    "url": "https://world-history-atlas-tony.techiesea.chatgpt.site",
+    "audience": "public",
+    "localArchive": "/Users/tony/Developer/.atlas-sites-staging/ww-occupation-2026-10-28.tar",
+    "localArchiveSha256": "61cfac067abf91e4ecac2d5163b72851b6fd3f2218c04246d82e4c7ad7af236a",
+    "siteArchiveContentHash": "sha256:13fa108e5f167359bc9ff9fd9a93ca1e15b8c60566c6bfed37e6720bfc4cfefd"
+  },
+  "verification": {
+    "command": "npm run check",
+    "passedTests": 277,
+    "failedTests": 0,
+    "localBrowser": "In-app browser: 1822 Spain, 1921 Canada, 1916 and 1942–45 occupation contexts, English and Chinese, linked sources, country detail, map-view and layer toggles. An intentionally failed Canadian file left the global reference visible; retry restored the dated division.",
+    "liveBrowser": "In-app browser: app v41; 1921 British Columbia fill, 1822 Spain label, 1916 references, 1942 occupation key and Greece source, and 1945 Chinese text with distinct zones and transition markers. No browser errors or warnings reported.",
+    "githubActionsRunsBefore": 0,
+    "githubActionsRunsAfter": 0,
+    "limits": "Wartime coverage is selective. Country hatching is not a military frontier, and place markers do not establish control over a whole country. Specialist and community review remain outstanding."
+  }
+}
