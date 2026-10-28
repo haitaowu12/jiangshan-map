@@ -10,7 +10,8 @@
     "sourceCommit": "c101a13f0bcfbfae7d1032b55b8b5b34b9c81bcb",
     "sourceTree": "3dbc7dadf023e8c84a67fe7512362b061a79c192",
     "archivePath": "/Users/tony/Developer/.atlas-sites-staging/indus-religions-indigenous-2026-10-27.tar",
-    "archiveSha256": "f080253fd16004162fe35ac1f33f906af811d85f430640ba2a8c3f565eed54b7",
+    "localArchiveSha256": "f79491a454cc962ad60ace8d1f066682e14c157a56db26257bfe66c3c641617c",
+    "savedArchiveContentHash": "sha256:f080253fd16004162fe35ac1f33f906af811d85f430640ba2a8c3f565eed54b7",
     "deploymentId": null,
     "liveUrl": "https://world-history-atlas-tony.techiesea.chatgpt.site",
     "previousLiveVersionNumber": 25
