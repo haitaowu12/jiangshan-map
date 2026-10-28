@@ -1,0 +1,56 @@
+{
+  "release": "0.15.0 Cold War, Atlantic and migration continuation",
+  "publishedAt": "2026-10-28T03:17:57.721101+00:00",
+  "implementationCommit": "7bac8f1fcbc52dfd7508eee99d80b8608b3853dd",
+  "sourceBranch": "world-history-atlas",
+  "siteProjectId": "appgprj_6ad99670954c81919b26d00c89ff19f4",
+  "siteSourceCommit": "d52ca5a09aca1966232ec3fe78964eaf35416849",
+  "sourceTree": "370e782332183aa5aa8615d082570383f383b438",
+  "savedVersion": "appgprj_6ad99670954c81919b26d00c89ff19f4~appgver_3ce44bfe37bc8191b0c1399d3c8096a9",
+  "versionNumber": 25,
+  "deploymentId": "appgdep_6ae1695bec74819198ff3f45783793d8",
+  "status": "succeeded",
+  "url": "https://world-history-atlas-tony.techiesea.chatgpt.site",
+  "archive": {
+    "archive_format": "tar",
+    "sediment_file_id": "file_0000000063ac81f5a7e3081cce76ae1e",
+    "content_hash": "sha256:57b402e3248d63bd9388567e41d643437aa7478cab004b6656f770fbc2bde078",
+    "size_bytes": 52275200,
+    "file_count": 502
+  },
+  "changes": {
+    "newBilingualEntries": 12,
+    "newBiographies": 1,
+    "newBiographyMilestones": 3,
+    "newReadingPaths": 3,
+    "historicalMapInstancesUnchanged": 658,
+    "mapLabelCorrections": ["1954 provisional Geneva context", "1975 transition before 1976 formal unification"],
+    "broadPointsExcludedFromModernAreaIndex": 5
+  },
+  "validation": {
+    "structural": "passed",
+    "fullTests": 252,
+    "fullTestFailures": 0,
+    "followupTargetedTests": 12,
+    "followupTargetedFailures": 0,
+    "testScope": "The full suite preceded a minor Chinese note and diagnostic wording refinement; the affected map and cross-regional tests passed afterward.",
+    "contentRebuild": "Idempotent across four generated outputs; 5.36 seconds on the local machine.",
+    "sourceParity": "Site source tree matched the implementation commit's world tree before publication.",
+    "localBrowser": "Dedicated Chrome agent checked bilingual discovery, representative reading-path navigation, Mary Prince milestones, 1954/1955/1974–1976 Vietnam labels, source notes, and a 375-by-844 viewport. This follows the newer user browser instruction over the repository's in-app-browser instruction.",
+    "liveBrowser": "Existing Chrome session reloaded app.mjs?v=37. At 1973 the exact English and Chinese Vietnam War searches worked; 1954 and 1975 map labels and notes, the 1500 Columbian Exchange entry, and 2000 BCE Bantu and Austronesian entries appeared. No app console errors were captured.",
+    "liveScreenshot": "/Users/tony/Documents/Codex/2026-10-24/get-x20/atlas-cross-live-v25.png"
+  },
+  "hosting": {
+    "githubActionsRunsBeforeImplementationPush": 0,
+    "githubActionsRunsAfterImplementationPush": 0,
+    "githubPagesEnabled": false,
+    "githubActionsSetting": "Enabled, unchanged. Pushed atlas branch only; no PR or workflow was created."
+  },
+  "limits": [
+    "No migration routes or political borders were invented. The two Vietnam display notes do not alter CShapes geometry or prove the underlying source's exact line.",
+    "Cuban civilian and government perspectives, further Vietnamese community sources, competing Bantu models and newer Austronesian research remain for editorial review.",
+    "Chinese stories and controls are translated, while individual source descriptions and evidence notes remain English.",
+    "Automated checks and sampled browser QA do not constitute comprehensive historical, linguistic, community or accessibility acceptance."
+  ],
+  "receiptScope": "This receipt follows publication; the deployed implementation tree and source commit are identified above."
+}
