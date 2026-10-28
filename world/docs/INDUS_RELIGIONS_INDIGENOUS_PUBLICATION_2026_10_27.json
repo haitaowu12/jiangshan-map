@@ -1,0 +1,25 @@
+{
+  "status": "saved_candidate_not_deployed",
+  "preparedAt": "2026-10-28T03:41:32Z",
+  "implementationCommit": "b77f08eaa4a0937b72dec88732ac5586f7884ca4",
+  "implementationTree": "3dbc7dadf023e8c84a67fe7512362b061a79c192",
+  "site": {
+    "projectId": "appgprj_6ad99670954c81919b26d00c89ff19f4",
+    "savedVersionId": "appgprj_6ad99670954c81919b26d00c89ff19f4~appgver_7817aa142c7881919eef0b442301c6c7",
+    "savedVersionNumber": 26,
+    "sourceCommit": "c101a13f0bcfbfae7d1032b55b8b5b34b9c81bcb",
+    "sourceTree": "3dbc7dadf023e8c84a67fe7512362b061a79c192",
+    "archivePath": "/Users/tony/Developer/.atlas-sites-staging/indus-religions-indigenous-2026-10-27.tar",
+    "archiveSha256": "f080253fd16004162fe35ac1f33f906af811d85f430640ba2a8c3f565eed54b7",
+    "deploymentId": null,
+    "liveUrl": "https://world-history-atlas-tony.techiesea.chatgpt.site",
+    "previousLiveVersionNumber": 25
+  },
+  "validation": {
+    "automatedChecks": "257 passed",
+    "historicalMapInstances": 658,
+    "browser": "Chrome unavailable: local preview and live QA not performed; user asked whether delegated browser review may use the in-app browser.",
+    "githubActionsRunsAfterPush": 0
+  },
+  "nextStep": "Complete authorized browser validation, repair issues if necessary, then deploy the saved matching candidate or rebuild it if source changes. Verify production and update this receipt."
+}
