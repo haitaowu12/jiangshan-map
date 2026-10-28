@@ -1,5 +1,7 @@
 # Next steps after application 0.14.0
 
+28 October wartime and display continuation: [occupation context, evidence and limits](WARTIME_OCCUPATION_REVIEW_2026_10_28.md) documents selective country-reference hatching, representative places and 1944–45 transitions, plus the Canada loading and label-placement repairs. Continue with independently sourced, reusable dated occupation and front-line geometry for WWI and WWII; partitioned Poland, France and Czechoslovakia, the Soviet Union, Southeast Asia and other theaters remain incomplete. Seek regional, community and specialist review before claiming complete or precise territorial control.
+
 28 October source-description language update: [Chinese overlay and review limits](SOURCE_NOTES_ZH_REVIEW_2026_10_28.md). Continue bilingual, regional, and community review of machine-assisted descriptions. Add reviewed Chinese notes whenever new English evidence notes are introduced; keep the original and run the source-note coverage checks.
 
 27 October early faiths continuation: [Jewish, Christian, Buddhist and Sikh source review](EARLY_FAITHS_REVIEW_2026_10_27.md) adds 13 bilingual histories and four readings. Continue community and specialist review, additional regional traditions and deeper life histories without assigning unsupported dates or borders.
