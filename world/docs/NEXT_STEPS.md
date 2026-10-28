@@ -1,5 +1,7 @@
 # Next steps after application 0.14.0
 
+27 October cross-regional continuation: [Cold War, Atlantic and migration review](CROSS_REGIONAL_REVIEW_2026_10_27.md) adds twelve sourced bilingual histories and three connected reading paths. Continue Cuban/Vietnamese perspectives, competing migration models and community review without inferring routes or borders from points.
+
 Latest dated Gupta and Ayutthaya source review: [27 October 2026](GUPTA_AYUTTHAYA_REVIEW_2026_10_27.md). The remaining early Gupta, 501–549 imperial, and direct occupation boundaries need stronger dated geometry.
 
 26 October later-map continuation: [Gupta, Borno and Ayutthaya follow-up](LATER_MAP_GAPS_REVIEW.md) adds seven source instances and preserves the previous 643. Gupta now has partial, source-375 context for 350–374 and 480–500; Borno has approximate, separately overlaid source references through 1901; and a source-1500 Pegu court reference accompanies the Ayutthaya phases. Next research still needs Gupta before 350 and after 500, independently dated geography across its changing reach, and evidence for Ayutthaya/Toungoo occupation boundaries. The Borno references show the author's reconstructed European views, not surveyed borders or Rabih's exact frontier.
