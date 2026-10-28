@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "publishedAt": "2026-10-28T07:18:51.182882Z",
+  "scope": "Chinese source-description overlay and original-English disclosure",
+  "source": {
+    "repository": "https://github.com/haitaowu12/jiangshan-map",
+    "branch": "world-history-atlas",
+    "implementationCommit": "5c8a6c5608afb1960a2b19be1244d0816665569f",
+    "worldTree": "32b0dd66a0ef99377a2eb3706d2aa62517fa0740"
+  },
+  "site": {
+    "projectId": "appgprj_6ad99670954c81919b26d00c89ff19f4",
+    "sourceCommit": "3ff84c6eecfddbd44195ed6cc2987befa1734d22",
+    "sourceTree": "32b0dd66a0ef99377a2eb3706d2aa62517fa0740",
+    "versionNumber": 28,
+    "versionId": "appgprj_6ad99670954c81919b26d00c89ff19f4~appgver_a0c90afc0f7c8191bd4c23a4e514ca69",
+    "deploymentId": "appgdep_6ae1a1d1095081918e4d1e420a1b7e71",
+    "status": "succeeded",
+    "url": "https://world-history-atlas-tony.techiesea.chatgpt.site",
+    "audience": "public",
+    "localArchive": "/Users/tony/Developer/.atlas-sites-staging/source-notes-zh-2026-10-28.tar",
+    "localArchiveSha256": "0abf5e2d1d3bb62a233f34c2d869c222c72641178d7f3890b44487bd578e2f37",
+    "siteArchiveContentHash": "sha256:60275affec28d17e6df989af2363e6a48f806144c3090d63e636277fb978d711"
+  },
+  "coverage": {
+    "distinctDataDescriptions": 1783,
+    "dataOccurrences": 7512,
+    "translationsIncludingRuntimeNotes": 1791,
+    "editorialOverrides": 119,
+    "translationBytes": 518748,
+    "numericAndQualificationTriageFlags": 0
+  },
+  "verification": {
+    "command": "npm run check",
+    "passedTests": 269,
+    "failedTests": 0,
+    "translationShardRebuild": "deterministic",
+    "previewBrowser": "Chrome: story, catalog, map, route, people/place notes, original disclosure and language switching checked; 390 by 844 text wrapping checked.",
+    "liveBrowser": "Chrome confirmed Chinese descriptions and the English-original disclosure in the 313 Milan entry. The live language-switch check timed out; the in-app-browser fallback returned a closed transport. Language switching passed in the local preview, but the live switch, Ada, Atlantic route and console state were not independently verified in this pass.",
+    "githubActionsRunsBefore": 0,
+    "githubActionsRunsAfter": 0
+  }
+}
