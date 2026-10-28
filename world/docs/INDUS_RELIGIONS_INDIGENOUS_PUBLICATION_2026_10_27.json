@@ -1,5 +1,5 @@
 {
-  "status": "saved_candidate_not_deployed",
+  "status": "deployed",
   "preparedAt": "2026-10-28T03:41:32Z",
   "implementationCommit": "b77f08eaa4a0937b72dec88732ac5586f7884ca4",
   "implementationTree": "3dbc7dadf023e8c84a67fe7512362b061a79c192",
@@ -12,15 +12,20 @@
     "archivePath": "/Users/tony/Developer/.atlas-sites-staging/indus-religions-indigenous-2026-10-27.tar",
     "localArchiveSha256": "f79491a454cc962ad60ace8d1f066682e14c157a56db26257bfe66c3c641617c",
     "savedArchiveContentHash": "sha256:f080253fd16004162fe35ac1f33f906af811d85f430640ba2a8c3f565eed54b7",
-    "deploymentId": null,
+    "deploymentId": "appgdep_6ae178fbe218819197a9df1baccf8c2a",
     "liveUrl": "https://world-history-atlas-tony.techiesea.chatgpt.site",
-    "previousLiveVersionNumber": 25
+    "previousLiveVersionNumber": 25,
+    "deploymentStatus": "succeeded",
+    "publishedUrl": "https://world-history-atlas-tony.techiesea.chatgpt.site"
   },
   "validation": {
     "automatedChecks": "257 passed",
     "historicalMapInstances": 658,
-    "browser": "Chrome unavailable: local preview and live QA not performed; user asked whether delegated browser review may use the in-app browser.",
-    "githubActionsRunsAfterPush": 0
+    "browser": "After the user explicitly authorized direct in-app browser use, local desktop checks covered English Indus and Arctic search/details, Chinese Indigenous and Hindu search/details, all three reading paths and representative map anchors; a 375-by-844 viewport had no horizontal overflow. Local browser reported no warnings or errors. The previously assigned reviewer could not access IAB and Chrome timed out.",
+    "githubActionsRunsAfterPush": 0,
+    "liveBrowser": "An existing in-app atlas tab loaded 1,896 records. Chinese search and source links were checked for Indus, Sivullirmiut and Hinduism; all three new reading paths appeared. No warnings or errors were captured. The browser checks are sampled, not a complete accessibility or specialist review.",
+    "liveScreenshot": "/Users/tony/Documents/Codex/2026-10-24/get-x20/atlas-indigenous-live-v26.png"
   },
-  "nextStep": "Complete authorized browser validation, repair issues if necessary, then deploy the saved matching candidate or rebuild it if source changes. Verify production and update this receipt."
+  "nextStep": "Continue source-backed early Jewish, Christian, Buddhist and Sikh histories, Indus pre-urban evidence, and Indigenous community-led regional coverage. Seek community and specialist review; avoid inferring territorial boundaries from narrative markers.",
+  "publishedAt": "2026-10-28T04:24:38.021659+00:00"
 }
