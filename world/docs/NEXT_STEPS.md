@@ -1,3 +1,7 @@
+# Next steps
+
+28 October Jiangshan and wartime follow-up: [boundary, licensing, timeline and occupation review](JIANGSHAN_BOUNDARY_WARTIME_NAVIGATION_REVIEW_2026_10_28.md). Prioritize feature-level provenance for existing V7 Warring States and administrative schematics: CHGIS V6 prohibits redistribution, and the upstream exception does not identify every affected shape. Seek clarification or a demonstrably reusable replacement before adopting additional geometry. Continue research for dated frontline and partition geometry; year-end country references and place markers do not reconstruct fronts.
+
 # Next steps after application 0.14.0
 
 28 October wartime and display continuation: [occupation context, evidence and limits](WARTIME_OCCUPATION_REVIEW_2026_10_28.md) documents selective country-reference hatching, representative places and 1944–45 transitions, plus the Canada loading and label-placement repairs. Continue with independently sourced, reusable dated occupation and front-line geometry for WWI and WWII; partitioned Poland, France and Czechoslovakia, the Soviet Union, Southeast Asia and other theaters remain incomplete. Seek regional, community and specialist review before claiming complete or precise territorial control.
