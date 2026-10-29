@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-28",
+  "change": "Withhold six candidate features whose original source lineage was not established",
+  "supersedesSiteVersion": 32,
+  "implementationCommit": "63573cf",
+  "implementedWorldTree": "292e6262b9ae82346553625412885ed32771cf9e",
+  "site": {
+    "projectId": "appgprj_6ad99670954c81919b26d00c89ff19f4",
+    "versionNumber": 33,
+    "sourceCommit": "525e48bd72fc6eb07feff56faa840889e5b849a8",
+    "deploymentId": "appgdep_6ae2c4382eb08191b18cacaad241e04d",
+    "status": "succeeded",
+    "audience": "public",
+    "url": "https://world-history-atlas-tony.techiesea.chatgpt.site",
+    "localArchiveSha256": "35b453843312801eca24f9a59910b83eafcb9b25a62608ffc6997dee6c6d32ec",
+    "storedContentHash": "sha256:857affe839daf617e395e7d06a33f56e8538354ac95fa94b7996464d0f119e89"
+  },
+  "boundaryLayers": [
+    {
+      "file": "china-open-warring-v17.geojson",
+      "sha256": "4a97f7f35abb0f1d84f860e1683904fa9e3da3628d96334be55fdff40f8daf94",
+      "features": 7,
+      "license": "CC0-1.0"
+    }
+  ],
+  "verification": {
+    "checks": "npm run check: structural validation and 286 tests passed; targeted smoke checks passed after cache-key change",
+    "independentReview": "Gemini helper status SUCCESS, exit code 0, no tool attempts; critique not treated as source evidence",
+    "deterministicBuild": "two identical builds from pinned SVG",
+    "browser": "published 400 BCE gap notice and Chinese c. 250 BCE seven state labels verified; no browser errors"
+  },
+  "limits": [
+    "Current China historical boundary coverage is incomplete.",
+    "Older Git history and earlier Site versions, including intermediate version 32, were not rewritten.",
+    "Inherited waterways and corridor lines and the existing broader Historical Basemaps collection require separate rights review."
+  ]
+}
