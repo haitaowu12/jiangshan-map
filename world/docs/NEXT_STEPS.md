@@ -1,3 +1,24 @@
+# Current continuation — 29 October 2026
+
+Application candidate: **0.19.0**, developed locally on `mac/reading-experience`. Latest recorded public application: **0.18.2** ([publication receipt](CHINA_MAP_GAPS_PUBLICATION_2026_10_28.md)). Narrative inputs remain V15; version distinctions and editing commands are in [CONTRIBUTING](../CONTRIBUTING.md).
+
+## Ordered queue
+
+1. **Finish delivery of the reading-experience candidate.** Dialog reset/focus, catalogue filters, public-facing titles and 26 chapters across the five longest readings are implemented. Use [the verification record](READING_EXPERIENCE_019.md) for actual checks and delivery state. Publication is a separate operation; reuse the existing Site and audience when authorized.
+2. **Trial one short study with readers.** Start with “Pacific Northwest: cultural work across generations.” Observe discovery, four-stop navigation, opening one source, describing uncertainty and distinguishing the map anchor from the story's focus interval. Include bilingual and regional/community feedback. Agent checks establish software behavior, not learner outcomes or community acceptance.
+3. **Choose one bounded map research question.** China at 400 BCE or 1600 CE remains unresolved in the [latest review](CHINA_MAP_GAPS_2026_10_28.md). Fixed 1141 and 1415 illustrations do not fill other years. Other open candidates include early/late Gupta geography and Ayutthaya occupation phases; do not reopen already addressed Borno/Song items from the historical queue without checking their successors.
+4. **Deepen one regional learning sequence based on reader feedback.** Existing candidates include Yukon/Northwest Territories, Atlantic Canada beyond Nova Scotia, interior/island US histories, and ancient/medieval local histories outside China. Use source-backed questions about work, water, learning and community life; do not use famous-name or entry-count quotas.
+5. **Continue bounded evidence review.** Preserve unresolved source disagreements and English/Chinese uncertainty. Wartime country hatching is not frontline geometry; Poland/France partitions and Asian theaters remain incomplete. The inherited-China review remains claim-specific. The [boundary review](JIANGSHAN_BOUNDARY_RIGHTS_REVIEW_2026_10_28.md) records the completed polygon removal and remaining non-polygon lineage questions; the earlier instruction to audit still-shipped V7 polygons is superseded.
+
+## Completed work to retain
+
+The recent records cover dated US/Canada loading and retry, label placement, timeline navigation, Chinese source-note coverage, removal of the older Jiangshan polygons, and selected Song/Jin/Xia and Ming replacements. Preserve these behaviors and their regressions. Read successor records before treating an older task as open.
+
+<details>
+<summary>Historical continuation notes through 28 October — evidence of earlier checkpoints</summary>
+
+The notes below retain their original release-specific instructions and counts. They are historical context; the current queue and CONTRIBUTING above govern new work.
+
 # Next steps
 
 28 October Jiangshan and wartime follow-up: [boundary, licensing, timeline and occupation review](JIANGSHAN_BOUNDARY_WARTIME_NAVIGATION_REVIEW_2026_10_28.md). Prioritize feature-level provenance for existing V7 Warring States and administrative schematics: CHGIS V6 prohibits redistribution, and the upstream exception does not identify every affected shape. Seek clarification or a demonstrably reusable replacement before adopting additional geometry. Continue research for dated frontline and partition geometry; year-end country references and place markers do not reconstruct fronts.
@@ -52,3 +73,5 @@ V12 adds US/Canada regional history and a modern geographic browser to the commi
 8. **Maintain the local source deliberately.** Work in `world/` on a dedicated `mac/` branch. Edit `expansion-*-v12.json`, run `npm run build:content`, then `npm run check`. The generator freezes V9–V11 narrative inputs and retains prior reading-path stops/questions. Edit geographic named-place evidence in `us-canada-area-links-v12.json`; the content generator rebuilds its history index. Rebuild geometry only from the exact pinned source with `build-us-canada-reference.mjs`. `npm run serve` starts the loopback preview. V11/V12 were subsequently pushed and V12 published on 25 October 2026; see `V12_PUBLICATION.json`. Reuse the existing Site identity for later publication and preserve its audience.
 
 The V9 Gemini research requests did not return a report during preparation. Any later retrieved report is a research lead requiring source inspection. No external deep-research report is claimed for V11 or V12.
+
+</details>
