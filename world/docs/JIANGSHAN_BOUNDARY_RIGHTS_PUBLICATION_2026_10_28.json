@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-28",
+  "change": "Jiangshan boundary rights and historical sequence review",
+  "implementationCommit": "4bfa6ea81c4db2324b3beaa55b9e21709675b0fd",
+  "implementedWorldTree": "4a0a2e99cb7e9a6a685f6b036894cd86e63761b0",
+  "site": {
+    "projectId": "appgprj_6ad99670954c81919b26d00c89ff19f4",
+    "versionNumber": 32,
+    "sourceCommit": "7374468a4dfe6d9acf7b0f84b30cef6412a58455",
+    "deploymentId": "appgdep_6ae2c3325ac081918a0d311c3a5272f5",
+    "status": "succeeded",
+    "audience": "public",
+    "url": "https://world-history-atlas-tony.techiesea.chatgpt.site",
+    "localArchiveSha256": "9809cb7019610ba30f1adae1d6b843d2e19338e7355949245deef8babf6dbbce",
+    "storedContentHash": "sha256:4bda0430b0333ecea3ae322b3cd63e2668417a6034d4e669341ff26569782e62"
+  },
+  "boundaryLayers": [
+    {
+      "file": "china-open-basemaps-v17.geojson",
+      "sha256": "443df90b638eb95b276ce59d3cfb09e7a008caca01a2fd0106c9bad91a7d2056",
+      "features": 6,
+      "license": "GPL-3.0-only"
+    },
+    {
+      "file": "china-open-warring-v17.geojson",
+      "sha256": "4a97f7f35abb0f1d84f860e1683904fa9e3da3628d96334be55fdff40f8daf94",
+      "features": 7,
+      "license": "CC0-1.0"
+    }
+  ],
+  "verification": {
+    "checks": "npm run check: structural validation and 286 tests passed",
+    "deterministicBuild": "two identical builds from pinned inputs",
+    "browser": "published c. 250 BCE seven state labels and Chinese 230 BCE gap notice verified; no browser errors",
+    "githubActionsRunsBefore": 0,
+    "githubActionsRunsAfterImplementationPush": 0
+  },
+  "limits": [
+    "Current historical boundary coverage is incomplete, including the former Southern Song/Jin and Ming snapshots.",
+    "Historical Basemaps declares GPL-3.0 but individual upstream feature origins remain unresolved.",
+    "Previously published versions and Git history were not rewritten.",
+    "Inherited waterways and corridor lines require a separate rights review."
+  ]
+}
