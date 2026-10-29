@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "publishedAt": "2026-10-29T03:23:42Z",
+  "scope": "Jiangshan boundary and rights review, independently sourced historical additions, wartime map context, and timeline navigation",
+  "source": {
+    "repository": "https://github.com/haitaowu12/jiangshan-map",
+    "branch": "world-history-atlas",
+    "implementationCommit": "cd1eaefa82ffaa845915fb519b7d496346aa3003",
+    "worldTree": "ad2da9e0b0936ff3bcb8981aa6657804d33c327a",
+    "review": "world/docs/JIANGSHAN_BOUNDARY_WARTIME_NAVIGATION_REVIEW_2026_10_28.md"
+  },
+  "site": {
+    "projectId": "appgprj_6ad99670954c81919b26d00c89ff19f4",
+    "sourceCommit": "38797d08b2313a0b802c7788451818c8228eb985",
+    "sourceTree": "ad2da9e0b0936ff3bcb8981aa6657804d33c327a",
+    "versionNumber": 31,
+    "versionId": "appgprj_6ad99670954c81919b26d00c89ff19f4~appgver_4bcab73d1f5c8191a72d644424e992b9",
+    "deploymentId": "appgdep_6ae2bc3528cc819183b46ed1cfcd6f4f",
+    "status": "succeeded",
+    "url": "https://world-history-atlas-tony.techiesea.chatgpt.site",
+    "audience": "public",
+    "localArchive": "/Users/tony/Developer/.atlas-sites-staging/timeline-war-2026-10-28-cd1eaef.tar",
+    "localArchiveSha256": "c40abf9df5e6f0808f99dc7f2f03e0b62a5ecc9475f32cf851e539c64cf1aec5",
+    "siteArchiveContentHash": "sha256:301dbde725f756a00f64d8c230515e79fa81e0c01e04bb56a207f9ff002fe4f7"
+  },
+  "verification": {
+    "command": "npm run check",
+    "passedTests": 284,
+    "failedTests": 0,
+    "localBrowser": "In-app browser: stable timeline tabs and period-map routing; draggable and keyboard year scrubber; 1918 marker; 1942–44 occupation references, focus and visibility recovery; Chinese historical additions. Narrow layout checked in a 390 × 650 embedded preview.",
+    "liveBrowser": "In-app browser: 1942 France and Poland reference hatches; 1944 changing areas as place markers; year and European focus controls; three stable timeline tabs and one-year keyboard movement; Chinese 926 Bohai event and 1075 Shen Kuo milestone with source notes. No warnings or errors in the live desktop tab.",
+    "githubActionsRunsBefore": 0,
+    "githubActionsRunsAfter": 0,
+    "limits": "Country hatches are selective references, not military front lines; in-year changes and partial occupations remain representative places. No newer Jiangshan boundaries were imported. The per-feature provenance and redistribution permission of earlier inherited Warring States and administrative shapes remain unresolved; CHGIS V6 prohibits redistribution."
+  }
+}
