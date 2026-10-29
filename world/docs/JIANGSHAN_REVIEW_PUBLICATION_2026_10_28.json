@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "publishedAt": "2026-10-29T02:55:27Z",
+  "scope": "Selective Jiangshan main review: two independently sourced biographies, one corrected inherited calendar event, and shareable biography and place selections",
+  "upstream": {
+    "repository": "https://github.com/DeanChensj/jiangshan-map",
+    "previousReviewedCommit": "10fdcaeeb3361525e2f34bd7ca767714341565f0",
+    "reviewedCommit": "9799f0f61cff80922970d2a0b304e18527db7e1e",
+    "commitsAhead": 22
+  },
+  "source": {
+    "repository": "https://github.com/haitaowu12/jiangshan-map",
+    "branch": "world-history-atlas",
+    "implementationCommit": "7d225af570c4bb156517a521a6d6f199d60d4d1e",
+    "worldTree": "d999060e038e8286f12b198c67772e14cdb672cc"
+  },
+  "site": {
+    "projectId": "appgprj_6ad99670954c81919b26d00c89ff19f4",
+    "sourceCommit": "1ff729eb363ae7f4df9500e135ea24d07189aedf",
+    "sourceTree": "d999060e038e8286f12b198c67772e14cdb672cc",
+    "versionNumber": 30,
+    "versionId": "appgprj_6ad99670954c81919b26d00c89ff19f4~appgver_05df30a84a94819182422ccc241da5db",
+    "deploymentId": "appgdep_6ae2b5961d3c8191b1a0eb85f71ab8eb",
+    "status": "succeeded",
+    "url": "https://world-history-atlas-tony.techiesea.chatgpt.site",
+    "audience": "public",
+    "localArchive": "/Users/tony/Developer/.atlas-sites-staging/jiangshan-intake-2026-10-28-7d225af.tar",
+    "localArchiveSha256": "51373df02954d500601095a4952c572b4052cc77ebfd445d465ad64b2d9df9bb",
+    "siteArchiveContentHash": "sha256:b31ae541c6e4ca9a8719d59816c9f1367093b62307cd64640ffd05bade83abcb"
+  },
+  "verification": {
+    "command": "npm run check",
+    "passedTests": 282,
+    "failedTests": 0,
+    "localBrowser": "In-app browser: two biographies, English and Chinese source descriptions, corrected 462 event, milestone and trace reload, and a conflicting 1921 British Columbia division link. No console errors observed.",
+    "liveBrowser": "In-app browser: both new biographies, Chinese source descriptions, restored 478 and 1231 milestones, and the 1921 British Columbia dated division. No console errors observed.",
+    "githubActionsRunsBefore": 0,
+    "githubActionsRunsAfter": 0,
+    "limits": "The review is selective. Upstream boundary geometry and other candidates remain deferred pending rights and historical evidence; the written review records dating and location uncertainty."
+  }
+}
