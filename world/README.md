@@ -1,3 +1,5 @@
+> **This project has moved to its own repository: [haitaowu12/world-history-atlas](https://github.com/haitaowu12/world-history-atlas).** Current development uses its `main` branch and the checkout `/Users/tony/Developer/world-atlas`. This earlier fork and the original Jiangshan application are preserved as source history.
+
 # World History Atlas · 寰宇时序
 
 A bilingual, source-backed atlas for exploring histories that existed at the same time across the world. Inspired by [Jiangshan Map / 江山时序](https://github.com/haitaowu12/jiangshan-map), this world-scale implementation combines a time slider, selected historical territories, places, people, routes and guided study.

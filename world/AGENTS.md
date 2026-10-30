@@ -1,3 +1,5 @@
+> **Continuation destination:** World History Atlas is now maintained at https://github.com/haitaowu12/world-history-atlas on `main`, with owner checkout `/Users/tony/Developer/world-atlas`. Do new atlas work there. This fork is preserved source history; the instructions below describe the earlier layout.
+
 # Active World Atlas guidance
 
 This scoped guide supersedes the root guide's V12-era input and verification pointers. Work within `world/`; preserve the original Jiangshan application outside it.
