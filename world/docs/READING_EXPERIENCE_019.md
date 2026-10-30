@@ -1,6 +1,6 @@
 # Reading experience — application 0.19.0
 
-Developed 29 October 2026 from owner baseline `ef916bd` on `mac/reading-experience`. This is a local candidate; this task did not push, merge or deploy it. The latest recorded public application remains 0.18.2, identified in [the China map publication receipt](CHINA_MAP_GAPS_PUBLICATION_2026_10_28.md).
+Developed 29 October 2026 from owner baseline `ef916bd` on `mac/reading-experience`. Initially verified as a local candidate, then pushed to GitHub and published to the existing GPT Site on 29 October 2026 (Vancouver; 30 October UTC). The publication below supersedes the earlier 0.18.2 public baseline. The implementation branch has not been merged into `world-history-atlas`.
 
 ## What changed and why
 
@@ -35,3 +35,15 @@ Review images are local artifacts under `/Users/tony/.codex/visualizations/2026/
 ## Next acceptance
 
 Trial the Pacific Northwest study with a reader, then incorporate bilingual and regional/community feedback. Observe discovery, evidence inspection and interpretation of dates; do not infer learning from completion or automated tests. A publication task should use the existing Site identity and audience and verify the deployed version separately.
+
+## Publication receipt — 29 October 2026
+
+- Public URL: https://world-history-atlas-tony.techiesea.chatgpt.site
+- Tested implementation: `66964627abb3991bebf5bddaffd85c52833eb2e8`, pushed on `mac/reading-experience`.
+- Exact `world/` tree and Sites source tree: `21689fe40408930f0aa431bfb277c7b87a25a815`; Sites source commit: `22767c732a93d0bc127e7d48225a7d622bba8fcf`.
+- Existing Site `appgprj_6ad99670954c81919b26d00c89ff19f4`; public audience unchanged. Saved version 35: `appgprj_6ad99670954c81919b26d00c89ff19f4~appgver_9da1f9a405ec81918b0006d2558d462a`.
+- Deployment `appgdep_6ae40aeb84d88191a1b17ffdec1369d0` succeeded at `2026-10-30T03:11:47Z`. The source helper pushed and packaged the exact tested tree; no application rebuild or data regeneration was needed.
+- Live in-app-browser checks: all 70 readings appeared; search found the renamed US/Canada study; its eight chapter sections opened; study entry reset scroll to zero and focused its heading; the work chapter advanced from 1/7 to 2/7 and reloaded at 2/7. Chinese chapter navigation, study guide and catalogue displayed correctly. No warning/error console messages were returned during the check.
+- Live screenshot: `/Users/tony/.codex/visualizations/2026/10/29/world-atlas-reading-019/catalogue-live.jpg`.
+
+This receipt and the status updates are documentation after publication. The deployed artifact remains the exact implementation tree above; these later documentation edits do not require another deployment.
